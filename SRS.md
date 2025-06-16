@@ -1,4 +1,4 @@
-<img src="./media/image1.png" style="width:6.5in;height:2.40347in"
+<img src=".Image/media/image1.png" style="width:6.5in;height:2.40347in"
 alt="A blue and black logo AI-generated content may be incorrect." />
 
 CSE6224-SOFTWARE REQUIREMENTS ENG Assignment (35%)
