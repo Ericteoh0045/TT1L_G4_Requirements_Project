@@ -26,7 +26,7 @@ Dr. Zarina Binti Che Embi
 - List of Figures [5](#list-of-figures)
 - List of Tables [6](#list-of-tables)
 
-- 1. Introduction [11](#introduction)
+- [1. Introduction](#introduction)
   - 1.1 Purpose [11](#purpose)
   - 1.2 Scope [11](#scope)
   - 1.3 Product Perspective [11](#product-perspective)
@@ -41,7 +41,7 @@ Dr. Zarina Binti Che Embi
   - 1.7 Assumptions and Dependencies [21](#assumptions-and-dependencies)
   - 1.8 Definitions [21](#definitions)
 
-- 2. Requirements [23](#requirements)
+- [2. Requirements](#requirements)
   - 2.1 External Interfaces [23](#external-interfaces)
     - 2.1.1 Login User Interface [23](#login-user-interface)
     - 2.1.2 View Upcoming Events Interface [24](#view-upcoming-events-interface)
