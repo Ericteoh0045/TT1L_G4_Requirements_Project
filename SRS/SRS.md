@@ -23,8 +23,8 @@ Dr. Zarina Binti Che Embi
 
 **Table of Contents**
 
-- [List of Figures]
-- [List of Tables]
+- [List of Figures](#list-of-figures)
+- [List of Tables](#list-of-tables)
 
 - [1. Introduction](#1-introduction)
   - [1.1 Purpose](#11-purpose)
