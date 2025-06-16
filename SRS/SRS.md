@@ -23,161 +23,73 @@ Dr. Zarina Binti Che Embi
 
 **Table of Contents**
 
-[List of Figures [5](#list-of-figures)](#list-of-figures)
+- [List of Figures]
+- [List of Tables]
 
-[List of Tables [6](#list-of-tables)](#list-of-tables)
+- [1. Introduction](#1-introduction)
+  - [1.1 Purpose](#11-purpose)
+  - [1.2 Scope](#12-scope)
+  - [1.3 Product Perspective](#13-product-perspective)
+    - [1.3.1 System Interface](#131-system-interface)
+    - [1.3.2 User Interface](#132-user-interface)
+    - [1.3.3 Hardware Interface](#133-hardware-interface)
+    - [1.3.4 Software Interface](#134-software-interface)
+    - [1.3.5 Communication Interface](#135-communication-interface)
+  - [1.4 Product Functions](#14-product-functions)
+  - [1.5 User Characteristics](#15-user-characteristics)
+  - [1.6 Limitations](#16-limitations)
+  - [1.7 Assumptions and Dependencies](#17-assumptions-and-dependencies)
+  - [1.8 Definitions](#18-definitions)
 
-[1. Introduction [11](#introduction)](#introduction)
+- [2. Requirements](#2-requirements)
+  - [2.1 External Interfaces](#21-external-interfaces)
+    - [2.1.1 Login User Interface](#211-login-user-interface)
+    - [2.1.2 View Upcoming Events Interface](#212-view-upcoming-events-interface)
+    - [2.1.3 Event Details](#213-event-details)
+    - [2.1.4 Register for Event](#214-register-for-event)
+    - [2.1.5 Make Payment](#215-make-payment)
+    - [2.1.6 Receive e-ticket/QR code](#216-receive-e-ticketqr-code)
+    - [2.1.7 View Registration History](#217-view-registration-history)
+    - [2.1.8 Show QR Attendance](#218-show-qr-attendance)
+    - [2.1.9 Set Event Details](#219-set-event-details)
+    - [2.1.10 View Events (Organizer)](#2110-view-events-organizer)
+    - [2.1.11 View Registrations and Attendance Status](#2111-view-registrations-and-attendance-status)
+  - [2.2 Functions](#22-functions)
+    - [2.2.1 F00 View Upcoming Events](#221-f00-view-upcoming-events)
+    - [2.2.2 F01 View Event Details](#222-f01-view-event-details)
+    - [2.2.3 F02 Register for Event](#223-f02-register-for-event)
+    - [2.2.4 F03 Make Payment](#224-f03-make-payment)
+    - [2.2.5 F04 Receive e-Ticket/QR Code](#225-f04-receive-e-ticketqr-code)
+    - [2.2.6 F05 View Registration History](#226-f05-view-registration-history)
+    - [2.2.7 F06 Show QR Attendance](#227-f06-show-qr-attendance)
+    - [2.2.8 F07 Create a New Event & F08 Set Event Details](#228-f07-create-a-new-event--f08-set-event-details)
+    - [2.2.9 F09 View Events](#229-f09-view-events)
+    - [2.2.10 F10 View Registrations & Attendance Status](#2210-f10-view-registrations--attendance-status)
+    - [2.2.11 F11 Check-in Upon Arrival](#2211-f11-check-in-upon-arrival)
+    - [2.2.12 F12 Login](#2212-f12-login)
+  - [2.3 State Transition Diagrams](#23-state-transition-diagrams)
+  - [2.4 Performance Requirements](#24-performance-requirements)
+  - [2.5 Security Requirements](#25-security-requirements)
+  - [2.6 Usability Requirements](#26-usability-requirements)
+  - [2.7 Logical Database Requirements](#27-logical-database-requirements)
+    - [2.7.1 Event Table](#271-event-table)
+    - [2.7.2 Registration Table](#272-registration-table)
+    - [2.7.3 Payment Table](#273-payment-table)
+  - [2.8 Design Constraints](#28-design-constraints)
+  - [2.9 Software System Attributes](#29-software-system-attributes)
+  - [2.10 Supporting Information](#210-supporting-information)
+    - [2.10.1 Interview](#2101-interview)
+    - [2.10.2 Questionnaires](#2102-questionnaires)
+    - [2.10.3 Observation](#2103-observation)
 
-[1.1 Purpose [11](#purpose)](#purpose)
+- [3. Verification](#3-verification)
+  - [3.1 Inspection](#31-inspection)
+  - [3.2 Walkthroughs](#32-walkthroughs)
+  - [3.3 Prototyping](#33-prototyping)
 
-[1.2 Scope [11](#scope)](#scope)
+- [4. Appendices](#4-appendices)
+- [5. References](#5-references)
 
-[1.3 Product Perspective
-[11](#product-perspective)](#product-perspective)
-
-[1.3.1 System Interface [12](#system-interface)](#system-interface)
-
-[1.3.2 User Interface [13](#user-interface)](#user-interface)
-
-[1.3.3 Hardware Interface
-[14](#hardware-interface)](#hardware-interface)
-
-[1.3.4 Software Interface
-[15](#software-interface)](#software-interface)
-
-[1.3.5 Communication Interface
-[16](#communication-interface)](#communication-interface)
-
-[1.4 Product Functions [17](#product-functions)](#product-functions)
-
-[1.5 User Characteristics
-[19](#user-characteristics)](#user-characteristics)
-
-[1.6 Limitations [20](#limitations)](#limitations)
-
-[1.7 Assumptions and Dependencies
-[21](#assumptions-and-dependencies)](#assumptions-and-dependencies)
-
-[1.8 Definitions [21](#definitions)](#definitions)
-
-[2. Requirements [23](#requirements)](#requirements)
-
-[2.1 External Interfaces
-[23](#external-interfaces)](#external-interfaces)
-
-[2.1.1 Login User Interface
-[23](#login-user-interface)](#login-user-interface)
-
-[2.1.2 View Upcoming Events Interface
-[24](#view-upcoming-events-interface)](#view-upcoming-events-interface)
-
-[2.1.3 Event details [25](#event-details)](#event-details)
-
-[2.1.4 Register for Event
-[27](#register-for-event)](#register-for-event)
-
-[2.1.5 Make Payment [29](#make-payment)](#make-payment)
-
-[2.1.6 Receive e-ticket/QR code
-[30](#receive-e-ticketqr-code)](#receive-e-ticketqr-code)
-
-[2.1.7 View Registration History
-[31](#view-registration-history)](#view-registration-history)
-
-[2.1.8 Show QR Attendance
-[32](#show-qr-attendance)](#show-qr-attendance)
-
-[2.1.9 Set Event Details [34](#set-event-details)](#set-event-details)
-
-[2.1.10 View Events (Organizer)
-[36](#view-events-organizer)](#view-events-organizer)
-
-[2.1.11 View registrations and attendance status
-[37](#view-registrations-and-attendance-status)](#view-registrations-and-attendance-status)
-
-[2.2 Functions [38](#functions)](#functions)
-
-[2.2.1 F00 View Upcoming Events
-[38](#f00-view-upcoming-events)](#f00-view-upcoming-events)
-
-[2.2.2 F01 View Event Details
-[39](#f01-view-event-details)](#f01-view-event-details)
-
-[2.2.3 F02 Register For Event
-[41](#f02-register-for-event)](#f02-register-for-event)
-
-[2.2.4 F03 Make Payment [44](#f03-make-payment)](#f03-make-payment)
-
-[2.2.5 F04 Receive e-Ticket/QR Code
-[47](#f04-receive-e-ticketqr-code)](#f04-receive-e-ticketqr-code)
-
-[2.2.6 F05 View Registration History
-[48](#f05-view-registration-history)](#f05-view-registration-history)
-
-[2.2.7 F06 Show QR Attendance
-[51](#f06-show-qr-attendance)](#f06-show-qr-attendance)
-
-[2.2.8 F07 Create a New Event & F08 Set Event Details
-[52](#f07-create-a-new-event-f08-set-event-details)](#f07-create-a-new-event-f08-set-event-details)
-
-[2.2.9 F09 View Events [54](#f09-view-events)](#f09-view-events)
-
-[2.2.10 F10 View Registrations & Attendance Status
-[56](#f10-view-registrations-attendance-status)](#f10-view-registrations-attendance-status)
-
-[2.2.11 F11 Check-in Upon Arrival
-[58](#f11-check-in-upon-arrival)](#f11-check-in-upon-arrival)
-
-[2.2.12 F12 Login [59](#f12-login)](#f12-login)
-
-[2.3 State Transition Diagrams
-[61](#state-transition-diagrams)](#state-transition-diagrams)
-
-[2.4 Performance Requirements
-[62](#performance-requirements)](#performance-requirements)
-
-[2.5 Security Requirements
-[63](#security-requirements)](#security-requirements)
-
-[2.6 Usability Requirements
-[64](#usability-requirements)](#usability-requirements)
-
-[2.7 Logical Database Requirements
-[65](#logical-database-requirements)](#logical-database-requirements)
-
-[2.7.1 Event Table [66](#event-table)](#event-table)
-
-[2.7.2 Registration Table
-[67](#registration-table)](#registration-table)
-
-[2.7.3 Payment Table [67](#payment-table)](#payment-table)
-
-[2.8 Design Constraints [68](#design-constraints)](#design-constraints)
-
-[2.9 Software System Attributes
-[69](#software-system-attributes)](#software-system-attributes)
-
-[2.10 Supporting Information
-[70](#supporting-information)](#supporting-information)
-
-[2.10.1 Interview [71](#interview)](#interview)
-
-[2.10.2 Questionnaires [72](#questionnaires)](#questionnaires)
-
-[2.10.3 Observation [73](#observation)](#observation)
-
-[3. Verification [74](#verification)](#verification)
-
-[3.1 Inspection [74](#inspection)](#inspection)
-
-[3.2 Walkthroughs [75](#walkthroughs)](#walkthroughs)
-
-[3.3 Prototyping [75](#prototyping)](#prototyping)
-
-[4. Appendices [76](#appendices)](#appendices)
-
-[5. References [78](#references)](#references)
 
 # List of Figures 
 
