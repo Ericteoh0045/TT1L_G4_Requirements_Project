@@ -359,7 +359,7 @@ the product functions but in visual format following UML Use Case
 Diagram notation.
 
 <figure>
-<img src="./media/image3.png" style="width:5.9998in;height:5.525in" />
+<img src="./media/image333.png" style="width:5.9998in;height:5.525in" />
 <figcaption><p>Figure 1.4.1.1 Campus Event Check-in System Use Case
 Diagram</p></figcaption>
 </figure>
