@@ -5957,6 +5957,28 @@ only.</td>
 </tbody>
 </table>
 
+### 3.10 8 Change Log
+| **Change ID** | **Req ID(s)** | **Summary of Change** | **Proposed By** | **Date** | **Session ID** |
+|----|----|----|----|----|----|
+| CH-01 | N/A | Rename to "System Overview Diagram" | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-02 | N/A | Add a context diagram with system boundaries and external entities | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-03 | N/A | Correct all spelling errors in use case labels and Remove "Set Event Details" use case.| ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-04 | N/A | Replace with actual DB (e.g., MySQL) | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-05 | N/A | Update ID in table to "REQ_IO0904" | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-06 | N/A | Move the External Interface From Section 2 to Section 3 | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-07 | N/A | Wrong section placement: Sections 1.3.1–1.3.5 under 1.3 Move to new section "3.6 Interface Requirements"  | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-08 | REQ_SI003 | Priority updated to "High".  | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-09 | REQ_UI003, REQ_UI004 | Update UI docs to specify mobile-only; remove desktop references. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-10 | N/A | Revise Intro to clearly state mobile-only support. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-11 | N/A | Remove desktop OS/tools; list only mobile platforms. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-12 | N/A | Add Validation Session | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-13 | N/A | Add Defect Summary include Content Defect, Documentation Defect, Agreement Defect | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-14 | N/A | Add Conflict Analysis | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-15 | N/A | Add Conflict Analysis and Resolution | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-16 | N/A | Add Requirements Traceability Matrix | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-17 | N/A | Add Role in Requirements Validation, Negotiation & Management | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-18 | N/A | Add Version Control & Configuration Summary | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-19 | N/A | Add ChangeLog | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 
 ### 3.10 9 Requirements Traceability Matrix
 
@@ -6260,8 +6282,11 @@ Key Files:
 
 - Changelog.md: Record of all requirement-related changes
 
-# Verification
+# 4 Verification
 
+## 4.1 Verification
+## 4.2 Verification Criteria
+# 自已改内容，header 我换好了
 To ensure the quality, correctness, and alignment of the system with
 user expectations, we will implement a multi-layered verification
 process throughout the development of the Campus Event Check-in System.
@@ -6367,9 +6392,9 @@ Prototyping criteria:
 3.  **Quality** – Ensure the prototype reflects design consistency,
     responsiveness, and accessibility where possible.
 
-# **Appendices**
+# **5. Appendices**
 
-**Assumptions and Dependencies**
+## 5.1 Assumption and Dependencies
 
 The successful operation of the Campus Event Check-in mobile application
 depends on several assumptions and external factors. These assumptions
@@ -6404,7 +6429,10 @@ as intended.
     operational and **compatible with the mobile frontend** at all
     times.
 
-# References 
+  ## 5.2 Acronyms and Abbreviations
+# 自已改内容，header 我换好了
+
+# 2 References 
 
 - <https://buildfire.com/top-mobile-development-practices/>
 
