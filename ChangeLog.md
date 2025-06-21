@@ -33,3 +33,4 @@
 | CH-29 | N/A | Remove and merge functionality | PANG TIAN YOU | 22/6/2025 | VS-02 |
 | CH-30 | N/A | Add transition from “Update Attendance Status” to “Check-in Upon Arrival” | PANG TIAN YOU | 22/6/2025 | VS-02 |
 | CH-31 | N/A | Add a new section call “Reference” | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-32 | N/A | Change "web-based" to "mobile" | PANG TIAN YOU | 22/6/2025 | VS-01 |

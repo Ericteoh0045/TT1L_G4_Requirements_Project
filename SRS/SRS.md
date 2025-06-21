@@ -275,7 +275,7 @@ document.
 
 | **Terms, Acronyms and Word** | **Definition** |
 |----|----|
-| Campus Event Check-in System | The proposed web-based application to manage student event participation, registration, and attendance. |
+| Campus Event Check-in System | The proposed mobile application to manage student event participation, registration, and attendance. |
 | Student | A university-registered individual who can register and check in to events. |
 | Event Organizer | A staff or authorized user responsible for creating events and managing check-ins. |
 | QR Code | A unique code generated after registration used to check in at the event venue. |
