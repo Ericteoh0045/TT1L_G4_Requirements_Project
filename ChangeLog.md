@@ -8,3 +8,4 @@
 | CH-04 | N/A | Replace with actual DB (e.g., MySQL) | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
 | CH-05 | N/A | Update ID in table to "REQ_IO0904" | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
 | CH-06 | N/A | Move the External Interface From Section 2 to Section 3 | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-07 | N/A | Wrong section placement: Sections 1.3.1–1.3.5 under 1.3 Move to new section "3.6 Interface Requirements"  | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |

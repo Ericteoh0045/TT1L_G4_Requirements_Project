@@ -154,179 +154,7 @@ alt="A diagram of a diagram" />
 <figcaption><p>Figure 1.3.2 System Context Diagram</p></figcaption>
 </figure>
 
-### System Interface
 
-The system interface requirements describe how the Campus Event Check-in
-System interacts with external systems such as the university's student
-database, payment gateway, event management modules, and notification
-services **Table 1.3.1. 1**.
-
-| **Requirement ID** | **Description** | **Priority** | **Author** |
-|:---|----|:---|:---|
-| **REQ_SI001** | The system shall integrate with the university student database to authenticate student identities and retrieve relevant information during registration and check-in. | High | Azhar |
-| **REQ_SI002** | The system shall connect to a third-party payment gateway to process event payments securely, providing real-time confirmation of transaction status. | High | Ainee |
-| **REQ_SI003** | The system shall interface with device cameras or scanners to scan student IDs or QR codes for efficient check-in and attendance tracking. | Medium | Sulaiman |
-| **REQ_SI004** | The system shall be developed as a mobile application and must be fully compatible with the latest stable versions of **Android** and **iOS** to ensure broad accessibility and usability for mobile users. | High | Yousef |
-| **REQ_SI005** | The system may optionally integrate with an email/SMS service to send notifications such as registration confirmations or event reminders to students. | Low | Yousef |
-
-Table 1.3.1. System Interfaces Requirements
-
-### User Interface 
-
-The user interface (UI) requirements define the visual and interactive
-characteristics of the Campus Event Check-in System. These
-specifications aim to ensure consistency, clarity, and accessibility for
-end users across various devices **Table 1.3.2. 1.**
-
-|  |  |  |  |
-|:--:|:--:|:--:|:--:|
-| **Interface ID** | **Description** | **Priority** | **Author** |
-| REQ_UI001 | The GUI for the Campus Event Check-in System will use three background colors: White (RGB Hex: \#FFFFFF) as the primary color, Navy Blue (RGB Hex: \#001F3F) as the secondary color, and Emerald Green (RGB Hex: \#2ECC71) for emphasis elements such as confirmation banners or successful check-in indicators. | High | Yousef |
-| REQ_UI002 | The system will use two main font colors: Black (RGB Hex: \#000000) on light backgrounds and White (RGB Hex: \#FFFFFF) on dark backgrounds to ensure readability and accessibility for all user types. | High | Yousef |
-| REQ_UI003 | The font family used will be "Poppins" for all headings and titles, and "Roboto" for body text across both desktop and mobile versions of the application, to ensure modern and clean visual presentation. | Medium | Yousef |
-| REQ_UI004 | The minimum base font size will be set to 16pt to ensure clarity on both mobile and desktop devices. Font resizing through accessibility settings will also be supported. | High | Yousef |
-
-<span id="_Ref199049165" class="anchor"></span>Table 1.3.2. User
-Interface Requirements
-
-### Hardware Interface
-
-The Campus Check-in application will be compatible with any desktop or
-mobile device with the following specifications **Table 1.3.3. 1**.
-
-| **Interface ID** | **Description** | **Priority** | **Author** |
-|----|----|----|----|
-| REQ_H1001 | The device must be equipped with a mobile-compatible processor (e.g., ARM-based). | High | Azhar |
-| REQ_H1002 | The device must have at least 2GB of RAM. | High | Azhar |
-| REQ_H1003 | The device must include at least 100MB of free internal storage. | High | Azhar |
-| REQ_H1004 | The device must support Wi-Fi or cellular data for internet access. | High | Azhar |
-| REQ_H1005 | The device must include a touch-enabled screen with at least 720p resolution. | High | Azhar |
-| REQ_H1006 | The device must be equipped with a functional rear-facing camera for QR code scanning. | High | Azhar |
-
-<span id="_Ref199049255" class="anchor"></span>Table 1.3.3. Hardware
-Interface Requirements
-
-### Software Interface
-
-The Campus Check-in application requires other software products to
-function properly. The interfaces between The Campus Check-in
-application and other software products are described in **Table 1.3.4.
-1**.
-
-<table>
-<caption><p><span id="_Ref199049305" class="anchor"></span>Table 1.3.4.
-Software Interface Requirements</p></caption>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 18%" />
-<col style="width: 21%" />
-<col style="width: 25%" />
-<col style="width: 18%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: center;"><strong>Category</strong></th>
-<th style="text-align: center;"><strong>Name</strong></th>
-<th style="text-align: center;"><strong>Version Number</strong></th>
-<th style="text-align: center;"><strong>Purpose</strong></th>
-<th style="text-align: center;"><strong>Reference</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Database</strong></td>
-<td>MySQL</td>
-<td>5.2.1</td>
-<td>Used to store, manage, and retrieve
-event, user, and registration data for the system.</td>
-<td>MySQL official page</td>
-</tr>
-<tr>
-<td rowspan="5" style="text-align: left;"><strong>Operating
-System</strong></td>
-<td>Microsoft Windows</td>
-<td>Windows XP or later</td>
-<td>Runs browser-based application for admin and student users.</td>
-<td>Chrome Browser system requirement</td>
-</tr>
-<tr>
-<td>macOS</td>
-<td>High Sierra 10.13 or later</td>
-<td>Supports browser access on Apple devices.</td>
-<td>macOS official site</td>
-</tr>
-<tr>
-<td>Linux</td>
-<td>Ubuntu 18.04+, Debian 10+, openSUSE 15.2+, Fedora 32+</td>
-<td>Runs the system via browser on Linux environments.</td>
-<td>Linux distributions’ sites</td>
-</tr>
-<tr>
-<td>Android</td>
-<td>Android 7.0 Nougat or later</td>
-<td>Accesses system via mobile browsers.</td>
-<td>Android system requirements</td>
-</tr>
-<tr>
-<td>iOS</td>
-<td>iOS 14.0 or later</td>
-<td>Accesses system via Safari or Chrome on iPhones/iPads.</td>
-<td>iOS system requirements</td>
-</tr>
-<tr>
-<td rowspan="4" style="text-align: left;"><strong>Browser</strong></td>
-<td>Google Chrome</td>
-<td>113.0.5672.64</td>
-<td>Primary browser interface used to access the system.</td>
-<td>Chrome official page</td>
-</tr>
-<tr>
-<td>Microsoft Edge</td>
-<td>112.0.1722.48</td>
-<td>Alternative browser to access the system.</td>
-<td>Microsoft Edge official page</td>
-</tr>
-<tr>
-<td>Safari</td>
-<td>16.4.1</td>
-<td>For iOS/macOS users to access the system.</td>
-<td>Safari official page</td>
-</tr>
-<tr>
-<td>Opera</td>
-<td>105.0.4970.63</td>
-<td>Optional browser supported for accessing the platform.</td>
-<td>Opera official page</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Screen Reader</strong></td>
-<td>Speechify</td>
-<td>9.35.0</td>
-<td>Assists visually impaired users by reading on-screen content
-aloud.</td>
-<td>Speechify official page</td>
-</tr>
-</tbody>
-</table>
-
-### Communication Interface
-
-**Table 1.3.5. 1** shows an overview of the communication interfaces
-used in the Campus Event Check-in System. It lists each interface or
-protocol along with its purpose, type of communication, and the users
-involved.
-
-| **Requirement ID** | **Interface/Protocol** | **Purpose** | **Type** | **Users** |
-|----|----|----|----|----|
-| **REQ_CI001** | HTTPS | Ensures secure communication between the mobile app and the backend server. | System-to-User | Students, Event Organizers |
-| **REQ_CI002** | RESTful API (JSON) | Enables interaction between the mobile app and backend for login, registration, and payment. | System-to-System | Mobile App, Backend Server |
-| **REQ_CI003** | Camera API / QR Scanner SDK | Allows mobile devices to access the camera for scanning QR codes during event check-in. | System-to-Device | Students, Event Organizers |
-| **REQ_CI004** | Email API (e.g., SMTP via SendGrid/Firebase) | Sends registration confirmations and event reminders via email. | System-to-User | Students |
-| **REQ_CI005** | TLS/SSL | Encrypts all data transferred between the mobile app and the backend to ensure security. | Security (System-to-User) | All System Users |
-| **REQ_CI006** | TCP/IP over Wi-Fi or Cellular Network | Enables the mobile app to communicate with the backend over the internet. | Network Connectivity | All System Users |
-
-<span id="_Ref199049384" class="anchor"></span>Table 1.3.5.
-Communication Interface Requirements
 
 ## 1.4 Product Functions
 
@@ -2838,7 +2666,7 @@ Requirements Table
 ##  3.6 Interface Requirements
 ### 3.6.1 External Interfaces
 
-## External Interfaces
+
 
 This section details the external interface requirements of the Campus
 Event Check-in System. It outlines the actions available in the user
@@ -2849,15 +2677,15 @@ communication with external systems such as student databases, payment
 gateways, and scanning devices. The interfaces described here serve as
 the bridge between users and system functionalities.
 
-### Login User Interface
+#### 3.6.1.1 Login User Interface
 
 Since both the Student and the Event Organizer share the same login
 interface in the Campus Event Check-in System, the following tables
-**Table 2.1.1. 1 - Table 2.1.1. 4** describe the common interface
+**Table 3.6.1.1.1 - Table 3.6.1.1.4**describe the common interface
 elements used for authentication, applicable to both user types.
 
 <table>
-<caption><p><span id="_Ref199051027" class="anchor"></span>Table 2.1.1.
+<caption><p><span id="_Ref199051027" class="anchor"></span>Table 3.6.1.1.1
 REQ_IO0001 Table</p></caption>
 <colgroup>
 <col style="width: 22%" />
@@ -2906,7 +2734,7 @@ submission)</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199062969" class="anchor"></span>Table 2.1.1.
+<caption><p><span id="_Toc199062969" class="anchor"></span>Table 3.6.1.1.2
 REQ_IO0002 Table</p></caption>
 <colgroup>
 <col style="width: 21%" />
@@ -2954,7 +2782,7 @@ submission.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199062970" class="anchor"></span>Table 2.1.1.
+<caption><p><span id="_Toc199062970" class="anchor"></span>Table 3.6.1.1.3
 REQ_IO0003 Table</p></caption>
 <colgroup>
 <col style="width: 22%" />
@@ -3002,7 +2830,7 @@ submission.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051033" class="anchor"></span>Table 2.1.1.
+<caption><p><span id="_Ref199051033" class="anchor"></span>Table 3.6.1.1.4
 REQ_IO0004 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3049,16 +2877,16 @@ unsuccessful.</td>
 </tbody>
 </table>
 
-### View Upcoming Events Interface 
+#### 3.6.1.2 View Upcoming Events Interface 
 
 Since the feature to view available events is exclusive to the Student
-user in the Campus Event Check-in System, **Table 2.1.2. 1** describe
+user in the Campus Event Check-in System, **Table 3.6.1.2.1** describe
 the first version of the interface elements that enable students to
 access, browse, and explore the list of upcoming campus events. However,
-**Table 2.1.2. 2** shows the updated version of the table.
+**Table 3.6.1.2.2** shows the updated version of the table.
 
 <table>
-<caption><p><span id="_Ref199051062" class="anchor"></span>Table 2.1.2.
+<caption><p><span id="_Ref199051062" class="anchor"></span>Table 3.6.1.2.1
 REQ_IO0101 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3106,7 +2934,7 @@ event </td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051097" class="anchor"></span>Table 2.1.2.
+<caption><p><span id="_Ref199051097" class="anchor"></span>Table 3.6.1.2.2
 REQ_IO0101 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3154,16 +2982,16 @@ events</td>
 </tbody>
 </table>
 
-### Event details
+#### 3.6.1.3 Event details
 
 Once a student selects an event from the available list, the system
 displays detailed information about that specific event. The following
-tables **Table 2.1.3. 1** – **Table 2.1.3. 8** define the interface
+tables  **Table 3.6.1.3.1 – Table 3.6.1.3.8** define the interface
 components used to present event details, enabling students to make
 informed decisions before registration or attendance.
 
 <table>
-<caption><p><span id="_Ref199051121" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Ref199051121" class="anchor"></span>Table 3.6.1.3.1
 REQ_IO0201 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3210,7 +3038,7 @@ REQ_IO0201 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063002" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063002" class="anchor"></span>Table 3.6.1.3.2
 REQ_IO0202 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3257,7 +3085,7 @@ REQ_IO0202 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063003" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063003" class="anchor"></span>Table 3.6.1.3.3
 REQ_IO0203 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3306,7 +3134,7 @@ schedule</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063004" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063004" class="anchor"></span>Table 3.6.1.3.4 
 REQ_IO0204 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3354,7 +3182,7 @@ address</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063005" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063005" class="anchor"></span>Table 3.6.1.3.5
 REQ_IO0205 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3403,7 +3231,7 @@ event </td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063006" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063006" class="anchor"></span>Table 3.6.1.3.6
 REQ_IO0206Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3451,7 +3279,7 @@ participants</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063007" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Toc199063007" class="anchor"></span>Table 3.6.1.3.7
 REQ_IO0207 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3500,7 +3328,7 @@ the event such as stuff to bring, attire and others</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051157" class="anchor"></span>Table 2.1.3.
+<caption><p><span id="_Ref199051157" class="anchor"></span>Table 3.6.1.3.8
 REQ_IO0208 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3546,18 +3374,18 @@ REQ_IO0208 Table</p></caption>
 </tbody>
 </table>
 
-### Register for Event
+#### 3.6.1.4 Register for Event
 
 The registration functionality allows students to confirm their
 participation in a selected campus event. The following tables **Table
-2.1.4. 1** – **Table 2.1.4. 5** outline the user interface elements that
+3.6.1.4.1 – Table 3.6.1.4.7** outline the user interface elements that
 facilitate the event registration process, including input fields and
 confirmation messages relevant to successful enrollment. However,
-**Table 2.1.4. 6** and **Table 2.1.4. 7** show the new version of
+**Table 3.6.1.4.6 and Table 3.6.1.4.7*** show the new version of
 REQ_IO0301 and REQ_IO0302.
 
 <table>
-<caption><p><span id="_Ref199051351" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Ref199051351" class="anchor"></span>Table 3.6.1.4.1
 REQ_IO0301 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 26%" />
@@ -3605,7 +3433,7 @@ input</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063010" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Toc199063010" class="anchor"></span>Table 3.6.1.4.2
 REQ_IO0302 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 26%" />
@@ -3653,7 +3481,7 @@ input</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063011" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Toc199063011" class="anchor"></span>Table 3.6.1.4.3
 REQ_IO0303 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3700,7 +3528,7 @@ REQ_IO0303 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063012" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Toc199063012" class="anchor"></span>Table 3.6.1.4.4
 REQ_IO0304 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3748,7 +3576,7 @@ and information</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051370" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Ref199051370" class="anchor"></span>Table 3.6.1.4.5
 REQ_IO0305 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3795,7 +3623,7 @@ REQ_IO0305 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051460" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Ref199051460" class="anchor"></span>Table 3.6.1.4.6
 REQ_IO0301 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 26%" />
@@ -3843,7 +3671,7 @@ from the university’s database.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051469" class="anchor"></span>Table 2.1.4.
+<caption><p><span id="_Ref199051469" class="anchor"></span>Table 3.6.1.4.7
 REQ_IO0302 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 26%" />
@@ -3890,16 +3718,16 @@ from the university’s database.</td>
 </tbody>
 </table>
 
-### Make Payment
+#### 3.6.1.5 Make Payment
 
 For events that require a fee, the system provides an integrated payment
 interface to ensure a seamless transaction process. The following tables
-**Table 2.1.5. 1** – **Table 2.1.5. 4** specify the user interface
+**Table 3.6.1.5.1 – Table 3.6.1.5.4**  specify the user interface
 components involved in the payment workflow, supporting secure input of
 payment details and confirmation of successful transactions.
 
 <table>
-<caption><p><span id="_Ref199051573" class="anchor"></span>Table 2.1.5.
+<caption><p><span id="_Ref199051573" class="anchor"></span>Table 3.6.1.5.1
 REQ_IO0401 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3946,7 +3774,7 @@ REQ_IO0401 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063049" class="anchor"></span>Table 2.1.5.
+<caption><p><span id="_Toc199063049" class="anchor"></span>Table 3.6.1.5.2
 REQ_IO0402 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -3993,7 +3821,7 @@ REQ_IO0402 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063050" class="anchor"></span>Table 2.1.5.
+<caption><p><span id="_Toc199063050" class="anchor"></span>Table 3.6.1.5.3
 REQ_IO0403 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4040,7 +3868,7 @@ REQ_IO0403 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051584" class="anchor"></span>Table 2.1.5.
+<caption><p><span id="_Ref199051584" class="anchor"></span>Table 3.6.1.5.4
 REQ_IO0404 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4087,7 +3915,7 @@ Card</td>
 </tbody>
 </table>
 
-### Receive e-ticket/QR code
+#### 3.6.1.6 Receive e-ticket/QR code
 
 Upon successful registration and payment, the system generates a digital
 ticket in the form of a QR code. The following tables **Table 2.1.6. 1**
@@ -4096,7 +3924,7 @@ delivering the e-ticket to the student, facilitating a secure and
 efficient check-in process at the event venue.
 
 <table>
-<caption><p><span id="_Ref199051612" class="anchor"></span>Table 2.1.6.
+<caption><p><span id="_Ref199051612" class="anchor"></span>Table 3.6.1.6.1
 REQ_IO0501 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4145,7 +3973,7 @@ history)</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063068" class="anchor"></span>Table 2.1.6.
+<caption><p><span id="_Toc199063068" class="anchor"></span>Table 3.6.1.6.2
 REQ_IO0502 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4193,7 +4021,7 @@ date and a brief description</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051626" class="anchor"></span>Table 2.1.6.
+<caption><p><span id="_Ref199051626" class="anchor"></span>Table 3.6.1.6.3
 REQ_IO0503 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4240,16 +4068,16 @@ attendance</td>
 </tbody>
 </table>
 
-### View Registration History
+#### 3.6.1.7 View Registration History
 
 The system provides students with access to their past event
 registrations through a dedicated history interface. The following
-tables **Table 2.1.7. 1** – **Table 2.1.7. 4** define the interface
+tables **Table 3.6.1.7.1 – Table 3.6.1.7.4** define the interface
 elements that allow students to view, track, and verify their previous
 event participation records in an organized manner.
 
 <table>
-<caption><p><span id="_Ref199051685" class="anchor"></span>Table 2.1.7.
+<caption><p><span id="_Ref199051685" class="anchor"></span>Table 3.6.1.7.1
 REQ_IO0601 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4297,7 +4125,7 @@ registered for</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063079" class="anchor"></span>Table 2.1.7.
+<caption><p><span id="_Toc199063079" class="anchor"></span>Table 3.6.1.7.2
 REQ_IO0602 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4344,7 +4172,7 @@ REQ_IO0602 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063080" class="anchor"></span>Table 2.1.7.
+<caption><p><span id="_Toc199063080" class="anchor"></span>Table 3.6.1.7.3
 REQ_IO0603 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4391,7 +4219,7 @@ REQ_IO0603 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051696" class="anchor"></span>Table 2.1.7.
+<caption><p><span id="_Ref199051696" class="anchor"></span>Table 3.6.1.7.4
 REQ_IO0604 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4438,17 +4266,17 @@ attendance</td>
 </tbody>
 </table>
 
-### Show QR Attendance
+#### 3.6.1.8 Show QR Attendance
 
 To support on-site verification, the system allows event organizers to
 scan and display student attendance using QR codes. The following tables
-**Table 2.1.8. 1** – **Table 2.1.8. 6** detail the initial and the
+**Table 3.6.1.8.1 – Table 3.6.1.8.5** detail the initial and the
 updated versions for the interface elements involved in scanning,
 validating, and presenting QR-based attendance records during event
 check-in.
 
 <table>
-<caption><p><span id="_Ref199051751" class="anchor"></span>Table 2.1.8.
+<caption><p><span id="_Ref199051751" class="anchor"></span>Table 3.6.1.8.1
 REQ_IO0701 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4544,7 +4372,7 @@ attendance</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063092" class="anchor"></span>Table 2.1.8.
+<caption><p><span id="_Toc199063092" class="anchor"></span>Table  3.6.1.8.2
 REQ_IO0702 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4639,7 +4467,7 @@ REQ_IO0702 Version 2 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063094" class="anchor"></span>Table 2.1.8.
+<caption><p><span id="_Toc199063094" class="anchor"></span>Table  3.6.1.8.2
 REQ_IO0703 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4732,16 +4560,16 @@ REQ_IO0703 Version 2 Table</p></caption>
 </tbody>
 </table>
 
-### Set Event Details
+#### 3.6.1.9 Set Event Details
 
 Event organizers are responsible for defining the details of each event
-they create within the system. The following tables **Table 2.1.9. 1** –
-**Table 2.1.9. 8** outline the interface components that enable
+they create within the system. The following tables **Table 3.6.1.9.1 –
+Table 3.6.1.9.8** outline the interface components that enable
 organizers to input and manage event-related information, such as title,
 description, date, time, venue, and capacity.
 
 <table>
-<caption><p><span id="_Ref199051907" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Ref199051907" class="anchor"></span>Table 3.6.1.9.1
 REQ_IO0801 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4788,7 +4616,7 @@ REQ_IO0801 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063104" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063104" class="anchor"></span>Table 3.6.1.9.2
 REQ_IO0802 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4835,7 +4663,7 @@ REQ_IO0802 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063105" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063105" class="anchor"></span>Table 3.6.1.9.3
 REQ_IO0803 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4882,7 +4710,7 @@ REQ_IO0803 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063106" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063106" class="anchor"></span>Table 3.6.1.9.4
 REQ_IO0804 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4929,7 +4757,7 @@ REQ_IO0804 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063107" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063107" class="anchor"></span>Table 3.6.1.9.5
 REQ_IO0805 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -4976,7 +4804,7 @@ REQ_IO0805 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063108" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063108" class="anchor"></span>Table 3.6.1.9.6
 REQ_IO0806 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5023,7 +4851,7 @@ REQ_IO0806 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063109" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Toc199063109" class="anchor"></span>Table 3.6.1.9.7
 REQ_IO0807 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5070,7 +4898,7 @@ REQ_IO0807 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051917" class="anchor"></span>Table 2.1.9.
+<caption><p><span id="_Ref199051917" class="anchor"></span>Table 3.6.1.9.8
 REQ_IO0808 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5116,16 +4944,16 @@ REQ_IO0808 Table</p></caption>
 </tbody>
 </table>
 
-### View Events (Organizer)
+#### 3.6.1.10 View Events (Organizer)
 
 To facilitate event management, the system provides organizers with an
 interface to view a list of events they have created. The following
-tables **Table 2.1.10. 1** – **Table 2.1.10. 4** define the interface
+tables **Table 3.6.1.10.1 – Table 3.6.1.10.4** define the interface
 elements that support the organizer in monitoring, updating, or managing
 event entries efficiently.
 
 <table>
-<caption><p><span id="_Ref199051956" class="anchor"></span>Table 2.1.10.
+<caption><p><span id="_Ref199051956" class="anchor"></span>Table 3.6.1.10.1
 REQ_IO0901 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5173,7 +5001,7 @@ events</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063131" class="anchor"></span>Table 2.1.10.
+<caption><p><span id="_Toc199063131" class="anchor"></span>Table 3.6.1.10.2
 REQ_IO0902 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5221,7 +5049,7 @@ REQ_IO0902 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063132" class="anchor"></span>Table 2.1.10.
+<caption><p><span id="_Toc199063132" class="anchor"></span>Table 3.6.1.10.3
 REQ_IO0903 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5268,7 +5096,7 @@ REQ_IO0903 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051965" class="anchor"></span>Table 2.1.10.
+<caption><p><span id="_Ref199051965" class="anchor"></span>Table 3.6.1.10.4
 REQ_IO0904 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5309,22 +5137,22 @@ REQ_IO0904 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
+<td colspan="3">Eric</td>
 </tr>
 </tbody>
 </table>
 
-### View registrations and attendance status 
+#### 3.6.1.11 View registrations and attendance status 
 
 To support effective event oversight, the system offers event organizers
 an interface to monitor participant registrations and their
-corresponding attendance status. The following tables **Table 2.1.11.
-1** – **Table 2.1.11. 3** define the user interface components that
+corresponding attendance status. The following tables **Table 3.6.1.6.1
+– Table 3.6.1.6.3** define the user interface components that
 facilitate filtering, tracking, and exporting attendance-related data
 for each event.
 
 <table>
-<caption><p><span id="_Ref199052009" class="anchor"></span>Table 2.1.11.
+<caption><p><span id="_Ref199052009" class="anchor"></span>Table 3.6.1.11.1
 REQ_IO1001 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5373,7 +5201,7 @@ for a particular event</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063144" class="anchor"></span>Table 2.1.11.
+<caption><p><span id="_Toc199063144" class="anchor"></span>Table 3.6.1.11.2
 REQ_IO1002 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5421,7 +5249,7 @@ in</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052019" class="anchor"></span>Table 2.1.11.
+<caption><p><span id="_Ref199052019" class="anchor"></span>Table 3.6.1.11.3
 REQ_IO1003 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -5470,7 +5298,192 @@ registrations</td>
 </table>
 
 
-## Logical Database Requirements
+### 3.6.2 System Interface
+
+The system interface requirements describe how the Campus Event Check-in
+System interacts with external systems such as the university's student
+database, payment gateway, event management modules, and notification
+services **Table 3.6.2.1**.
+
+***Table 3.6.2.1 System Interfaces Requirements***
+
+| **Requirement ID** | **Description** | **Priority** | **Author** |
+|:---|----|:---|:---|
+| **REQ_SI001** | The system shall integrate with the university student database to authenticate student identities and retrieve relevant information during registration and check-in. | High | Azhar |
+| **REQ_SI002** | The system shall connect to a third-party payment gateway to process event payments securely, providing real-time confirmation of transaction status. | High | Ainee |
+| **REQ_SI003** | The system shall interface with device cameras or scanners to scan student IDs or QR codes for efficient check-in and attendance tracking. | Medium | Sulaiman |
+| **REQ_SI004** | The system shall be developed as a mobile application and must be fully compatible with the latest stable versions of **Android** and **iOS** to ensure broad accessibility and usability for mobile users. | High | Yousef |
+| **REQ_SI005** | The system may optionally integrate with an email/SMS service to send notifications such as registration confirmations or event reminders to students. | Low | Yousef |
+
+
+
+### 3.6.3 User Interface 
+
+The user interface (UI) requirements define the visual and interactive
+characteristics of the Campus Event Check-in System. These
+specifications aim to ensure consistency, clarity, and accessibility for
+end users across various devices **Table 3.6.3.1.**
+
+***Table 3.6.3.1 User Interface Requirements***
+
+|  |  |  |  |
+|:--:|:--:|:--:|:--:|
+| **Interface ID** | **Description** | **Priority** | **Author** |
+| REQ_UI001 | The GUI for the Campus Event Check-in System will use three background colors: White (RGB Hex: \#FFFFFF) as the primary color, Navy Blue (RGB Hex: \#001F3F) as the secondary color, and Emerald Green (RGB Hex: \#2ECC71) for emphasis elements such as confirmation banners or successful check-in indicators. | High | Yousef |
+| REQ_UI002 | The system will use two main font colors: Black (RGB Hex: \#000000) on light backgrounds and White (RGB Hex: \#FFFFFF) on dark backgrounds to ensure readability and accessibility for all user types. | High | Yousef |
+| REQ_UI003 | The font family used will be "Poppins" for all headings and titles, and "Roboto" for body text across both desktop and mobile versions of the application, to ensure modern and clean visual presentation. | Medium | Yousef |
+| REQ_UI004 | The minimum base font size will be set to 16pt to ensure clarity on both mobile and desktop devices. Font resizing through accessibility settings will also be supported. | High | Yousef |
+
+<span id="_Ref199049165" class="anchor"></span>Table 1.3.2. User
+Interface Requirements
+
+### 3.6.4 Hardware Interface
+
+The Campus Check-in application will be compatible with any desktop or
+mobile device with the following specifications **Table 3.6.4.1**.
+
+***Table 3.6.4.1 Hardware Interface Requirements***
+
+| **Interface ID** | **Description** | **Priority** | **Author** |
+|----|----|----|----|
+| REQ_H1001 | The device must be equipped with a mobile-compatible processor (e.g., ARM-based). | High | Azhar |
+| REQ_H1002 | The device must have at least 2GB of RAM. | High | Azhar |
+| REQ_H1003 | The device must include at least 100MB of free internal storage. | High | Azhar |
+| REQ_H1004 | The device must support Wi-Fi or cellular data for internet access. | High | Azhar |
+| REQ_H1005 | The device must include a touch-enabled screen with at least 720p resolution. | High | Azhar |
+| REQ_H1006 | The device must be equipped with a functional rear-facing camera for QR code scanning. | High | Azhar |
+
+<span id="_Ref199049255" class="anchor"></span>Table 1.3.3. Hardware
+Interface Requirements
+
+### 3.6.5 Software Interface
+
+The Campus Check-in application requires other software products to
+function properly. The interfaces between The Campus Check-in
+application and other software products are described in **Table
+3.6.5.1**.
+
+***Table 3.6.5.1 Software Interface Requirements***
+
+<table>
+<caption><p><span id="_Ref199049305" class="anchor"></span>Table 1.3.4.
+Software Interface Requirements</p></caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 21%" />
+<col style="width: 25%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Category</strong></th>
+<th style="text-align: center;"><strong>Name</strong></th>
+<th style="text-align: center;"><strong>Version Number</strong></th>
+<th style="text-align: center;"><strong>Purpose</strong></th>
+<th style="text-align: center;"><strong>Reference</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Database</strong></td>
+<td>MySQL</td>
+<td>5.2.1</td>
+<td>Used to store, manage, and retrieve
+event, user, and registration data for the system.</td>
+<td>MySQL official page</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;"><strong>Operating
+System</strong></td>
+<td>Microsoft Windows</td>
+<td>Windows XP or later</td>
+<td>Runs browser-based application for admin and student users.</td>
+<td>Chrome Browser system requirement</td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>High Sierra 10.13 or later</td>
+<td>Supports browser access on Apple devices.</td>
+<td>macOS official site</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Ubuntu 18.04+, Debian 10+, openSUSE 15.2+, Fedora 32+</td>
+<td>Runs the system via browser on Linux environments.</td>
+<td>Linux distributions’ sites</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>Android 7.0 Nougat or later</td>
+<td>Accesses system via mobile browsers.</td>
+<td>Android system requirements</td>
+</tr>
+<tr>
+<td>iOS</td>
+<td>iOS 14.0 or later</td>
+<td>Accesses system via Safari or Chrome on iPhones/iPads.</td>
+<td>iOS system requirements</td>
+</tr>
+<tr>
+<td rowspan="4" style="text-align: left;"><strong>Browser</strong></td>
+<td>Google Chrome</td>
+<td>113.0.5672.64</td>
+<td>Primary browser interface used to access the system.</td>
+<td>Chrome official page</td>
+</tr>
+<tr>
+<td>Microsoft Edge</td>
+<td>112.0.1722.48</td>
+<td>Alternative browser to access the system.</td>
+<td>Microsoft Edge official page</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>16.4.1</td>
+<td>For iOS/macOS users to access the system.</td>
+<td>Safari official page</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>105.0.4970.63</td>
+<td>Optional browser supported for accessing the platform.</td>
+<td>Opera official page</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Screen Reader</strong></td>
+<td>Speechify</td>
+<td>9.35.0</td>
+<td>Assists visually impaired users by reading on-screen content
+aloud.</td>
+<td>Speechify official page</td>
+</tr>
+</tbody>
+</table>
+
+### 3.1.6 Communication Interface
+
+**Table 3.6.6.1** shows an overview of the communication interfaces
+used in the Campus Event Check-in System. It lists each interface or
+protocol along with its purpose, type of communication, and the users
+involved.
+
+***Table 3.6.6.1 Communication Interface Requirements***
+
+| **Requirement ID** | **Interface/Protocol** | **Purpose** | **Type** | **Users** |
+|----|----|----|----|----|
+| **REQ_CI001** | HTTPS | Ensures secure communication between the mobile app and the backend server. | System-to-User | Students, Event Organizers |
+| **REQ_CI002** | RESTful API (JSON) | Enables interaction between the mobile app and backend for login, registration, and payment. | System-to-System | Mobile App, Backend Server |
+| **REQ_CI003** | Camera API / QR Scanner SDK | Allows mobile devices to access the camera for scanning QR codes during event check-in. | System-to-Device | Students, Event Organizers |
+| **REQ_CI004** | Email API (e.g., SMTP via SendGrid/Firebase) | Sends registration confirmations and event reminders via email. | System-to-User | Students |
+| **REQ_CI005** | TLS/SSL | Encrypts all data transferred between the mobile app and the backend to ensure security. | Security (System-to-User) | All System Users |
+| **REQ_CI006** | TCP/IP over Wi-Fi or Cellular Network | Enables the mobile app to communicate with the backend over the internet. | Network Connectivity | All System Users |
+
+<span id="_Ref199049384" class="anchor"></span>Table 1.3.5.
+Communication Interface Requirements
+
+
+## 3.7 Logical Database Requirements
 
 The system is designed to store and manage a variety of data securely.
 All information is stored in an **encrypted online database**, which can
