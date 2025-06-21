@@ -2634,6 +2634,9 @@ descriptions for the Campus Event Check-in System.
 |----|----|----|----|
 | REQ_SR001 | The system's data, including personal and payment information of students, shall be protected from unauthorized access, ensuring the highest level of security. | High | Sulaiman |
 | REQ_SR002 | The system shall implement encryption, backup, and recovery mechanisms for data, ensuring data integrity and security for the students and event organizers. | High | Sulaiman |
+| REQ_SR003 | The system shall implement secure login with authentication and enforce role-based access control to ensure that only authorized users can access specific features. | High | TIAN YOU |
+| REQ_SR004 | The system shall enforce secure session handling, including automatic session timeouts after a period of inactivity. | High | TIAN YOU |
+| REQ_SR005 | The system shall use HTTPS and TLS protocols to encrypt data during transmission between client and server. | High | TIAN YOU |
 
 <span id="_Ref199053057" class="anchor"></span>Table 3.4.1 Security
 Requirements Table
