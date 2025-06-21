@@ -6239,6 +6239,14 @@ system.</td>
 </tbody>
 </table>
 
+### 3.10.10 Role in Requirements Validation, Negotiation & Management
+
+| **Student Name** | **Primary Responsibility** | **No. of Session Participated** |
+|----|----|----|
+| ERIC TEOH WEI XIANG | Documentation review, Stakeholder Concern Tracking | 2 |
+| PANG TIAN YOU | Content Validation, Defect | 2 |
+| SIOW YI LING | GitHub version control, Traceability Matrix Updates | 2 |
+| LIM KAI SHEN | Changelog Maintenance, Conflict Analysis and Resolution | 2 |
 
 # Verification
 
