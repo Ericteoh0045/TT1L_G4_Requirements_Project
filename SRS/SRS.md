@@ -5448,8 +5448,8 @@ involved.
 |----|----|----|----|----|
 | **REQ_CI001** | TLS / HTTPS | Ensures secure communication between the mobile app and the backend server, protecting data integrity and confidentiality during transmission. | System-to-User | Students, Event Organizers |
 | **REQ_CI002** | RESTful API (JSON) | Enables interaction between the mobile app and backend for login, registration, and payment. | System-to-System | Mobile App, Backend Server |
-| **REQ_CI003** | Camera API / QR Scanner SDK | Allows mobile devices to access the camera for scanning QR codes during event check-in. | System-to-Device | Students, Event Organizers |
-| **REQ_CI004** | Email API (e.g., SMTP via SendGrid/Firebase) | Sends registration confirmations and event reminders via email. | System-to-User | Students |
+| **REQ_CI003** | Camera API / QR Scanner SDK | Allows mobile devices to access the camera for scanning QR codes during event check-in by automatically verifying attendee details. | System-to-Device | Students, Event Organizers |
+| **REQ_CI004** | Email API (e.g., SMTP via SendGrid/Firebase) | Facilitates sending automated email notifications such as event registration confirmations and reminders. | System-to-User | Students |
 | **REQ_CI005** | TLS/SSL | Encrypts all data transferred between the mobile app and the backend to ensure security. | Security (System-to-User) | All System Users |
 | **REQ_CI006** | TCP/IP over Wi-Fi or Cellular Network | Enables the mobile app to communicate with the backend over the internet. | Network Connectivity | All System Users |
 
