@@ -169,13 +169,12 @@ the user roles that can access it.
 | REQ_F01 | View Event Detail | Provides detailed information about a selected event. | Student |
 | REQ_F02 | Register for Event | Enables students to register for a selected event. | Student |
 | REQ_F03 | Make Payment | Allows students to pay for event tickets. | Student |
-| REQ_F04 | Receive e-Ticket/QR Code | Generates a QR code for the student upon successful registration and payment. | Student (System) |
+| REQ_F04 | Received e-Ticket/QR Code | Generates a unique QR code for the student after successful registration and payment for event check-in and verification. | Student (System) |
 | REQ_F05 | View Registration History | Shows a history of past registered events. | Student |
 | REQ_F06 | Show QR Attendance for Event | Displays the QR code used for scanning during check-in. | Student |
 | REQ_F07 | Create New Event | Allows organizers to create a new event. | Event Organizer |
-| REQ_F08 | Set Event Detail | Enables organizers to enter event name, date, time, and location. | Event Organizer |
-| REQ_F09 | View Events | Displays a list of events created by the organizer. | Event Organizer |
-| REQ_F10 | View Registrations with Attendance Status | Allows organizers to view who has registered and their attendance status. | Event Organizer |
+| REQ_F08 | View Events | Displays a list of events created by the organizer. | Event Organizer |
+| REQ_F10 | View Registrations with Attendance Status | Allow organizers to view the list of registered attendees along with real-time updates on their attendance status. | Event Organizer |
 | REQ_F11 | Check-in Upon Arrival | Enables organizers to scan QR codes or student IDs to verify attendance. | Event Organizer |
 | REQ_F12 | Login | Allows users to securely log into the system. | Student, Event Organizer |
 
