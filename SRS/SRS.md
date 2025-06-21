@@ -6248,6 +6248,18 @@ system.</td>
 | SIOW YI LING | GitHub version control, Traceability Matrix Updates | 2 |
 | LIM KAI SHEN | Changelog Maintenance, Conflict Analysis and Resolution | 2 |
 
+### 3.10.11 Version Control & Configuration Summary
+
+Repository Branch: project-part-2
+
+Key Files:
+
+- SRS.md: Working version of updated SRS
+
+- TT3L_G4_SRS.doc: Record of all requirement-related changes
+
+- Changelog.md: Record of all requirement-related changes
+
 # Verification
 
 To ensure the quality, correctness, and alignment of the system with

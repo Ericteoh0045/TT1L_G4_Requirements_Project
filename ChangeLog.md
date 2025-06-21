@@ -19,3 +19,4 @@
 | CH-15 | N/A | Add Conflict Analysis and Resolution | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-16 | N/A | Add Requirements Traceability Matrix | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-17 | N/A | Add Role in Requirements Validation, Negotiation & Management | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-18 | N/A | Add Version Control & Configuration Summary | ERIC TEOH WEI XIANG | 22/6/2025 | - |
