@@ -5339,8 +5339,8 @@ Interface Requirements
 
 ### 3.6.4 Hardware Interface
 
-The Campus Check-in application will be compatible with any desktop or
-mobile device with the following specifications **Table 3.6.4.1**.
+The Campus Check-in application will be compatible with any mobile
+device with the following specifications **Table 3.6.4.1**.
 
 ***Table 3.6.4.1 Hardware Interface Requirements***
 
