@@ -25,3 +25,4 @@
 | CH-21 | REQ_C1003, REQ_C1004 | Revise and clarify description | PANG TIAN YOU | 22/6/2025 | VS-01 |
 | CH-22 | REQ_C1006 | Remove entirely | PANG TIAN YOU | 22/6/2025 | VS-01 |
 | CH-23 | REQ_F04, REQ_F10 | Revise descriptions with more detail | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-24 | REQ_F11 | Focus on scanning assigned QR codes detail | PANG TIAN YOU | 22/6/2025 | VS-01 |

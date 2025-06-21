@@ -175,7 +175,7 @@ the user roles that can access it.
 | REQ_F07 | Create New Event | Allows organizers to create a new event. | Event Organizer |
 | REQ_F08 | View Events | Displays a list of events created by the organizer. | Event Organizer |
 | REQ_F10 | View Registrations with Attendance Status | Allow organizers to view the list of registered attendees along with real-time updates on their attendance status. | Event Organizer |
-| REQ_F11 | Check-in Upon Arrival | Enables organizers to scan QR codes or student IDs to verify attendance. | Event Organizer |
+| REQ_F11 | Check-in Upon Arrival | Allow organizers to scan the student’s unique QR code using a mobile device to verify attendance. | Event Organizer |
 | REQ_F12 | Login | Allows users to securely log into the system. | Student, Event Organizer |
 
 <span id="_Ref199082076" class="anchor"></span>Table 1.4.1 Campus Event
