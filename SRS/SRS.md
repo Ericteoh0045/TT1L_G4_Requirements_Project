@@ -235,11 +235,11 @@ Software Interface Requirements</p></caption>
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Database</strong></td>
-<td>phpMyAdmin</td>
+<td>MySQL</td>
 <td>5.2.1</td>
-<td>Used to create, store, modify, and delete event, user, and
-registration data.</td>
-<td>phpMyAdmin official page</td>
+<td>Used to store, manage, and retrieve
+event, user, and registration data for the system.</td>
+<td>MySQL official page</td>
 </tr>
 <tr>
 <td rowspan="5" style="text-align: left;"><strong>Operating
