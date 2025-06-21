@@ -2656,6 +2656,7 @@ descriptions for the Campus Event Check-in System.
 | REQ_UR006 | The system shall use color contrast ratios that meet WCAG 2.1 AA standards to ensure readability for users with visual impairments. | High | Sulaiman |
 | REQ_UR007 | The system shall allow students to view and manage their registered events in a centralized dashboard with clear status indicators (e.g., “Paid”, “Pending”, “Checked-In”). | Medium | Sulaiman |
 | REQ_UR008 | The system shall guide first-time users with contextual tooltips or brief onboarding hints for critical actions like event registration or check-in. | Low | Sulaiman |
+| REQ_UR009 | The system shall validate user inputs and prevent submisstion until correction are made. | High | TIAN YOU |
 
 <span id="_Ref199053068" class="anchor"></span>Table 3.5.1 Usability
 Requirements Table
