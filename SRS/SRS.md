@@ -5847,7 +5847,7 @@ Requirements" and update the Table of Contents accordingly.</td>
 | N/A | Interface table lists desktop OS/tools like Windows, macOS, Speechify, etc. | Desktop-related elements contradict mobile-only | Eric Teoh Wei Xiang | VS-01 | 4 |
 | N/A | The system is described as web-based, but it operates primarily as a mobile application | System description conflicts with mobile-only | Pang Tian You | VS-01 | 3 |
 
-###  Conflict Analysis
+### 3.10.6 Conflict Analysis
 
 | **Conflict ID** | **Conflict Description** | **Conflict Analysis** | **Stakeholders Involved** | **Session ID** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -5859,6 +5859,103 @@ Requirements" and update the Table of Contents accordingly.</td>
 | CF-06 | Introduction states system supports both desktop and mobile, contradicting mobile-only agreement. | Misleading intro affects stakeholder understanding and documentation consistency; risks misaligned expectations. | Product Owner, Documentation Team, Project Manager | VS-01 |
 | CF-07 | Interface table lists desktop OS/tools (Windows, macOS, Speechify) conflicting with mobile-only scope. | Inclusion of desktop platforms in interface table confuses development priorities and resource allocation. | Product Owner, Development Team, QA Team, Documentation Team | VS-01 |
 | CF-08 | System described as web-based while implementation is mobile app, contradicting agreed system description. | Discrepancy risks integration issues and miscommunication with stakeholders about supported platforms and deployment. | Product Owner, Development Team, QA Team, Stakeholders | VS-01 |
+
+### 3.10.7 Conflict Analysis and Resolution
+
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 26%" />
+<col style="width: 13%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Conflict ID</strong></th>
+<th><strong>Conflict Resolution Strategy</strong></th>
+<th><strong>Resolved (Y/N)</strong></th>
+<th><strong>Outcome (If Resolved)</strong></th>
+<th><strong>Justification</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CF-01</td>
+<td>Change the priority of camera/scanner interface from "Medium" to
+"High".</td>
+<td>Y</td>
+<td>Priority updated to "High".</td>
+<td>It's a must-have (dissatisfier) feature essential for check-in
+functionality.</td>
+</tr>
+<tr>
+<td>CF-02</td>
+<td>Retain mention of on-site payment.</td>
+<td>Y</td>
+<td>On-site payment retained.</td>
+<td>Assignment rubric requires integration with on-site purchase,
+supporting its inclusion.</td>
+</tr>
+<tr>
+<td>CF-03</td>
+<td>Same as CF-02—keep on-site payment in scope.</td>
+<td>Y</td>
+<td>On-site payment confirmed in scope.</td>
+<td>Consistency maintained with CF-02 and assignment requirements.</td>
+</tr>
+<tr>
+<td>CF-04</td>
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr>
+<td>Remove "Set Event Details" use case.</td>
+</tr>
+</tbody>
+</table></td>
+<td>Y</td>
+<td>Use case removed.</td>
+<td>It’s part of the main "Create New Event" use case, as shown in the
+sequence diagram, and not reusable independently.</td>
+</tr>
+<tr>
+<td>CF-05</td>
+<td>UI mentions desktop/mobile support conflicting with mobile-only
+scope.</td>
+<td>Y</td>
+<td>Update UI docs to specify mobile-only; remove desktop
+references.</td>
+<td>UI docs corrected to reflect mobile-only support.</td>
+</tr>
+<tr>
+<td>CF-06</td>
+<td>Intro states both desktop and mobile support, contradicting
+mobile-only scope.</td>
+<td>Y</td>
+<td>Revise Intro to clearly state mobile-only support.</td>
+<td>Introduction updated for consistency.</td>
+</tr>
+<tr>
+<td>CF-07</td>
+<td>Interface table lists desktop OS/tools, conflicting with mobile-only
+scope.</td>
+<td>Y</td>
+<td>Remove desktop OS/tools; list only mobile platforms.</td>
+<td>Interface table revised to match mobile-only scope.</td>
+</tr>
+<tr>
+<td>CF-08</td>
+<td>System described as web-based but is actually a mobile app.</td>
+<td>Y</td>
+<td>Update system description to specify mobile app implementation
+only.</td>
+<td>System description corrected to reflect mobile-only platform.</td>
+</tr>
+</tbody>
+</table>
 
 # Verification
 
