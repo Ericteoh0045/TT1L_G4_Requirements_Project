@@ -139,12 +139,19 @@ process event-related transactions. The system supports two main user
 roles: students and event organizers. Students use the system to browse
 available events, register, make payments, and check in using QR code.
 Organizers create events, manage attendee data, and monitor attendance
-status. **Figure 1.3.1** shows the overview diagram of the system
+status. **Figure 1.3.1** shows the overview diagram of the system and
+**Figure 1.3.2** shows the context diagram of the system
 
 <figure>
 <img src="./media/image2.png" style="width:6.5in;height:3.45278in"
 alt="A diagram of a diagram AI-generated content may be incorrect." />
 <figcaption><p>Figure 1.3.1 System Overview Diagram</p></figcaption>
+</figure>
+
+<figure>
+<img src="./media/image111.png" style="width:4.34174in;height:4.14692in"
+alt="A diagram of a diagram" />
+<figcaption><p>Figure 1.3.2 System Context Diagram</p></figcaption>
 </figure>
 
 ### System Interface
