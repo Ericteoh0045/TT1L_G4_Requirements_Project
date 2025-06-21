@@ -192,12 +192,12 @@ Diagram notation.
 Diagram</p></figcaption>
 </figure>
 
-## **User Characteristics**
+## **1.5 User Characteristics**
 
 This section describes the end users of the Campus Event Check-in System
 and their expected level of knowledge. These characteristics help
 determine how the system should be designed for usability and
-accessibility. **Table 1.5. 1** summarizes the intended users and their
+accessibility. **Table 1.5.1** summarizes the intended users and their
 required understanding of the system.
 
 | **Role** | **Description** | **Expected Knowledge** |
@@ -205,10 +205,10 @@ required understanding of the system.
 | **Student** | University students who will use the system to view events, register, make payments, and check in. | Basic understanding of web browsing, online form usage, and scanning QR codes. |
 | **Event Organizer** | Authorized university staff or student committees managing events, registrations, and check-ins. | Familiarity with web forms, participant tracking, and scanning devices for check-in. |
 
-<span id="_Ref199082259" class="anchor"></span>Table 1.5. Intended Users
+<span id="_Ref199082259" class="anchor"></span>Table 1.5.1 Intended Users
 and Expected Knowledge
 
-## Limitations
+## 1.6 Limitations
 
 Several limitations may affect the design, development, and usage of the
 system. These limitations must be considered to ensure that the system
@@ -268,9 +268,9 @@ remains secure, scalable, and compliant.
 - External systems used for integration (student database, payment
   gateway) must maintain backward compatibility.
 
-## Definitions
+## 1.7 Definitions
 
-**Table 1.8. 1** describes are terminology, phrases, and words utilized
+**Table 1.7.1** describes are terminology, phrases, and words utilized
 in the document and their corresponding definitions as employed in this
 document.
 
@@ -284,10 +284,10 @@ document.
 | Check-in | The process of confirming a student’s attendance using their ID or QR code. |
 | REST API | An interface using HTTP methods for client-server communication in the system. |
 
-<span id="_Ref199082328" class="anchor"></span>Table 1.8. Glossary of
+<span id="_Ref199082328" class="anchor"></span>Table 1.7.1 Glossary of
 Terms for the Campus Event Check-in System
 
-# Requirements
+# 3 Requirements
 
 Requirements are the functionalities, behaviors, qualities, and
 constraints that the final system must fulfill. This chapter outlines
@@ -300,22 +300,22 @@ in understanding or validating the system’s expected operations and
 performance.
 
 
-## Functions
+## 3.1 Functions
 
 This section outlines the functional requirements that the system is
 expected to fulfill upon completion. Each requirement will be explained
 in detail and illustrated with a sequence diagram to enhance
 understanding.
 
-### F00 View Upcoming Events 
+### 3.1.1 F00 View Upcoming Events 
 
-**Table 2.2.1. 1** describes the view upcoming events function and its
-description. While **Table 2.2.1. 2** shows the view upcoming events use
-case specification table. And **Figure 2.2.1. 1** depicts the sequence
+**Table 3.1.1.1** describes the view upcoming events function and its
+description. While **Table 3.1.1.2**  shows the view upcoming events use
+case specification table. And **Figure 3.1.1.1** depicts the sequence
 diagram for the view upcoming events function.
 
 <table>
-<caption><p><span id="_Ref199052130" class="anchor"></span>Table 2.2.1.
+<caption><p><span id="_Ref199052130" class="anchor"></span>Table 3.1.1.1
 REQ_F0001 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -345,7 +345,7 @@ the relevant event’s details</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052147" class="anchor"></span>Table 2.2.1.
+<caption><p><span id="_Ref199052147" class="anchor"></span>Table 3.1.1.2
 F00 View Available Events Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -401,18 +401,18 @@ upcoming and happening events</td>
 <img src="./media/image4.png" style="width:6.5in;height:2.04792in"
 alt="A black background with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053421" class="anchor"></span>Figure
-2.2.1. F00 View Upcoming Events Sequence Diagram</p></figcaption>
+3.1.1.1 F00 View Upcoming Events Sequence Diagram</p></figcaption>
 </figure>
 
-### F01 View Event Details
+### 3.1.2 F01 View Event Details
 
-**Table 2.2.2. 1** & **Table 2.2.2. 2** describe the view event details
-function and its description. While **Table 2.2.2. 3** shows the view
-event details use case specification table. And **Figure 2.2.2. 1**
+**Table 3.1.2.1& Table 3.1.2.2**    describe the view event details
+function and its description. While **Table 3.1.2.3** shows the view
+event details use case specification table. And **Figure 3.1.2.1**
 depicts the sequence diagram for the view event details function.
 
 <table>
-<caption><p><span id="_Ref199052197" class="anchor"></span>Table 2.2.2.
+<caption><p><span id="_Ref199052197" class="anchor"></span>Table 3.1.2.1
 REQ_F0101 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -442,7 +442,7 @@ by the event organizer</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052206" class="anchor"></span>Table 2.2.2.
+<caption><p><span id="_Ref199052206" class="anchor"></span>Table 3.1.2.2
 REQ_F0102 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -473,7 +473,7 @@ the fields</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052226" class="anchor"></span>Table 2.2.2.
+<caption><p><span id="_Ref199052226" class="anchor"></span>Table 3.1.2.3
 F01 View Event Details Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -536,20 +536,20 @@ to redirect to the view upcoming events page</td>
 <img src="./media/image5.png" style="width:6.27046in;height:3.22642in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053471" class="anchor"></span>Figure
-2.2.2. F01 View Event Details Sequence Diagram</p></figcaption>
+3.1.2.1 F01 View Event Details Sequence Diagram</p></figcaption>
 </figure>
 
-### F02 Register For Event
+### 3.1.3 F02 Register for Event
 
-**Table 2.2.3. 1** – **Table 2.2.3. 9** describe the register for event
-function and its description. While **Table 2.2.3. 10** shows the first
+**Table 3.1.3.1** – **Table 3.1.3.9** describe the register for event
+function and its description. While **Table 3.1.3.10** shows the first
 version of the register for event use case specification table, while
-**Table 2.2.3. 11** shows the second version of the register for event
-use case specification table. And **Figure 2.2.3. 1** depicts the
+**Table 3.1.3.11** shows the second version of the register for event
+use case specification table. And **Figure 3.1.3.1** depicts the
 sequence diagram for the register for event function.
 
 <table>
-<caption><p><span id="_Ref199052308" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Ref199052308" class="anchor"></span>Table 3.1.3.1
 REQ_F0201 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -579,7 +579,7 @@ their name and display on this field and it is editable</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063209" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063209" class="anchor"></span>Table 3.1.3.2
 REQ_F0202 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -609,7 +609,7 @@ their student ID and display on this field and it is editable</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063210" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063210" class="anchor"></span>Table 3.1.3.3
 REQ_F0203 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -639,7 +639,7 @@ REQ_F0203 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063211" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063211" class="anchor"></span>Table 3.1.3.4
 REQ_F0204 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -669,7 +669,7 @@ REQ_F0204 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063212" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063212" class="anchor"></span>Table 3.1.3.5
 REQ_F0205 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -699,7 +699,7 @@ and save the data into a temporary database</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063213" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063213" class="anchor"></span>Table 3.1.3.6
 REQ_F0206 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -729,7 +729,7 @@ the view event detail page</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063214" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063214" class="anchor"></span>Table 3.1.3.7
 REQ_F0201 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 27%" />
@@ -761,7 +761,7 @@ email address.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063215" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Toc199063215" class="anchor"></span>Table 3.1.3.8
 REQ_F0205 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 28%" />
@@ -791,7 +791,7 @@ page</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052317" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Ref199052317" class="anchor"></span>Table 3.1.3.9
 REQ_F0206 Version 2 Table</p></caption>
 <colgroup>
 <col style="width: 27%" />
@@ -821,7 +821,7 @@ display the event detail page</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052336" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Ref199052336" class="anchor"></span>Table 3.1.3.10
 F02 Register for Event Use Case Specification Table Version
 1</p></caption>
 <colgroup>
@@ -881,7 +881,7 @@ redirect to the view event details page</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052363" class="anchor"></span>Table 2.2.3.
+<caption><p><span id="_Ref199052363" class="anchor"></span>Table 3.1.3.11
 F02 Register for Event Use Case Specification Table Version
 2</p></caption>
 <colgroup>
@@ -944,22 +944,19 @@ back again to the event details page</td>
 <img src="./media/image6.png" style="width:6.27083in;height:3.38542in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053493" class="anchor"></span>Figure
-2.2.3. F02 Register for Event Sequence Diagram</p></figcaption>
+3.1.3.1 F02 Register for Event Sequence Diagram</p></figcaption>
 </figure>
 
-### F03 Make Payment
-
-**Table 2.2.4. 1** – **Table 2.2.4. 3** describe the make payment
-function and its description. While **Table 2.2.4. 4** shows the first
-version of the make payment use case specification table, while **Table
-2.2.4. 5** shows the second version of the make payment use case
-specification table. And **Figure 2.2.4. 1** depicts the first version
-of the sequence diagram for the make payment function, while **Figure
-2.2.4. 2** shows the second version of the sequence diagram for the make
+### 3.1.4 F03 Make Payment
+**Table 3.1.4.1 – Table 3.1.4.3**  describe the make payment
+function and its description. While **Table 3.1.4.4** shows the first
+version of the make payment use case specification table, while **Table 3.1.4.5** shows the second version of the make payment use case
+specification table. And **Figure 3.1.4.1** depicts the first version
+of the sequence diagram for the make payment function, while **Figure 3.1.4.2** shows the second version of the sequence diagram for the make
 payment function.
 
 <table>
-<caption><p><span id="_Ref199052417" class="anchor"></span>Table 2.2.4.
+<caption><p><span id="_Ref199052417" class="anchor"></span>Table 3.1.4.1 
 REQ_F0301 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -989,7 +986,7 @@ verify the inputs</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063226" class="anchor"></span>Table 2.2.4.
+<caption><p><span id="_Toc199063226" class="anchor"></span>Table 3.1.4.2
 REQ_F0302 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1019,7 +1016,7 @@ display an error message above the invalid input</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052424" class="anchor"></span>Table 2.2.4.
+<caption><p><span id="_Ref199052424" class="anchor"></span>Table 3.1.4.3
 REQ_F0303 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1049,7 +1046,7 @@ the payment and save the ticket into the database</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052443" class="anchor"></span>Table 2.2.4.
+<caption><p><span id="_Ref199052443" class="anchor"></span>Table 3.1.4.4
 F03 Make Payment Use Case Specification Table Version 1</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -1115,7 +1112,7 @@ input</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052460" class="anchor"></span>Table 2.2.4.
+<caption><p><span id="_Ref199052460" class="anchor"></span>Table 3.1.4.5 
 F03 Make Payment Use Case Specification Table Version 2</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -1179,25 +1176,25 @@ input</td>
 <img src="./media/image7.png" style="width:6.26729in;height:3.536in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053554" class="anchor"></span>Figure
-2.2.4. F03 Make Payment Sequence Diagram Version 1</p></figcaption>
+3.1.4.1  F03 Make Payment Sequence Diagram Version 1</p></figcaption>
 </figure>
 
 <figure>
 <img src="./media/image8.png" style="width:6.5in;height:3.46528in"
 alt="A black screen with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053582" class="anchor"></span>Figure
-2.2.4. F03 Make Payment Sequence Diagram Version 2</p></figcaption>
+3.1.4.2 F03 Make Payment Sequence Diagram Version 2</p></figcaption>
 </figure>
 
-### F04 Receive e-Ticket/QR Code
+### 3.1.5 F04 Receive e-Ticket/QR Code
 
-**Table 2.2.5. 1** describes the receive e-ticket/QR code function and
-its description. While **Table 2.2.5. 2** shows the receive e-ticket/QR
-code use case specification table. And **Figure 2.2.5. 1** depicts the
+**Table 3.1.5.1*** describes the receive e-ticket/QR code function and
+its description. While **Table 3.1.5.2** shows the receive e-ticket/QR
+code use case specification table. And **Figure 3.1.5.1** depicts the
 sequence diagram for the receive e-ticket/QR code function.
 
 <table>
-<caption><p><span id="_Ref199052547" class="anchor"></span>Table 2.2.5.
+<caption><p><span id="_Ref199052547" class="anchor"></span>Table 3.1.5.1
 REQ_F0401 Tale</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1288,22 +1285,21 @@ encoded with the student’s details</p></li>
 <img src="./media/image9.png" style="width:6.26806in;height:2.84583in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053653" class="anchor"></span>Figure
-2.2.5. F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
+3.1.5.2 F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
 e-Ticket/QR Code Sequence Diagram</p></figcaption>
 </figure>
 
-### F05 View Registration History
+### 3.1.6 F05 View Registration History
 
-**Table 2.2.6. 1** – **Table 2.2.6. 3** describe the view registration
-history function and its description. While **Table 2.2.6. 4** shows the
+**Table 3.1.6.1 – Table 3.1.6.3**  describe the view registration
+history function and its description. While **Table 3.1.6.4** shows the
 first version of the view registration history use case specification
-table, and **Table 2.2.6. 5** shows the second version of the view
-registration history use case specification table. And **Figure 2.2.6.
-1** depicts the sequence diagram for the view registration history
+table, and **Table 3.1.6.5** shows the second version of the view
+registration history use case specification table. And **Figure 3.1.6.1** depicts the sequence diagram for the view registration history
 function.
 
 <table>
-<caption><p><span id="_Ref199052587" class="anchor"></span>Table 2.2.6.
+<caption><p><span id="_Ref199052587" class="anchor"></span>Table 3.1.6.1
 REQ_F0501 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1334,7 +1330,7 @@ specific to the user and event</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063261" class="anchor"></span>Table 2.2.6.
+<caption><p><span id="_Toc199063261" class="anchor"></span>Table 3.1.6.2
 REQ_F0502 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1364,7 +1360,7 @@ shall display an error message.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052596" class="anchor"></span>Table 2.2.6.
+<caption><p><span id="_Ref199052596" class="anchor"></span>Table 3.1.6.3
 REQ_F0503 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1395,7 +1391,7 @@ display all events in a list, with the name, event description and a
 </table>
 
 <table>
-<caption><p><span id="_Ref199052609" class="anchor"></span>Table 2.2.6.
+<caption><p><span id="_Ref199052609" class="anchor"></span>Table 3.1.6.4
 F05 View Registration History Use Case Specification Table Version
 1</p></caption>
 <colgroup>
@@ -1457,7 +1453,7 @@ list form.</p></li>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052635" class="anchor"></span>Table 2.2.6.
+<caption><p><span id="_Ref199052635" class="anchor"></span>Table 3.1.6.5
 F05 View Registration History Use Case Specification Table Version
 2</p></caption>
 <colgroup>
@@ -1519,18 +1515,18 @@ format.</p></li>
 <img src="./media/image10.png" style="width:6.26806in;height:2.51042in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053676" class="anchor"></span>Figure
-2.2.6. F05 View Registration History Sequence Diagram</p></figcaption>
+3.1.6.1 F05 View Registration History Sequence Diagram</p></figcaption>
 </figure>
 
-### F06 Show QR Attendance 
+### 3.1.7 F06 Show QR Attendance 
 
-**Table 2.2.7. 1** – **Table 2.2.7. 4** describe the show QR attendance
-function and its description. While **Table 2.2.7. 5** shows the show QR
-attendance use case specification table. And **Figure 2.2.7. 1** depicts
+**Table 3.1.7.1– Table 3.1.7.4**  describe the show QR attendance
+function and its description. While **Table 3.1.7.5** shows the show QR
+attendance use case specification table. And **Figure 3.1.7.1** depicts
 the sequence diagram for the show QR attendance function.
 
 <table>
-<caption><p><span id="_Ref199052701" class="anchor"></span>Table 2.2.7.
+<caption><p><span id="_Ref199052701" class="anchor"></span>Table 3.1.7.1
 REQ_F0601 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1561,7 +1557,7 @@ database.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063356" class="anchor"></span>Table 2.2.7.
+<caption><p><span id="_Toc199063356" class="anchor"></span>Table 3.1.7.2
 REQ_F0602 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1591,7 +1587,7 @@ encoded student and event data.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063357" class="anchor"></span>Table 2.2.7.
+<caption><p><span id="_Toc199063357" class="anchor"></span>Table 3.1.7.3
 REQ_F0603 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1621,7 +1617,7 @@ event title below the QR code.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052711" class="anchor"></span>Table 2.2.7.
+<caption><p><span id="_Ref199052711" class="anchor"></span>Table 3.1.7.4
 REQ_F0604 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1651,7 +1647,7 @@ message is displayed.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052725" class="anchor"></span>Table 2.2.7.
+<caption><p><span id="_Ref199052725" class="anchor"></span>Table 3.1.7.5
 F06 Show QR Attendance Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -1712,18 +1708,18 @@ registered in any event, an error message is displayed</td>
 <img src="./media/image11.png" style="width:6.5in;height:3.25in"
 alt="A black screen with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053698" class="anchor"></span>Figure
-2.2.7. F06 Show QR Attendance Sequence Diagram</p></figcaption>
+3.1.7.1 F06 Show QR Attendance Sequence Diagram</p></figcaption>
 </figure>
 
-### F07 Create a New Event & F08 Set Event Details 
+### 3.1.8 F07 Create New Event
 
-**Table 2.2.8. 1** – **Table 2.2.8. 4** describe the set event details
-function and its description. While **Table 2.2.8. 5** shows the set
-event details use case specification table. And **Figure 2.2.8. 1**
+**Table 3.1.8.1 – Table 3.1.8.4**  describe the set event details
+function and its description. While **Table 3.1.8.5** shows the set
+event details use case specification table. And **Figure 3.1.8.1**
 depicts the sequence diagram for the set event details function.
 
 <table>
-<caption><p><span id="_Ref199052769" class="anchor"></span>Table 2.2.8.
+<caption><p><span id="_Ref199052769" class="anchor"></span>Table 3.1.8.1
 REQ_F0701 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1755,7 +1751,7 @@ description.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063370" class="anchor"></span>Table 2.2.8.
+<caption><p><span id="_Toc199063370" class="anchor"></span>Table 3.1.8.2
 REQ_F0702 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1785,7 +1781,7 @@ validate all required fields.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063371" class="anchor"></span>Table 2.2.8.
+<caption><p><span id="_Toc199063371" class="anchor"></span>Table 3.1.8.3
 REQ_F0703 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1815,7 +1811,7 @@ system shall save the event to the database.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052777" class="anchor"></span>Table 2.2.8.
+<caption><p><span id="_Ref199052777" class="anchor"></span>Table 3.1.8.4
 REQ_F0704 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1845,7 +1841,7 @@ system shall display an error message next to the field.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052788" class="anchor"></span>Table 2.2.8.
+<caption><p><span id="_Ref199052788" class="anchor"></span>Table 3.1.8.5
 F07 Set Event Details Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -1905,19 +1901,18 @@ empty, the system displays an error and prevents submission</td>
 <figure>
 <img src="./media/image12.png" style="width:6.5in;height:2.77778in"
 alt="A black and white screen with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053737" class="anchor"></span>Figure
-2.2.8. F07 Set Event Details Sequence Diagram</p></figcaption>
+<figcaption><p><span id="_Ref199053737" class="anchor"></span>Figure 3.1.8.1 F07 Set Event Details Sequence Diagram</p></figcaption>
 </figure>
 
-### F09 View Events
+### 3.1.9 F08 View Events
 
-**Table 2.2.9. 1** – **Table 2.2.9. 5** describe the view events
-function and its description. While **Table 2.2.9. 6** shows the view
-events use case specification table. And **Figure 2.2.9. 1** depicts the
+**Table 3.1.9.1 – Table 3.1.9.5**  describe the view events
+function and its description. While **Table 3.1.9.6** shows the view
+events use case specification table. And **Figure 3.1.9.1** depicts the
 sequence diagram for the view events function.
 
 <table>
-<caption><p><span id="_Ref199052813" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Ref199052813" class="anchor"></span>Table 3.1.9.1
 REQ_F0901 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1947,7 +1942,7 @@ system shall retrieve all events associated with that user.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063400" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Toc199063400" class="anchor"></span>Table 3.1.9.2
 REQ_F0902 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -1977,7 +1972,7 @@ and current status ("Upcoming", "Completed").</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063401" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Toc199063401" class="anchor"></span>Table 3.1.9.3
 REQ_F0903 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2007,7 +2002,7 @@ event that redirects to the event form.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063402" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Toc199063402" class="anchor"></span>Table 3.1.9.4
 REQ_F0904 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2037,7 +2032,7 @@ event and confirm deletion via a popup.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052825" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Ref199052825" class="anchor"></span>Table 3.1.9.5
 REQ_F0905 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2067,7 +2062,7 @@ message: "No events found."</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052836" class="anchor"></span>Table 2.2.9.
+<caption><p><span id="_Ref199052836" class="anchor"></span>Table 3.1.9.6
 F09 View Events Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -2125,20 +2120,20 @@ displays a "No events found" message</td>
 <img src="./media/image13.png" style="width:6.5in;height:2.39028in"
 alt="A black background with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053776" class="anchor"></span>Figure
-2.2.9. F09 View Events Sequence Diagram</p></figcaption>
+3.1.9.1 F09 View Events Sequence Diagram</p></figcaption>
 </figure>
 
-### F10 View Registrations & Attendance Status
+### 3.1.10 F10 View Registrations & Attendance Status
 
-**Table 2.2.10. 1** & **Table 2.2.10. 2** describe the view
+**Table 3.1.10.1 & Table 3.1.10.2**  describe the view
 registrations and attendance status function and its description. While
-**Table 2.2.10. 3** shows the view registrations and attendance status
-use case specification table. And **Figure 2.2.10. 1** depicts the
+**Table 3.1.10.3** shows the view registrations and attendance status
+use case specification table. And **Figure 3.1.10.1** depicts the
 sequence diagram for the view registrations and attendance status
 function.
 
 <table>
-<caption><p><span id="_Ref199052863" class="anchor"></span>Table 2.2.10.
+<caption><p><span id="_Ref199052863" class="anchor"></span>Table 3.1.10.1
 REQ_F1001 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2168,7 +2163,7 @@ message: "No events found."</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052874" class="anchor"></span>Table 2.2.10.
+<caption><p><span id="_Ref199052874" class="anchor"></span>Table 3.1.10.2
 REQ_F1002 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2199,7 +2194,7 @@ empty table.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052893" class="anchor"></span>Table 2.2.10.
+<caption><p><span id="_Ref199052893" class="anchor"></span>Table 3.1.10.3
 F10 View Registrations &amp; Attendance Status Use Case Specification
 Table</p></caption>
 <colgroup>
@@ -2265,20 +2260,20 @@ displays a "No events found" message.</td>
 <img src="./media/image14.png" style="width:6.5in;height:3.00347in"
 alt="A black background with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053798" class="anchor"></span>Figure
-2.2.10. F10 View Registrations &amp; Attendance Status Sequence
+3.1.10.1 F10 View Registrations &amp; Attendance Status Sequence
 Diagram</p></figcaption>
 </figure>
 
-### F11 Check-in Upon Arrival
+### 3.1.11 F11 Check-in Upon Arrival
 
-**Table 2.2.11. 1** & **Table 2.2.11. 2** describe the check-in upon
-arrival function and its description. While **Table 2.2.11. 3** shows
+**Table 3.1.11.1 & Table 3.1.11.2**  describe the check-in upon
+arrival function and its description. While **Table 3.1.11.3** shows
 the check-in upon arrival use case specification table. And **Figure
 2.2.11. 1** depicts the sequence diagram for the check-in upon arrival
 function.
 
 <table>
-<caption><p><span id="_Ref199052929" class="anchor"></span>Table 2.2.11.
+<caption><p><span id="_Ref199052929" class="anchor"></span>Table 3.1.11.1
 REQ_F1101 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2308,7 +2303,7 @@ user in the event after validating the QR.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052936" class="anchor"></span>Table 2.2.11.
+<caption><p><span id="_Ref199052936" class="anchor"></span>Table 3.1.11.2
 REQ_F1102 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2338,7 +2333,7 @@ organizer device if the QR is invalid/non-related QR.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052948" class="anchor"></span>Table 2.2.11.
+<caption><p><span id="_Ref199052948" class="anchor"></span>Table 3.1.11.3
 F11 Scan Attendance QR Code &amp; Update Attendance Status Use Case
 Specification Table</p></caption>
 <colgroup>
@@ -2404,19 +2399,19 @@ invalid/non-related QR.</td>
 <img src="./media/image15.png" style="width:6.5in;height:2.69931in"
 alt="A black background with white rectangles AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053818" class="anchor"></span>Figure
-2.2.11. F11 Scan Attendance QR Code &amp; Update Attendance Status
+3.1.11.1 F11 Scan Attendance QR Code &amp; Update Attendance Status
 Sequence Diagram</p></figcaption>
 </figure>
 
-### F12 Login
+### 3.1.12 F12 Login
 
-**Table 2.2.12. 1** – **Table 2.2.12. 3** describe the login function
-and its description. While **Table 2.2.12. 4** shows the login use case
-specification table. And **Figure 2.2.12. 1** depicts the sequence
+**Table 3.1.12.1 – Table 3.1.12.3** describe the login function
+and its description. While **Table 3.1.12.4** shows the login use case
+specification table. And **Figure 3.1.12.1** depicts the sequence
 diagram for the login function.
 
 <table>
-<caption><p><span id="_Ref199052978" class="anchor"></span>Table 2.2.12.
+<caption><p><span id="_Ref199052978" class="anchor"></span>Table 3.1.12.1
 REQ_F1201 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2446,7 +2441,7 @@ login request to the university’s database.</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063464" class="anchor"></span>Table 2.2.12.
+<caption><p><span id="_Toc199063464" class="anchor"></span>Table 3.1.12.2
 REQ_F1202 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2476,7 +2471,7 @@ the form inputs are invalid or if any input field is empty.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052994" class="anchor"></span>Table 2.2.12.
+<caption><p><span id="_Ref199052994" class="anchor"></span>Table 3.1.12.3
 REQ_F1203 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
@@ -2506,7 +2501,7 @@ user is not recognized in the university’s database.</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199053007" class="anchor"></span>Table 2.2.12.
+<caption><p><span id="_Ref199053007" class="anchor"></span>Table 3.1.12.4
 F012 Login Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -2571,12 +2566,12 @@ message.</p></li>
 <img src="./media/image16.png" style="width:6.49906in;height:3.032in"
 alt="A black screen with white text AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053841" class="anchor"></span>Figure
-2.2.12. F12 Login Sequence Diagram</p></figcaption>
+3.1.12.1 F12 Login Sequence Diagram</p></figcaption>
 </figure>
 
-## State Transition Diagrams
+## 3.2 State Transition Diagrams
 
-**Figure 2.3. 1** shows the high-level state transition diagram for the
+**Figure 3.2.1** shows the high-level state transition diagram for the
 Campus Event Check-in System. The states illustrated are general and not
 specific to any user role. After successfully logging into the system,
 users can transition between different states depending on their actions
@@ -2586,10 +2581,10 @@ and interactions within the application.
 <img src="./media/image17.png" style="width:6.5in;height:2.90833in"
 alt="A diagram of a login page AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053860" class="anchor"></span>Figure
-2.3. High level State Transition Diagram</p></figcaption>
+3.2.1 High level State Transition Diagram</p></figcaption>
 </figure>
 
-**Figure 2.3. 2** below shows the states available for the event
+**Figure 3.2.2** below shows the states available for the event
 organizer in the system. Once the event organizer successfully logs into
 the system, they will be directed to the 'Event Organizer Home Page'
 state. This state serves as the central hub for accessing all other
@@ -2600,9 +2595,9 @@ alt="A diagram of a event organization AI-generated content may be incorrect." /
 
 <span id="_Ref199053872" class="anchor"></span>
 
-Figure 2.3. Event Organizer State Transition Diagram
+Figure 3.2.2 Event Organizer State Transition Diagram
 
-**Figure 2.3. 3** shows the states available for the students in the
+**Figure 3.2.3** shows the states available for the students in the
 system. Once the student successfully logs into the system, they will
 first be directed to the 'Student Home Page' state. This state serves as
 the central hub for accessing all other states available to the
@@ -2612,15 +2607,15 @@ students.
 <img src="./media/image19.png" style="width:6.5in;height:2.56319in"
 alt="A diagram of a computer AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053898" class="anchor"></span>Figure
-2.3. Student State Transition Diagram</p></figcaption>
+3.2.3 Student State Transition Diagram</p></figcaption>
 </figure>
 
-## Performance Requirements
+## 3.3 Performance Requirements
 
-**Table 2.4. 1** describes the performance requirements and their
+**Table 3.3.1** describes the performance requirements and their
 descriptions for the Campus Event Check-in System.
 
-| *Requirement ID* | *Description* | *Priority* | *Author* |
+| **Requirement ID** | **Description** | **Priority** | **Author** |
 |----|----|----|:---|
 | REQ_P001 | The system shall respond to end user requests within 1 to 5 seconds, ensuring a responsive user experience. | High | Sulaiman |
 | REQ_P002 | The system shall be able to support up to 1000 end user connections simultaneously, accommodating the diverse user base. | High | Sulaiman |
@@ -2628,28 +2623,28 @@ descriptions for the Campus Event Check-in System.
 | REQ_P004 | The system shall be designed to support different display sizes of various devices, promoting accessibility across different platforms for students and lecturers. | Medium | Sulaiman |
 | REQ_P005 | The system shall query data from the database within 2 seconds, ensuring quick access to information for the students. | Medium | Sulaiman |
 
-<span id="_Ref199053041" class="anchor"></span>Table 2.4. Performance
+<span id="_Ref199053041" class="anchor"></span>Table 3.3.1 Performance
 Requirements Table
 
-## Security Requirements
+## 3.4 Security Requirements
 
-**Table 2.5. 1** describes the security requirements and their
+**Table 3.4.1** describes the security requirements and their
 descriptions for the Campus Event Check-in System.
 
-| *Requirement ID* | *Description* | *Priority* | *Author* |
+| **Requirement ID** | **Description** | **Priority** | **Author** |
 |----|----|----|----|
 | REQ_SR001 | The system's data, including personal and payment information of students, shall be protected from unauthorized access, ensuring the highest level of security. | High | Sulaiman |
 | REQ_SR002 | The system shall implement encryption, backup, and recovery mechanisms for data, ensuring data integrity and security for the students and event organizers. | High | Sulaiman |
 
-<span id="_Ref199053057" class="anchor"></span>Table 2.5. Security
+<span id="_Ref199053057" class="anchor"></span>Table 3.4.1 Security
 Requirements Table
 
-## Usability Requirements
+## 3.5 Usability Requirements
 
-**Table 2.6. 1** describes the usability requirements and their
+**Table 3.5.1** describes the usability requirements and their
 descriptions for the Campus Event Check-in System.
 
-| *Requirement ID* | *Description* | *Priority* | *Author* |
+| **Requirement ID** | **Description** | **Priority** | **Author** |
 |----|----|----|----|
 | REQ_UR001 | The system shall provide a clean and intuitive user interface that guides users (students and event organizers) through event registration, payment, and check-in workflows without requiring prior training. | High | Sulaiman |
 | REQ_UR002 | All user-facing text and interface labels shall be written in simple, concise, and consistent language, with optional multilingual support in future versions. | Medium | Sulaiman |
@@ -2660,7 +2655,7 @@ descriptions for the Campus Event Check-in System.
 | REQ_UR007 | The system shall allow students to view and manage their registered events in a centralized dashboard with clear status indicators (e.g., “Paid”, “Pending”, “Checked-In”). | Medium | Sulaiman |
 | REQ_UR008 | The system shall guide first-time users with contextual tooltips or brief onboarding hints for critical actions like event registration or check-in. | Low | Sulaiman |
 
-<span id="_Ref199053068" class="anchor"></span>Table 2.6. Usability
+<span id="_Ref199053068" class="anchor"></span>Table 3.5.1 Usability
 Requirements Table
 
 ##  3.6 Interface Requirements
@@ -5563,9 +5558,9 @@ Table Data Dictionary
 <span id="_Ref199053118" class="anchor"></span>Table 2.7. Payment Table
 Data Dictionary
 
-## Design Constraints 
+## 3.8 Design Constraints 
 
-**Table 2.8. 1** describes the design constraints and their descriptions
+**Table 3.8.1** describes the design constraints and their descriptions
 for the Campus Event Check-in System.
 
 | ***Requirement ID*** | ***Description*** | ***Priority*** | ***Author*** |
@@ -5581,12 +5576,12 @@ for the Campus Event Check-in System.
 | REQ_C009 | The database must enforce referential integrity using primary and foreign keys to maintain consistent relationships between data. | High | Sulaiman |
 | REQ_C010 | All date and time values must be stored in UTC and displayed to users in their local timezones. | High | Sulaiman |
 
-<span id="_Ref199053155" class="anchor"></span>Table 2.8. Design
+<span id="_Ref199053155" class="anchor"></span>Table 3.8.1 Design
 Constraints Table
 
-## Software System Attributes
+## 3.9 Software System Attributes
 
-**Table 2.9. 1** describes the software system attributes and their
+**Table 3.9.1** describes the software system attributes and their
 descriptions for the Campus Event Check-in System.
 
 | ***Requirement ID*** | ***Description*** | ***Priority*** | ***Author*** |
@@ -5599,10 +5594,10 @@ descriptions for the Campus Event Check-in System.
 | REQ_ST006 | Scalability – The system architecture shall allow future expansion to support more users, roles, and features without major structural changes. | Medium | Sulaiman |
 | REQ_ST007 | Usability – The system shall provide an intuitive and responsive user interface for students and event organizers. | High | Sulaiman |
 
-<span id="_Ref199053168" class="anchor"></span>Table 2.9. Software
+<span id="_Ref199053168" class="anchor"></span>Table 3.9.1 Software
 System Attributes Table
 
-## Supporting Information
+## 3.10 Supporting Information
 
 During the requirements elicitation phase for the mobile-based event
 registration system for university students and organizers, various
@@ -5648,9 +5643,9 @@ improved for the university context. Observations also provided
 practical guidance for implementing features like QR scanning, dynamic
 event listing, and payment integration in a user-friendly manner.
 
-### Interview 
+### 3.10.1 Interview 
 
-**Table 2.10.1. 1** details the features, requests, and feedback
+**Table 3.10.1.1** details the features, requests, and feedback
 gathered through interviews with relevant stakeholders, which have been
 translated into requirements for the Campus Event Check-in System.
 However, for the full interview it can be accessed from this
@@ -5666,12 +5661,12 @@ However, for the full interview it can be accessed from this
 | We'd like to scan the student's QR code when they arrive | The system should enable organizers to scan QR codes for quick and accurate student check-in on event day. | REQ_F10 |
 | The system should be secure so only authorized users can access it | All system functions and data must be protected through secure access control and encrypted communication. | REQ_SR001 |
 
-<span id="_Ref199053208" class="anchor"></span>Table 2.10.1. Obtained
+<span id="_Ref199053208" class="anchor"></span>Table 3.10.1.1 Obtained
 Requirements From Interview Table
 
-### Questionnaires
+### 3.10.2 Questionnaires
 
-**Table 2.10.2. 1** details the features, requests, and feedback
+**Table 3.10.2.1** details the features, requests, and feedback
 obtained through questionnaires and surveys distributed to relevant
 stakeholders, which have been translated into requirements for the
 Campus Event Check-in System.
@@ -5687,12 +5682,12 @@ Campus Event Check-in System.
 | View Registration History | Students should be able to view a history of all their past event registrations. | REQ_F05 |
 | QR Code Check-In | Students should be able to check in to events using the QR code provided by the system. | REQ_F10 |
 
-<span id="_Ref199053226" class="anchor"></span>Table 2.10.2. Obtained
+<span id="_Ref199053226" class="anchor"></span>Table 3.10.2.1 Obtained
 Requirements From Questionnaires Table
 
-### Observation
+### 3.10.3 Observation
 
-**Table 2.10.3. 1** details the features, requests, and insights
+**Table 3.10.3.1** details the features, requests, and insights
 obtained through observing the behaviors and actions within existing
 systems, which have been translated into requirements for the Campus
 Event Check-in System.
@@ -5709,8 +5704,55 @@ Event Check-in System.
 | Scalability | The system architecture should support future growth such as more features, users, and integrations. | REQ_ST006 |
 | Usability | The system should have an intuitive and accessible interface for students and organizers. | REQ_ST007 |
 
-<span id="_Ref199053238" class="anchor"></span>Table 2.10.3. Obtained
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.3.1 Obtained
 Requirements From Observation Table
+
+### 3.10.4 Validation Session
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+<col style="width: 12%" />
+<col style="width: 34%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Session ID</strong></th>
+<th><strong>Date and Time</strong></th>
+<th><strong>Technique</strong></th>
+<th><strong>Section Reviewed</strong></th>
+<th><strong>Participant &amp; Role</strong></th>
+<th><strong>No. of Defect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VS-01</td>
+<td>16/6/2025 6pm - 8.30pm</td>
+<td>Inspection</td>
+<td>1 – 1.8</td>
+<td><p>ERIC TEOH WEI XIANG (Organizer, Inspector, Stakeholder),</p>
+<p>PANG TIAN YOU (Inspector, Moderator),</p>
+<p>SIOW YI LING (Inspector, Minute-Taker),</p>
+<p>LIM KAI SHEN (Inspector, Reader)</p></td>
+<td>22</td>
+</tr>
+<tr>
+<td>VS-02</td>
+<td>18/6/2025 2.30pm - 6.15pm</td>
+<td>Inspection</td>
+<td>2 - 5</td>
+<td><p>ERIC TEOH WEI XIANG (Organizer, Inspector),</p>
+<p>PANG TIAN YOU (Inspector, Reader),</p>
+<p>SIOW YI LING (Inspector, Author, Minute-Taker),</p>
+<p>LIM KAI SHEN (Inspector, Moderator)</p></td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
 
 # Verification
 
