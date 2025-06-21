@@ -21,3 +21,4 @@
 | CH-17 | N/A | Add Role in Requirements Validation, Negotiation & Management | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-18 | N/A | Add Version Control & Configuration Summary | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-19 | N/A | Add ChangeLog | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-19 | REQ_C1001, REQ_C1005 | Combine into one requirement | PANG TIAN YOU | 22/6/2025 | VS-01 |

@@ -5435,7 +5435,7 @@ the platform.</td>
 </tbody>
 </table>
 
-### 3.1.6 Communication Interface
+### 3.6.6 Communication Interface
 
 **Table 3.6.6.1** shows an overview of the communication interfaces
 used in the Campus Event Check-in System. It lists each interface or
@@ -5446,7 +5446,7 @@ involved.
 
 | **Requirement ID** | **Interface/Protocol** | **Purpose** | **Type** | **Users** |
 |----|----|----|----|----|
-| **REQ_CI001** | HTTPS | Ensures secure communication between the mobile app and the backend server. | System-to-User | Students, Event Organizers |
+| **REQ_CI001** | TLS / HTTPS | Ensures secure communication between the mobile app and the backend server, protecting data integrity and confidentiality during transmission. | System-to-User | Students, Event Organizers |
 | **REQ_CI002** | RESTful API (JSON) | Enables interaction between the mobile app and backend for login, registration, and payment. | System-to-System | Mobile App, Backend Server |
 | **REQ_CI003** | Camera API / QR Scanner SDK | Allows mobile devices to access the camera for scanning QR codes during event check-in. | System-to-Device | Students, Event Organizers |
 | **REQ_CI004** | Email API (e.g., SMTP via SendGrid/Firebase) | Sends registration confirmations and event reminders via email. | System-to-User | Students |
