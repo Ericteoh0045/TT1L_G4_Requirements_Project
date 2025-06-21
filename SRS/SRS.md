@@ -328,7 +328,7 @@ involved.
 <span id="_Ref199049384" class="anchor"></span>Table 1.3.5.
 Communication Interface Requirements
 
-## Product Functions
+## 1.4 Product Functions
 
 **Table 1.4. 1** shows an overview of the core features to be
 implemented in the Campus Event Check-in System. Each feature is
@@ -351,16 +351,16 @@ the user roles that can access it.
 | REQ_F11 | Check-in Upon Arrival | Enables organizers to scan QR codes or student IDs to verify attendance. | Event Organizer |
 | REQ_F12 | Login | Allows users to securely log into the system. | Student, Event Organizer |
 
-<span id="_Ref199082076" class="anchor"></span>Table 1.4. Campus Event
+<span id="_Ref199082076" class="anchor"></span>Table 1.4.1 Campus Event
 Check-in System Function Table
 
-In terms of diagrams, the use case diagram in **Figure 1.3.6. 1** shows
+In terms of diagrams, the use case diagram in **Figure 1.4.1.1** shows
 the product functions but in visual format following UML Use Case
 Diagram notation.
 
 <figure>
 <img src="./media/image3.png" style="width:5.9998in;height:5.525in" />
-<figcaption><p>Figure 1.4. Campus Event Check-in System Use Case
+<figcaption><p>Figure 1.4.1.1 Campus Event Check-in System Use Case
 Diagram</p></figcaption>
 </figure>
 
