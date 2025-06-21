@@ -6433,15 +6433,3 @@ as intended.
   ## 5.2 Acronyms and Abbreviations
 # 自已改内容，header 我换好了
 
-# 2 References 
-
-- <https://buildfire.com/top-mobile-development-practices/>
-
-- Requirements Engineering: Fundamentals, Principles, and Techniques
-  Author: Klaus Pohl
-
-- Requirements Engineering: Processes and Techniques Authors: Gerald
-  Kotonya, Ian Sommerville
-
-- <https://www.toptal.com/designers/mobile-ui/mobile-ux-design-principles>
-
