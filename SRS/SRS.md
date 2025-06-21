@@ -471,6 +471,2373 @@ flows. This section also includes any supporting information that aids
 in understanding or validating the system’s expected operations and
 performance.
 
+
+## Functions
+
+This section outlines the functional requirements that the system is
+expected to fulfill upon completion. Each requirement will be explained
+in detail and illustrated with a sequence diagram to enhance
+understanding.
+
+### F00 View Upcoming Events 
+
+**Table 2.2.1. 1** describes the view upcoming events function and its
+description. While **Table 2.2.1. 2** shows the view upcoming events use
+case specification table. And **Figure 2.2.1. 1** depicts the sequence
+diagram for the view upcoming events function.
+
+<table>
+<caption><p><span id="_Ref199052130" class="anchor"></span>Table 2.2.1.
+REQ_F0001 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0001</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When user clicks on the button, the system shall display
+the relevant event’s details</td>
+</tr>
+<tr>
+<td><strong>Item Description</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052147" class="anchor"></span>Table 2.2.1.
+F00 View Available Events Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F00 View Upcoming Events</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow user to have a quick glance and check out for
+upcoming and happening events</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">An event is created in the system</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">The details of selected event will be displayed</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The System display a list of events</p></li>
+<li><p>The Student scrolls to view multiple events</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">None</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image4.png" style="width:6.5in;height:2.04792in"
+alt="A black background with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053421" class="anchor"></span>Figure
+2.2.1. F00 View Upcoming Events Sequence Diagram</p></figcaption>
+</figure>
+
+### F01 View Event Details
+
+**Table 2.2.2. 1** & **Table 2.2.2. 2** describe the view event details
+function and its description. While **Table 2.2.2. 3** shows the view
+event details use case specification table. And **Figure 2.2.2. 1**
+depicts the sequence diagram for the view event details function.
+
+<table>
+<caption><p><span id="_Ref199052197" class="anchor"></span>Table 2.2.2.
+REQ_F0101 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0101</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display all the event details entered
+by the event organizer</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052206" class="anchor"></span>Table 2.2.2.
+REQ_F0102 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0102</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When user clicks on the “Register” button, the system
+shall display the registration page that requires user to fill up all
+the fields</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052226" class="anchor"></span>Table 2.2.2.
+F01 View Event Details Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F01 View Event Details</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow the user to view the event details like
+location, time, ticket price and others and to allow the user to
+register in the event</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">An event is selected</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">User will need to provide necessary information to
+register for attending the event </td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The student selects an event to view its details from the event
+list</p></li>
+<li><p>The system will display relevant event details</p></li>
+<li><p>The student can choose to click on the “Register” button to
+register for the event</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If the Student does not want
+to register for the event, they can choose to click on the “&lt;” button
+to redirect to the view upcoming events page</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image5.png" style="width:6.27046in;height:3.22642in"
+alt="A diagram of a system AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053471" class="anchor"></span>Figure
+2.2.2. F01 View Event Details Sequence Diagram</p></figcaption>
+</figure>
+
+### F02 Register For Event
+
+**Table 2.2.3. 1** – **Table 2.2.3. 9** describe the register for event
+function and its description. While **Table 2.2.3. 10** shows the first
+version of the register for event use case specification table, while
+**Table 2.2.3. 11** shows the second version of the register for event
+use case specification table. And **Figure 2.2.3. 1** depicts the
+sequence diagram for the register for event function.
+
+<table>
+<caption><p><span id="_Ref199052308" class="anchor"></span>Table 2.2.3.
+REQ_F0201 Version 1 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0201</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall retrieve from the user account to get
+their name and display on this field and it is editable</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063209" class="anchor"></span>Table 2.2.3.
+REQ_F0202 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0202</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall retrieve from the user account to get
+their student ID and display on this field and it is editable</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063210" class="anchor"></span>Table 2.2.3.
+REQ_F0203 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0203</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display this field with the text of
+“Mobile Number” and shall let user to enter their mobile number</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063211" class="anchor"></span>Table 2.2.3.
+REQ_F0204 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0204</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display this field with the text of
+“Email” and shall let user to enter their email</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063212" class="anchor"></span>Table 2.2.3.
+REQ_F0205 Version 1 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0205</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall direct user to the page to make payment
+and save the data into a temporary database</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063213" class="anchor"></span>Table 2.2.3.
+REQ_F0206 Version 1 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0206</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When user clicks on the button, the system shall display
+the view event detail page</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063214" class="anchor"></span>Table 2.2.3.
+REQ_F0201 Version 2 Table</p></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0201</th>
+<th><strong>Version</strong></th>
+<th><strong>2.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall retrieve the student data from the
+university’s database and auto fill in the name and the ID field and
+give the student the ability to update the phone number and the personal
+email address.</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063215" class="anchor"></span>Table 2.2.3.
+REQ_F0205 Version 2 Table</p></caption>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0205</th>
+<th><strong>Version</strong></th>
+<th><strong>2.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall direct the student to the payment
+page</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052317" class="anchor"></span>Table 2.2.3.
+REQ_F0206 Version 2 Table</p></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0206</th>
+<th><strong>Version</strong></th>
+<th><strong>2.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When user clicks on the “Back” button, the system shall
+display the event detail page</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052336" class="anchor"></span>Table 2.2.3.
+F02 Register for Event Use Case Specification Table Version
+1</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F02 Register for Event</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">Let the user register and book a slot for the event they
+wanted to participate in</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">The “Register” button is clicked by the user</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">The user shall proceed to make payment for the event
+ticket after clicked on the button of “Pay for Ticket”</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The Student had click on “Register” button</p></li>
+<li><p>The System shall display text fields for Student to filled up
+necessary information</p></li>
+<li><p>The Student can choose to click on the “Pay for Ticket” button to
+proceed make payment for the ticket</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If the Student decide not to
+pay for the event, they can choose to click on the “&lt;” button to
+redirect to the view event details page</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Ai Nee</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052363" class="anchor"></span>Table 2.2.3.
+F02 Register for Event Use Case Specification Table Version
+2</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F02 Register for Event</th>
+<th><strong>Version</strong></th>
+<th>2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">Allow the user to register and book a slot for the event
+they want to attend.</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">The “Register” button is clicked by the user</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">The user shall proceed to make payment for the event
+ticket after clicked on the button of “Pay for Ticket”</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The student had clicked on “Register” button</p></li>
+<li><p>The system shall display the input fields</p></li>
+<li><p>The student fills the input fields</p></li>
+<li><p>The student clicks on the “Pay for Ticket” button</p></li>
+<li><p>The system displays the payment page</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If the Student decide not to
+pay for the event, they can choose to click on the “&lt; Back” button to
+back again to the event details page</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image6.png" style="width:6.27083in;height:3.38542in"
+alt="A diagram of a system AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053493" class="anchor"></span>Figure
+2.2.3. F02 Register for Event Sequence Diagram</p></figcaption>
+</figure>
+
+### F03 Make Payment
+
+**Table 2.2.4. 1** – **Table 2.2.4. 3** describe the make payment
+function and its description. While **Table 2.2.4. 4** shows the first
+version of the make payment use case specification table, while **Table
+2.2.4. 5** shows the second version of the make payment use case
+specification table. And **Figure 2.2.4. 1** depicts the first version
+of the sequence diagram for the make payment function, while **Figure
+2.2.4. 2** shows the second version of the sequence diagram for the make
+payment function.
+
+<table>
+<caption><p><span id="_Ref199052417" class="anchor"></span>Table 2.2.4.
+REQ_F0301 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0301</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the user clicks the “Pay” button, the system shall
+verify the inputs</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063226" class="anchor"></span>Table 2.2.4.
+REQ_F0302 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0302</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If any of the inputs are invalid, the system shall
+display an error message above the invalid input</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052424" class="anchor"></span>Table 2.2.4.
+REQ_F0303 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0303</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If all inputs are valid, the system shall proceed with
+the payment and save the ticket into the database</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052443" class="anchor"></span>Table 2.2.4.
+F03 Make Payment Use Case Specification Table Version 1</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F03 Make Payment</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow users to pay for a ticket</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Student has selected an event to purchase a ticket
+for</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">Student acquires a ticket for the event which is saved
+into the database</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The student shall select an event to purchase a ticket</p></li>
+<li><p>The system shall redirect the student to the payment
+screen</p></li>
+<li><p>The system shall display the input forms prompting the user to
+input payment details such as credit card number, CCV/CVC security code
+and expiry date</p></li>
+<li><p>The student shall input the required details into the input
+forms</p></li>
+<li><p>The student shall click the pay button</p></li>
+<li><p>The system shall verify all inputs</p></li>
+<li><p>The system shall display success message and save ticket into the
+database</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If any of the inputs are
+invalid, the system shall display an error message above the invalid
+input</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052460" class="anchor"></span>Table 2.2.4.
+F03 Make Payment Use Case Specification Table Version 2</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F03 Make Payment</th>
+<th><strong>Version</strong></th>
+<th>2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow users to pay for a ticket</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">The student has selected an event to purchase a ticket
+for</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">The student acquires a ticket for the event which is
+saved into the database</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The system displays the payment page.</p></li>
+<li><p>The student fills in the inputs in the payment form.</p></li>
+<li><p>The system shall validate all inputs.</p></li>
+<li><p>The system shall communicate with the payment gateway.</p></li>
+<li><p>The system shall display success message and save ticket’s into
+the database if the payment gateway returned success payment
+status</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If any of the inputs are
+invalid, the system shall display an error message above the invalid
+input</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image7.png" style="width:6.26729in;height:3.536in"
+alt="A diagram of a system AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053554" class="anchor"></span>Figure
+2.2.4. F03 Make Payment Sequence Diagram Version 1</p></figcaption>
+</figure>
+
+<figure>
+<img src="./media/image8.png" style="width:6.5in;height:3.46528in"
+alt="A black screen with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053582" class="anchor"></span>Figure
+2.2.4. F03 Make Payment Sequence Diagram Version 2</p></figcaption>
+</figure>
+
+### F04 Receive e-Ticket/QR Code
+
+**Table 2.2.5. 1** describes the receive e-ticket/QR code function and
+its description. While **Table 2.2.5. 2** shows the receive e-ticket/QR
+code use case specification table. And **Figure 2.2.5. 1** depicts the
+sequence diagram for the receive e-ticket/QR code function.
+
+<table>
+<caption><p><span id="_Ref199052547" class="anchor"></span>Table 2.2.5.
+REQ_F0401 Tale</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0401</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the user navigates to the show QR screen, the
+system shall display the name of the event and generate a QR code
+specific to the user and event</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052562" class="anchor"></span>Table 2.2.5.
+F04 Receive e-Ticket/QR Code Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F04 Receive e-Ticket/QR Code</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow a user to view a QR-code to serve as a ticket
+for event staff to verify attendance</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3" style="text-align: left;">The student has purchased a
+ticket for an event.</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The user shall navigate to the generate QR Code screen for the
+chosen event.</p></li>
+<li><p>The system shall retrieve the ticket from the database.</p></li>
+<li><p>The system shall display the name of the event and a QR code
+encoded with the student’s details</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">None</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image9.png" style="width:6.26806in;height:2.84583in"
+alt="A diagram of a system AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053653" class="anchor"></span>Figure
+2.2.5. F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
+e-Ticket/QR Code Sequence Diagram</p></figcaption>
+</figure>
+
+### F05 View Registration History
+
+**Table 2.2.6. 1** – **Table 2.2.6. 3** describe the view registration
+history function and its description. While **Table 2.2.6. 4** shows the
+first version of the view registration history use case specification
+table, and **Table 2.2.6. 5** shows the second version of the view
+registration history use case specification table. And **Figure 2.2.6.
+1** depicts the sequence diagram for the view registration history
+function.
+
+<table>
+<caption><p><span id="_Ref199052587" class="anchor"></span>Table 2.2.6.
+REQ_F0501 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0501</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the user navigates to the show QR screen, the
+system shall display the name of the event and generate a QR code
+specific to the user and event</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063261" class="anchor"></span>Table 2.2.6.
+REQ_F0502 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0502</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If no events are retrieved from the database, the system
+shall display an error message.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052596" class="anchor"></span>Table 2.2.6.
+REQ_F0503 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0503</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If at least one event is retrieved, the system shall
+display all events in a list, with the name, event description and a
+“Generate QR Code” button</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052609" class="anchor"></span>Table 2.2.6.
+F05 View Registration History Use Case Specification Table Version
+1</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F05 View Registration History</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow users to view past events that they have
+registered</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Student has registered to an event</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The user shall navigate to the “View Registration History”
+screen.</p></li>
+<li><p>The system shall retrieve all registered events to the user from
+the database</p></li>
+<li><p>The system shall display all registered events to the user in
+list form.</p></li>
+</ol>
+<ol start="4" type="1">
+<li><p>The system shall display two buttons, “View details” and
+“Generate QR code”</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">None</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Azhar</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052635" class="anchor"></span>Table 2.2.6.
+F05 View Registration History Use Case Specification Table Version
+2</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F05 View Registration History</th>
+<th><strong>Version</strong></th>
+<th>2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow users to view past events that they have
+registered</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Student had registered to an event</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>The user navigates to the “Registration History” screen.</p></li>
+<li><p>The system retrieves all registered events to the user from the
+database</p></li>
+<li><p>The system displays all registered events to the user in list
+format.</p></li>
+<li><p>The system shall display two buttons, “View details” and
+“Generate QR code”</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">None</td>
+</tr>
+<tr>
+<td><strong>Author (Updated By)</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image10.png" style="width:6.26806in;height:2.51042in"
+alt="A diagram of a system AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053676" class="anchor"></span>Figure
+2.2.6. F05 View Registration History Sequence Diagram</p></figcaption>
+</figure>
+
+### F06 Show QR Attendance 
+
+**Table 2.2.7. 1** – **Table 2.2.7. 4** describe the show QR attendance
+function and its description. While **Table 2.2.7. 5** shows the show QR
+attendance use case specification table. And **Figure 2.2.7. 1** depicts
+the sequence diagram for the show QR attendance function.
+
+<table>
+<caption><p><span id="_Ref199052701" class="anchor"></span>Table 2.2.7.
+REQ_F0601 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0601</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the student navigates to the QR Attendance screen,
+the system shall retrieve the registered event ticket from the
+database.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063356" class="anchor"></span>Table 2.2.7.
+REQ_F0602 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0602</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall generate a unique QR code containing
+encoded student and event data.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063357" class="anchor"></span>Table 2.2.7.
+REQ_F0603 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0603</th>
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;"><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3" style="text-align: left;">The system shall display the
+event title below the QR code.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3" style="text-align: left;">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052711" class="anchor"></span>Table 2.2.7.
+REQ_F0604 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0604</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If the student is not registered in any event, an error
+message is displayed.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052725" class="anchor"></span>Table 2.2.7.
+F06 Show QR Attendance Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F06 Show QR Attendance</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow a student to display a QR code as a ticket for
+check-in at the event venue</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Student has successfully registered and paid for an
+event</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">QR Code is displayed and ready to be scanned</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>Student navigates to registrations history</p></li>
+<li><p>The system displays all event bookings.</p></li>
+<li><p>Student clicks on “Ticket QR” button besides the event.</p></li>
+<li><p>System retrieves event and ticket info</p></li>
+<li><p>The system displays QR code and event name</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If the student is not
+registered in any event, an error message is displayed</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image11.png" style="width:6.5in;height:3.25in"
+alt="A black screen with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053698" class="anchor"></span>Figure
+2.2.7. F06 Show QR Attendance Sequence Diagram</p></figcaption>
+</figure>
+
+### F07 Create a New Event & F08 Set Event Details 
+
+**Table 2.2.8. 1** – **Table 2.2.8. 4** describe the set event details
+function and its description. While **Table 2.2.8. 5** shows the set
+event details use case specification table. And **Figure 2.2.8. 1**
+depicts the sequence diagram for the set event details function.
+
+<table>
+<caption><p><span id="_Ref199052769" class="anchor"></span>Table 2.2.8.
+REQ_F0701 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0701</th>
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;"><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3" style="text-align: left;">When the organizer accesses
+the Create Event page, the system shall display input fields for event
+title, date, time, location, capacity, ticket price, and
+description.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3" style="text-align: left;">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063370" class="anchor"></span>Table 2.2.8.
+REQ_F0702 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0702</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the organizer submits the form, the system shall
+validate all required fields.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063371" class="anchor"></span>Table 2.2.8.
+REQ_F0703 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0703</th>
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;"><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3" style="text-align: left;">If all inputs are valid, the
+system shall save the event to the database.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3" style="text-align: left;">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052777" class="anchor"></span>Table 2.2.8.
+REQ_F0704 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0704</th>
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;"><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3" style="text-align: left;">If any input is invalid, the
+system shall display an error message next to the field.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3" style="text-align: left;">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052788" class="anchor"></span>Table 2.2.8.
+F07 Set Event Details Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F07 Set Event Details</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow event organizers to input and save event
+information</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Event Organizer</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Organizer has logged into the system</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">New event is stored in the database</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>Event organizer navigate to Create Event form</p></li>
+<li><p>System displays input fields</p></li>
+<li><p>Event organizer fills fields (title, date, time, location,
+etc.)</p></li>
+<li><p>Event organizer clicks "Create Event"</p></li>
+<li><p>System validates and saves event</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If any field is invalid or
+empty, the system displays an error and prevents submission</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image12.png" style="width:6.5in;height:2.77778in"
+alt="A black and white screen with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053737" class="anchor"></span>Figure
+2.2.8. F07 Set Event Details Sequence Diagram</p></figcaption>
+</figure>
+
+### F09 View Events
+
+**Table 2.2.9. 1** – **Table 2.2.9. 5** describe the view events
+function and its description. While **Table 2.2.9. 6** shows the view
+events use case specification table. And **Figure 2.2.9. 1** depicts the
+sequence diagram for the view events function.
+
+<table>
+<caption><p><span id="_Ref199052813" class="anchor"></span>Table 2.2.9.
+REQ_F0901 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0901</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">When the organizer navigates to the My Events page, the
+system shall retrieve all events associated with that user.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063400" class="anchor"></span>Table 2.2.9.
+REQ_F0902 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0902</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display each event with its name, date,
+and current status ("Upcoming", "Completed").</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063401" class="anchor"></span>Table 2.2.9.
+REQ_F0903 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0903</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall provide an "Edit" button beside each
+event that redirects to the event form.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063402" class="anchor"></span>Table 2.2.9.
+REQ_F0904 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0904</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall provide a "Delete" button beside each
+event and confirm deletion via a popup.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052825" class="anchor"></span>Table 2.2.9.
+REQ_F0905 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F0905</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3"> If no events exist, the system shall display the
+message: "No events found."</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052836" class="anchor"></span>Table 2.2.9.
+F09 View Events Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F09 View Events</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow the organizer to view a list of events they
+have created</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Event Organizer</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">Organizer has created at least one event</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">A list of created events is shown</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>Organizer opens "My Events" page</p></li>
+<li><p>System retrieves events from database</p></li>
+<li><p>System displays each event with status</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If no events exist, system
+displays a "No events found" message</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Yousef</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image13.png" style="width:6.5in;height:2.39028in"
+alt="A black background with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053776" class="anchor"></span>Figure
+2.2.9. F09 View Events Sequence Diagram</p></figcaption>
+</figure>
+
+### F10 View Registrations & Attendance Status
+
+**Table 2.2.10. 1** & **Table 2.2.10. 2** describe the view
+registrations and attendance status function and its description. While
+**Table 2.2.10. 3** shows the view registrations and attendance status
+use case specification table. And **Figure 2.2.10. 1** depicts the
+sequence diagram for the view registrations and attendance status
+function.
+
+<table>
+<caption><p><span id="_Ref199052863" class="anchor"></span>Table 2.2.10.
+REQ_F1001 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1001</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If no events exist, the system shall display the
+message: "No events found."</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052874" class="anchor"></span>Table 2.2.10.
+REQ_F1002 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1002</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">If no student registered student in the event, the
+system shall display “No Registered Student Yet” message instead of the
+empty table.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052893" class="anchor"></span>Table 2.2.10.
+F10 View Registrations &amp; Attendance Status Use Case Specification
+Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th style="text-align: left;">F10 View Registrations &amp; Attendance
+Status</th>
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;">1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3" style="text-align: left;">To allow the organizer to view
+the details of the registrations and attendance list</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3" style="text-align: left;">Event Organizer</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3" style="text-align: left;">Organizer has created at least
+one event</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3" style="text-align: left;">A table that contains
+registered students in the event and their attendance status shall be
+displayed.</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3" style="text-align: left;"><ol type="1">
+<li><p>Organizer opens "My Events" page</p></li>
+<li><p>System retrieves events from database</p></li>
+<li><p>System displays each event with status</p></li>
+<li><p>Organizer may click "View Details" </p></li>
+<li><p>System displays the registrations and attendance
+details </p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">If no events exist, the system
+displays a "No events found" message.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3" style="text-align: left;">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image14.png" style="width:6.5in;height:3.00347in"
+alt="A black background with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053798" class="anchor"></span>Figure
+2.2.10. F10 View Registrations &amp; Attendance Status Sequence
+Diagram</p></figcaption>
+</figure>
+
+### F11 Check-in Upon Arrival
+
+**Table 2.2.11. 1** & **Table 2.2.11. 2** describe the check-in upon
+arrival function and its description. While **Table 2.2.11. 3** shows
+the check-in upon arrival use case specification table. And **Figure
+2.2.11. 1** depicts the sequence diagram for the check-in upon arrival
+function.
+
+<table>
+<caption><p><span id="_Ref199052929" class="anchor"></span>Table 2.2.11.
+REQ_F1101 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1101</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall update the attendance status of the
+user in the event after validating the QR.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052936" class="anchor"></span>Table 2.2.11.
+REQ_F1102 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1102</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display an error message on the event
+organizer device if the QR is invalid/non-related QR.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052948" class="anchor"></span>Table 2.2.11.
+F11 Scan Attendance QR Code &amp; Update Attendance Status Use Case
+Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F11 Check-in Upon Arrival</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To allow the organizer to update the attendance list
+automatically</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Event Organizer</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">Attendance status of the student updated in the
+database</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>Event organizer navigates to “Scan QR” screen</p></li>
+<li><p>The system uses the camera of the phone allowing organizers to
+scan.</p></li>
+<li><p>Event organizer aligns the camera on the QR code of the
+student</p></li>
+<li><p>The system captures and validates the scanned QR.</p></li>
+<li><p>The system updated the attendance status of the student on the
+event</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3" style="text-align: left;">The system shall display an
+error message on the event organizer device if the QR is
+invalid/non-related QR.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image15.png" style="width:6.5in;height:2.69931in"
+alt="A black background with white rectangles AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053818" class="anchor"></span>Figure
+2.2.11. F11 Scan Attendance QR Code &amp; Update Attendance Status
+Sequence Diagram</p></figcaption>
+</figure>
+
+### F12 Login
+
+**Table 2.2.12. 1** – **Table 2.2.12. 3** describe the login function
+and its description. While **Table 2.2.12. 4** shows the login use case
+specification table. And **Figure 2.2.12. 1** depicts the sequence
+diagram for the login function.
+
+<table>
+<caption><p><span id="_Ref199052978" class="anchor"></span>Table 2.2.12.
+REQ_F1201 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1201</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall validate user’s inputs before sending a
+login request to the university’s database.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Toc199063464" class="anchor"></span>Table 2.2.12.
+REQ_F1202 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1202</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall display a descriptive error message if
+the form inputs are invalid or if any input field is empty.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199052994" class="anchor"></span>Table 2.2.12.
+REQ_F1203 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th style="text-align: left;">REQ_F1203</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">The system shall not give access to the system if the
+user is not recognized in the university’s database.</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p><span id="_Ref199053007" class="anchor"></span>Table 2.2.12.
+F012 Login Use Case Specification Table</p></caption>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 35%" />
+<col style="width: 16%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th>F12 Login</th>
+<th><strong>Version</strong></th>
+<th>1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Purpose</strong></td>
+<td colspan="3">To give access to users to the system</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td colspan="3">Event Organizer / Student</td>
+</tr>
+<tr>
+<td><strong>Precondition</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Postcondition</strong></td>
+<td colspan="3">Access given to the user based on the user’s role.</td>
+</tr>
+<tr>
+<td><strong>Main Flow</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>User Navigates to Login Page</p></li>
+<li><p>System Displays the Login Page</p></li>
+<li><p>User Fills in and Submits their login credentials</p></li>
+<li><p>System Verify the submitted information</p></li>
+<li><p>System authenticates the user into the system</p></li>
+<li><p>System displays a success message and redirects to respective
+home pages</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Alternate Scenario</strong></td>
+<td colspan="3"><ol type="1">
+<li><p>When the login credentials do not match anything available in the
+database, the system will display an error message.</p></li>
+<li><p>When the fields are empty, the system will display an error
+message.</p></li>
+</ol></td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Sulaiman</td>
+</tr>
+</tbody>
+</table>
+
+<figure>
+<img src="./media/image16.png" style="width:6.49906in;height:3.032in"
+alt="A black screen with white text AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053841" class="anchor"></span>Figure
+2.2.12. F12 Login Sequence Diagram</p></figcaption>
+</figure>
+
+## State Transition Diagrams
+
+**Figure 2.3. 1** shows the high-level state transition diagram for the
+Campus Event Check-in System. The states illustrated are general and not
+specific to any user role. After successfully logging into the system,
+users can transition between different states depending on their actions
+and interactions within the application.
+
+<figure>
+<img src="./media/image17.png" style="width:6.5in;height:2.90833in"
+alt="A diagram of a login page AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053860" class="anchor"></span>Figure
+2.3. High level State Transition Diagram</p></figcaption>
+</figure>
+
+**Figure 2.3. 2** below shows the states available for the event
+organizer in the system. Once the event organizer successfully logs into
+the system, they will be directed to the 'Event Organizer Home Page'
+state. This state serves as the central hub for accessing all other
+states available to the event organizer.
+
+<img src="./media/image18.png" style="width:6.5in;height:2.57847in"
+alt="A diagram of a event organization AI-generated content may be incorrect." />
+
+<span id="_Ref199053872" class="anchor"></span>
+
+Figure 2.3. Event Organizer State Transition Diagram
+
+**Figure 2.3. 3** shows the states available for the students in the
+system. Once the student successfully logs into the system, they will
+first be directed to the 'Student Home Page' state. This state serves as
+the central hub for accessing all other states available to the
+students.
+
+<figure>
+<img src="./media/image19.png" style="width:6.5in;height:2.56319in"
+alt="A diagram of a computer AI-generated content may be incorrect." />
+<figcaption><p><span id="_Ref199053898" class="anchor"></span>Figure
+2.3. Student State Transition Diagram</p></figcaption>
+</figure>
+
+## Performance Requirements
+
+**Table 2.4. 1** describes the performance requirements and their
+descriptions for the Campus Event Check-in System.
+
+| *Requirement ID* | *Description* | *Priority* | *Author* |
+|----|----|----|:---|
+| REQ_P001 | The system shall respond to end user requests within 1 to 5 seconds, ensuring a responsive user experience. | High | Sulaiman |
+| REQ_P002 | The system shall be able to support up to 1000 end user connections simultaneously, accommodating the diverse user base. | High | Sulaiman |
+| REQ_P003 | The system shall support integration via standard APIs with external services (e.g., payment gateway, student database), ensuring secure and seamless data exchange. | High | Sulaiman |
+| REQ_P004 | The system shall be designed to support different display sizes of various devices, promoting accessibility across different platforms for students and lecturers. | Medium | Sulaiman |
+| REQ_P005 | The system shall query data from the database within 2 seconds, ensuring quick access to information for the students. | Medium | Sulaiman |
+
+<span id="_Ref199053041" class="anchor"></span>Table 2.4. Performance
+Requirements Table
+
+## Security Requirements
+
+**Table 2.5. 1** describes the security requirements and their
+descriptions for the Campus Event Check-in System.
+
+| *Requirement ID* | *Description* | *Priority* | *Author* |
+|----|----|----|----|
+| REQ_SR001 | The system's data, including personal and payment information of students, shall be protected from unauthorized access, ensuring the highest level of security. | High | Sulaiman |
+| REQ_SR002 | The system shall implement encryption, backup, and recovery mechanisms for data, ensuring data integrity and security for the students and event organizers. | High | Sulaiman |
+
+<span id="_Ref199053057" class="anchor"></span>Table 2.5. Security
+Requirements Table
+
+## Usability Requirements
+
+**Table 2.6. 1** describes the usability requirements and their
+descriptions for the Campus Event Check-in System.
+
+| *Requirement ID* | *Description* | *Priority* | *Author* |
+|----|----|----|----|
+| REQ_UR001 | The system shall provide a clean and intuitive user interface that guides users (students and event organizers) through event registration, payment, and check-in workflows without requiring prior training. | High | Sulaiman |
+| REQ_UR002 | All user-facing text and interface labels shall be written in simple, concise, and consistent language, with optional multilingual support in future versions. | Medium | Sulaiman |
+| REQ_UR003 | The system shall provide feedback messages (e.g., success, error, loading indicators) in response to user actions such as login, payment, or check-in. | High | Sulaiman |
+| REQ_UR004 | The system shall complete key operations (e.g., event registration, QR code generation) within 2 seconds under normal network conditions. | High | Sulaiman |
+| REQ_UR005 | The system shall provide a mobile-friendly interface with responsive layouts for smartphones and tablets. | High | Sulaiman |
+| REQ_UR006 | The system shall use color contrast ratios that meet WCAG 2.1 AA standards to ensure readability for users with visual impairments. | High | Sulaiman |
+| REQ_UR007 | The system shall allow students to view and manage their registered events in a centralized dashboard with clear status indicators (e.g., “Paid”, “Pending”, “Checked-In”). | Medium | Sulaiman |
+| REQ_UR008 | The system shall guide first-time users with contextual tooltips or brief onboarding hints for critical actions like event registration or check-in. | Low | Sulaiman |
+
+<span id="_Ref199053068" class="anchor"></span>Table 2.6. Usability
+Requirements Table
+
+##  3.6 Interface Requirements
+### 3.6.1 External Interfaces
+
 ## External Interfaces
 
 This section details the external interface requirements of the Campus
@@ -3102,2368 +5469,6 @@ registrations</td>
 </tbody>
 </table>
 
-## Functions
-
-This section outlines the functional requirements that the system is
-expected to fulfill upon completion. Each requirement will be explained
-in detail and illustrated with a sequence diagram to enhance
-understanding.
-
-### F00 View Upcoming Events 
-
-**Table 2.2.1. 1** describes the view upcoming events function and its
-description. While **Table 2.2.1. 2** shows the view upcoming events use
-case specification table. And **Figure 2.2.1. 1** depicts the sequence
-diagram for the view upcoming events function.
-
-<table>
-<caption><p><span id="_Ref199052130" class="anchor"></span>Table 2.2.1.
-REQ_F0001 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0001</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the button, the system shall display
-the relevant event’s details</td>
-</tr>
-<tr>
-<td><strong>Item Description</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052147" class="anchor"></span>Table 2.2.1.
-F00 View Available Events Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F00 View Upcoming Events</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow user to have a quick glance and check out for
-upcoming and happening events</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">An event is created in the system</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">The details of selected event will be displayed</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The System display a list of events</p></li>
-<li><p>The Student scrolls to view multiple events</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">None</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image4.png" style="width:6.5in;height:2.04792in"
-alt="A black background with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053421" class="anchor"></span>Figure
-2.2.1. F00 View Upcoming Events Sequence Diagram</p></figcaption>
-</figure>
-
-### F01 View Event Details
-
-**Table 2.2.2. 1** & **Table 2.2.2. 2** describe the view event details
-function and its description. While **Table 2.2.2. 3** shows the view
-event details use case specification table. And **Figure 2.2.2. 1**
-depicts the sequence diagram for the view event details function.
-
-<table>
-<caption><p><span id="_Ref199052197" class="anchor"></span>Table 2.2.2.
-REQ_F0101 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0101</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display all the event details entered
-by the event organizer</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052206" class="anchor"></span>Table 2.2.2.
-REQ_F0102 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0102</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the “Register” button, the system
-shall display the registration page that requires user to fill up all
-the fields</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052226" class="anchor"></span>Table 2.2.2.
-F01 View Event Details Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F01 View Event Details</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow the user to view the event details like
-location, time, ticket price and others and to allow the user to
-register in the event</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">An event is selected</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">User will need to provide necessary information to
-register for attending the event </td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The student selects an event to view its details from the event
-list</p></li>
-<li><p>The system will display relevant event details</p></li>
-<li><p>The student can choose to click on the “Register” button to
-register for the event</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If the Student does not want
-to register for the event, they can choose to click on the “&lt;” button
-to redirect to the view upcoming events page</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image5.png" style="width:6.27046in;height:3.22642in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053471" class="anchor"></span>Figure
-2.2.2. F01 View Event Details Sequence Diagram</p></figcaption>
-</figure>
-
-### F02 Register For Event
-
-**Table 2.2.3. 1** – **Table 2.2.3. 9** describe the register for event
-function and its description. While **Table 2.2.3. 10** shows the first
-version of the register for event use case specification table, while
-**Table 2.2.3. 11** shows the second version of the register for event
-use case specification table. And **Figure 2.2.3. 1** depicts the
-sequence diagram for the register for event function.
-
-<table>
-<caption><p><span id="_Ref199052308" class="anchor"></span>Table 2.2.3.
-REQ_F0201 Version 1 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0201</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall retrieve from the user account to get
-their name and display on this field and it is editable</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063209" class="anchor"></span>Table 2.2.3.
-REQ_F0202 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0202</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall retrieve from the user account to get
-their student ID and display on this field and it is editable</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063210" class="anchor"></span>Table 2.2.3.
-REQ_F0203 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0203</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display this field with the text of
-“Mobile Number” and shall let user to enter their mobile number</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063211" class="anchor"></span>Table 2.2.3.
-REQ_F0204 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0204</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display this field with the text of
-“Email” and shall let user to enter their email</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063212" class="anchor"></span>Table 2.2.3.
-REQ_F0205 Version 1 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0205</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall direct user to the page to make payment
-and save the data into a temporary database</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063213" class="anchor"></span>Table 2.2.3.
-REQ_F0206 Version 1 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0206</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the button, the system shall display
-the view event detail page</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063214" class="anchor"></span>Table 2.2.3.
-REQ_F0201 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 16%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0201</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall retrieve the student data from the
-university’s database and auto fill in the name and the ID field and
-give the student the ability to update the phone number and the personal
-email address.</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063215" class="anchor"></span>Table 2.2.3.
-REQ_F0205 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 15%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0205</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall direct the student to the payment
-page</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052317" class="anchor"></span>Table 2.2.3.
-REQ_F0206 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 16%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0206</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the “Back” button, the system shall
-display the event detail page</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052336" class="anchor"></span>Table 2.2.3.
-F02 Register for Event Use Case Specification Table Version
-1</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F02 Register for Event</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">Let the user register and book a slot for the event they
-wanted to participate in</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">The “Register” button is clicked by the user</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">The user shall proceed to make payment for the event
-ticket after clicked on the button of “Pay for Ticket”</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The Student had click on “Register” button</p></li>
-<li><p>The System shall display text fields for Student to filled up
-necessary information</p></li>
-<li><p>The Student can choose to click on the “Pay for Ticket” button to
-proceed make payment for the ticket</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If the Student decide not to
-pay for the event, they can choose to click on the “&lt;” button to
-redirect to the view event details page</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052363" class="anchor"></span>Table 2.2.3.
-F02 Register for Event Use Case Specification Table Version
-2</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F02 Register for Event</th>
-<th><strong>Version</strong></th>
-<th>2.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">Allow the user to register and book a slot for the event
-they want to attend.</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">The “Register” button is clicked by the user</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">The user shall proceed to make payment for the event
-ticket after clicked on the button of “Pay for Ticket”</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The student had clicked on “Register” button</p></li>
-<li><p>The system shall display the input fields</p></li>
-<li><p>The student fills the input fields</p></li>
-<li><p>The student clicks on the “Pay for Ticket” button</p></li>
-<li><p>The system displays the payment page</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If the Student decide not to
-pay for the event, they can choose to click on the “&lt; Back” button to
-back again to the event details page</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image6.png" style="width:6.27083in;height:3.38542in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053493" class="anchor"></span>Figure
-2.2.3. F02 Register for Event Sequence Diagram</p></figcaption>
-</figure>
-
-### F03 Make Payment
-
-**Table 2.2.4. 1** – **Table 2.2.4. 3** describe the make payment
-function and its description. While **Table 2.2.4. 4** shows the first
-version of the make payment use case specification table, while **Table
-2.2.4. 5** shows the second version of the make payment use case
-specification table. And **Figure 2.2.4. 1** depicts the first version
-of the sequence diagram for the make payment function, while **Figure
-2.2.4. 2** shows the second version of the sequence diagram for the make
-payment function.
-
-<table>
-<caption><p><span id="_Ref199052417" class="anchor"></span>Table 2.2.4.
-REQ_F0301 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0301</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the user clicks the “Pay” button, the system shall
-verify the inputs</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063226" class="anchor"></span>Table 2.2.4.
-REQ_F0302 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0302</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If any of the inputs are invalid, the system shall
-display an error message above the invalid input</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052424" class="anchor"></span>Table 2.2.4.
-REQ_F0303 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0303</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If all inputs are valid, the system shall proceed with
-the payment and save the ticket into the database</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052443" class="anchor"></span>Table 2.2.4.
-F03 Make Payment Use Case Specification Table Version 1</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F03 Make Payment</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow users to pay for a ticket</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Student has selected an event to purchase a ticket
-for</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">Student acquires a ticket for the event which is saved
-into the database</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The student shall select an event to purchase a ticket</p></li>
-<li><p>The system shall redirect the student to the payment
-screen</p></li>
-<li><p>The system shall display the input forms prompting the user to
-input payment details such as credit card number, CCV/CVC security code
-and expiry date</p></li>
-<li><p>The student shall input the required details into the input
-forms</p></li>
-<li><p>The student shall click the pay button</p></li>
-<li><p>The system shall verify all inputs</p></li>
-<li><p>The system shall display success message and save ticket into the
-database</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If any of the inputs are
-invalid, the system shall display an error message above the invalid
-input</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052460" class="anchor"></span>Table 2.2.4.
-F03 Make Payment Use Case Specification Table Version 2</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 34%" />
-<col style="width: 17%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F03 Make Payment</th>
-<th><strong>Version</strong></th>
-<th>2.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow users to pay for a ticket</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">The student has selected an event to purchase a ticket
-for</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">The student acquires a ticket for the event which is
-saved into the database</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The system displays the payment page.</p></li>
-<li><p>The student fills in the inputs in the payment form.</p></li>
-<li><p>The system shall validate all inputs.</p></li>
-<li><p>The system shall communicate with the payment gateway.</p></li>
-<li><p>The system shall display success message and save ticket’s into
-the database if the payment gateway returned success payment
-status</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If any of the inputs are
-invalid, the system shall display an error message above the invalid
-input</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image7.png" style="width:6.26729in;height:3.536in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053554" class="anchor"></span>Figure
-2.2.4. F03 Make Payment Sequence Diagram Version 1</p></figcaption>
-</figure>
-
-<figure>
-<img src="./media/image8.png" style="width:6.5in;height:3.46528in"
-alt="A black screen with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053582" class="anchor"></span>Figure
-2.2.4. F03 Make Payment Sequence Diagram Version 2</p></figcaption>
-</figure>
-
-### F04 Receive e-Ticket/QR Code
-
-**Table 2.2.5. 1** describes the receive e-ticket/QR code function and
-its description. While **Table 2.2.5. 2** shows the receive e-ticket/QR
-code use case specification table. And **Figure 2.2.5. 1** depicts the
-sequence diagram for the receive e-ticket/QR code function.
-
-<table>
-<caption><p><span id="_Ref199052547" class="anchor"></span>Table 2.2.5.
-REQ_F0401 Tale</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0401</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the user navigates to the show QR screen, the
-system shall display the name of the event and generate a QR code
-specific to the user and event</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052562" class="anchor"></span>Table 2.2.5.
-F04 Receive e-Ticket/QR Code Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F04 Receive e-Ticket/QR Code</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow a user to view a QR-code to serve as a ticket
-for event staff to verify attendance</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3" style="text-align: left;">The student has purchased a
-ticket for an event.</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The user shall navigate to the generate QR Code screen for the
-chosen event.</p></li>
-<li><p>The system shall retrieve the ticket from the database.</p></li>
-<li><p>The system shall display the name of the event and a QR code
-encoded with the student’s details</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">None</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image9.png" style="width:6.26806in;height:2.84583in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053653" class="anchor"></span>Figure
-2.2.5. F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
-e-Ticket/QR Code Sequence Diagram</p></figcaption>
-</figure>
-
-### F05 View Registration History
-
-**Table 2.2.6. 1** – **Table 2.2.6. 3** describe the view registration
-history function and its description. While **Table 2.2.6. 4** shows the
-first version of the view registration history use case specification
-table, and **Table 2.2.6. 5** shows the second version of the view
-registration history use case specification table. And **Figure 2.2.6.
-1** depicts the sequence diagram for the view registration history
-function.
-
-<table>
-<caption><p><span id="_Ref199052587" class="anchor"></span>Table 2.2.6.
-REQ_F0501 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0501</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the user navigates to the show QR screen, the
-system shall display the name of the event and generate a QR code
-specific to the user and event</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063261" class="anchor"></span>Table 2.2.6.
-REQ_F0502 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0502</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If no events are retrieved from the database, the system
-shall display an error message.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052596" class="anchor"></span>Table 2.2.6.
-REQ_F0503 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0503</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If at least one event is retrieved, the system shall
-display all events in a list, with the name, event description and a
-“Generate QR Code” button</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052609" class="anchor"></span>Table 2.2.6.
-F05 View Registration History Use Case Specification Table Version
-1</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F05 View Registration History</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow users to view past events that they have
-registered</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Student has registered to an event</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The user shall navigate to the “View Registration History”
-screen.</p></li>
-<li><p>The system shall retrieve all registered events to the user from
-the database</p></li>
-<li><p>The system shall display all registered events to the user in
-list form.</p></li>
-</ol>
-<ol start="4" type="1">
-<li><p>The system shall display two buttons, “View details” and
-“Generate QR code”</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">None</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052635" class="anchor"></span>Table 2.2.6.
-F05 View Registration History Use Case Specification Table Version
-2</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F05 View Registration History</th>
-<th><strong>Version</strong></th>
-<th>2.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow users to view past events that they have
-registered</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Student had registered to an event</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>The user navigates to the “Registration History” screen.</p></li>
-<li><p>The system retrieves all registered events to the user from the
-database</p></li>
-<li><p>The system displays all registered events to the user in list
-format.</p></li>
-<li><p>The system shall display two buttons, “View details” and
-“Generate QR code”</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">None</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image10.png" style="width:6.26806in;height:2.51042in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053676" class="anchor"></span>Figure
-2.2.6. F05 View Registration History Sequence Diagram</p></figcaption>
-</figure>
-
-### F06 Show QR Attendance 
-
-**Table 2.2.7. 1** – **Table 2.2.7. 4** describe the show QR attendance
-function and its description. While **Table 2.2.7. 5** shows the show QR
-attendance use case specification table. And **Figure 2.2.7. 1** depicts
-the sequence diagram for the show QR attendance function.
-
-<table>
-<caption><p><span id="_Ref199052701" class="anchor"></span>Table 2.2.7.
-REQ_F0601 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0601</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the student navigates to the QR Attendance screen,
-the system shall retrieve the registered event ticket from the
-database.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063356" class="anchor"></span>Table 2.2.7.
-REQ_F0602 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0602</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall generate a unique QR code containing
-encoded student and event data.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063357" class="anchor"></span>Table 2.2.7.
-REQ_F0603 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0603</th>
-<th style="text-align: left;"><strong>Version</strong></th>
-<th style="text-align: left;"><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3" style="text-align: left;">The system shall display the
-event title below the QR code.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3" style="text-align: left;">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052711" class="anchor"></span>Table 2.2.7.
-REQ_F0604 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0604</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If the student is not registered in any event, an error
-message is displayed.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052725" class="anchor"></span>Table 2.2.7.
-F06 Show QR Attendance Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F06 Show QR Attendance</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow a student to display a QR code as a ticket for
-check-in at the event venue</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Student has successfully registered and paid for an
-event</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">QR Code is displayed and ready to be scanned</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>Student navigates to registrations history</p></li>
-<li><p>The system displays all event bookings.</p></li>
-<li><p>Student clicks on “Ticket QR” button besides the event.</p></li>
-<li><p>System retrieves event and ticket info</p></li>
-<li><p>The system displays QR code and event name</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If the student is not
-registered in any event, an error message is displayed</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image11.png" style="width:6.5in;height:3.25in"
-alt="A black screen with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053698" class="anchor"></span>Figure
-2.2.7. F06 Show QR Attendance Sequence Diagram</p></figcaption>
-</figure>
-
-### F07 Create a New Event & F08 Set Event Details 
-
-**Table 2.2.8. 1** – **Table 2.2.8. 4** describe the set event details
-function and its description. While **Table 2.2.8. 5** shows the set
-event details use case specification table. And **Figure 2.2.8. 1**
-depicts the sequence diagram for the set event details function.
-
-<table>
-<caption><p><span id="_Ref199052769" class="anchor"></span>Table 2.2.8.
-REQ_F0701 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0701</th>
-<th style="text-align: left;"><strong>Version</strong></th>
-<th style="text-align: left;"><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3" style="text-align: left;">When the organizer accesses
-the Create Event page, the system shall display input fields for event
-title, date, time, location, capacity, ticket price, and
-description.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3" style="text-align: left;">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063370" class="anchor"></span>Table 2.2.8.
-REQ_F0702 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0702</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the organizer submits the form, the system shall
-validate all required fields.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063371" class="anchor"></span>Table 2.2.8.
-REQ_F0703 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0703</th>
-<th style="text-align: left;"><strong>Version</strong></th>
-<th style="text-align: left;"><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3" style="text-align: left;">If all inputs are valid, the
-system shall save the event to the database.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3" style="text-align: left;">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052777" class="anchor"></span>Table 2.2.8.
-REQ_F0704 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0704</th>
-<th style="text-align: left;"><strong>Version</strong></th>
-<th style="text-align: left;"><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3" style="text-align: left;">If any input is invalid, the
-system shall display an error message next to the field.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3" style="text-align: left;">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052788" class="anchor"></span>Table 2.2.8.
-F07 Set Event Details Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F07 Set Event Details</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow event organizers to input and save event
-information</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Event Organizer</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Organizer has logged into the system</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">New event is stored in the database</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>Event organizer navigate to Create Event form</p></li>
-<li><p>System displays input fields</p></li>
-<li><p>Event organizer fills fields (title, date, time, location,
-etc.)</p></li>
-<li><p>Event organizer clicks "Create Event"</p></li>
-<li><p>System validates and saves event</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If any field is invalid or
-empty, the system displays an error and prevents submission</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image12.png" style="width:6.5in;height:2.77778in"
-alt="A black and white screen with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053737" class="anchor"></span>Figure
-2.2.8. F07 Set Event Details Sequence Diagram</p></figcaption>
-</figure>
-
-### F09 View Events
-
-**Table 2.2.9. 1** – **Table 2.2.9. 5** describe the view events
-function and its description. While **Table 2.2.9. 6** shows the view
-events use case specification table. And **Figure 2.2.9. 1** depicts the
-sequence diagram for the view events function.
-
-<table>
-<caption><p><span id="_Ref199052813" class="anchor"></span>Table 2.2.9.
-REQ_F0901 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0901</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">When the organizer navigates to the My Events page, the
-system shall retrieve all events associated with that user.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063400" class="anchor"></span>Table 2.2.9.
-REQ_F0902 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0902</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display each event with its name, date,
-and current status ("Upcoming", "Completed").</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063401" class="anchor"></span>Table 2.2.9.
-REQ_F0903 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0903</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall provide an "Edit" button beside each
-event that redirects to the event form.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063402" class="anchor"></span>Table 2.2.9.
-REQ_F0904 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0904</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall provide a "Delete" button beside each
-event and confirm deletion via a popup.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052825" class="anchor"></span>Table 2.2.9.
-REQ_F0905 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F0905</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3"> If no events exist, the system shall display the
-message: "No events found."</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052836" class="anchor"></span>Table 2.2.9.
-F09 View Events Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F09 View Events</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow the organizer to view a list of events they
-have created</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Event Organizer</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">Organizer has created at least one event</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">A list of created events is shown</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>Organizer opens "My Events" page</p></li>
-<li><p>System retrieves events from database</p></li>
-<li><p>System displays each event with status</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If no events exist, system
-displays a "No events found" message</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image13.png" style="width:6.5in;height:2.39028in"
-alt="A black background with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053776" class="anchor"></span>Figure
-2.2.9. F09 View Events Sequence Diagram</p></figcaption>
-</figure>
-
-### F10 View Registrations & Attendance Status
-
-**Table 2.2.10. 1** & **Table 2.2.10. 2** describe the view
-registrations and attendance status function and its description. While
-**Table 2.2.10. 3** shows the view registrations and attendance status
-use case specification table. And **Figure 2.2.10. 1** depicts the
-sequence diagram for the view registrations and attendance status
-function.
-
-<table>
-<caption><p><span id="_Ref199052863" class="anchor"></span>Table 2.2.10.
-REQ_F1001 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1001</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If no events exist, the system shall display the
-message: "No events found."</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052874" class="anchor"></span>Table 2.2.10.
-REQ_F1002 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1002</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">If no student registered student in the event, the
-system shall display “No Registered Student Yet” message instead of the
-empty table.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052893" class="anchor"></span>Table 2.2.10.
-F10 View Registrations &amp; Attendance Status Use Case Specification
-Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th style="text-align: left;">F10 View Registrations &amp; Attendance
-Status</th>
-<th style="text-align: left;"><strong>Version</strong></th>
-<th style="text-align: left;">1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3" style="text-align: left;">To allow the organizer to view
-the details of the registrations and attendance list</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3" style="text-align: left;">Event Organizer</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3" style="text-align: left;">Organizer has created at least
-one event</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3" style="text-align: left;">A table that contains
-registered students in the event and their attendance status shall be
-displayed.</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3" style="text-align: left;"><ol type="1">
-<li><p>Organizer opens "My Events" page</p></li>
-<li><p>System retrieves events from database</p></li>
-<li><p>System displays each event with status</p></li>
-<li><p>Organizer may click "View Details" </p></li>
-<li><p>System displays the registrations and attendance
-details </p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">If no events exist, the system
-displays a "No events found" message.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3" style="text-align: left;">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image14.png" style="width:6.5in;height:3.00347in"
-alt="A black background with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053798" class="anchor"></span>Figure
-2.2.10. F10 View Registrations &amp; Attendance Status Sequence
-Diagram</p></figcaption>
-</figure>
-
-### F11 Check-in Upon Arrival
-
-**Table 2.2.11. 1** & **Table 2.2.11. 2** describe the check-in upon
-arrival function and its description. While **Table 2.2.11. 3** shows
-the check-in upon arrival use case specification table. And **Figure
-2.2.11. 1** depicts the sequence diagram for the check-in upon arrival
-function.
-
-<table>
-<caption><p><span id="_Ref199052929" class="anchor"></span>Table 2.2.11.
-REQ_F1101 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1101</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall update the attendance status of the
-user in the event after validating the QR.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052936" class="anchor"></span>Table 2.2.11.
-REQ_F1102 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1102</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display an error message on the event
-organizer device if the QR is invalid/non-related QR.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052948" class="anchor"></span>Table 2.2.11.
-F11 Scan Attendance QR Code &amp; Update Attendance Status Use Case
-Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F11 Check-in Upon Arrival</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To allow the organizer to update the attendance list
-automatically</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Event Organizer</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">Attendance status of the student updated in the
-database</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>Event organizer navigates to “Scan QR” screen</p></li>
-<li><p>The system uses the camera of the phone allowing organizers to
-scan.</p></li>
-<li><p>Event organizer aligns the camera on the QR code of the
-student</p></li>
-<li><p>The system captures and validates the scanned QR.</p></li>
-<li><p>The system updated the attendance status of the student on the
-event</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3" style="text-align: left;">The system shall display an
-error message on the event organizer device if the QR is
-invalid/non-related QR.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image15.png" style="width:6.5in;height:2.69931in"
-alt="A black background with white rectangles AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053818" class="anchor"></span>Figure
-2.2.11. F11 Scan Attendance QR Code &amp; Update Attendance Status
-Sequence Diagram</p></figcaption>
-</figure>
-
-### F12 Login
-
-**Table 2.2.12. 1** – **Table 2.2.12. 3** describe the login function
-and its description. While **Table 2.2.12. 4** shows the login use case
-specification table. And **Figure 2.2.12. 1** depicts the sequence
-diagram for the login function.
-
-<table>
-<caption><p><span id="_Ref199052978" class="anchor"></span>Table 2.2.12.
-REQ_F1201 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1201</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall validate user’s inputs before sending a
-login request to the university’s database.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063464" class="anchor"></span>Table 2.2.12.
-REQ_F1202 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1202</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall display a descriptive error message if
-the form inputs are invalid or if any input field is empty.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199052994" class="anchor"></span>Table 2.2.12.
-REQ_F1203 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th style="text-align: left;">REQ_F1203</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">The system shall not give access to the system if the
-user is not recognized in the university’s database.</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Ref199053007" class="anchor"></span>Table 2.2.12.
-F012 Login Use Case Specification Table</p></caption>
-<colgroup>
-<col style="width: 23%" />
-<col style="width: 35%" />
-<col style="width: 16%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Feature</strong></th>
-<th>F12 Login</th>
-<th><strong>Version</strong></th>
-<th>1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Purpose</strong></td>
-<td colspan="3">To give access to users to the system</td>
-</tr>
-<tr>
-<td><strong>Actor</strong></td>
-<td colspan="3">Event Organizer / Student</td>
-</tr>
-<tr>
-<td><strong>Precondition</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Postcondition</strong></td>
-<td colspan="3">Access given to the user based on the user’s role.</td>
-</tr>
-<tr>
-<td><strong>Main Flow</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>User Navigates to Login Page</p></li>
-<li><p>System Displays the Login Page</p></li>
-<li><p>User Fills in and Submits their login credentials</p></li>
-<li><p>System Verify the submitted information</p></li>
-<li><p>System authenticates the user into the system</p></li>
-<li><p>System displays a success message and redirects to respective
-home pages</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Alternate Scenario</strong></td>
-<td colspan="3"><ol type="1">
-<li><p>When the login credentials do not match anything available in the
-database, the system will display an error message.</p></li>
-<li><p>When the fields are empty, the system will display an error
-message.</p></li>
-</ol></td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<figure>
-<img src="./media/image16.png" style="width:6.49906in;height:3.032in"
-alt="A black screen with white text AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053841" class="anchor"></span>Figure
-2.2.12. F12 Login Sequence Diagram</p></figcaption>
-</figure>
-
-## State Transition Diagrams
-
-**Figure 2.3. 1** shows the high-level state transition diagram for the
-Campus Event Check-in System. The states illustrated are general and not
-specific to any user role. After successfully logging into the system,
-users can transition between different states depending on their actions
-and interactions within the application.
-
-<figure>
-<img src="./media/image17.png" style="width:6.5in;height:2.90833in"
-alt="A diagram of a login page AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053860" class="anchor"></span>Figure
-2.3. High level State Transition Diagram</p></figcaption>
-</figure>
-
-**Figure 2.3. 2** below shows the states available for the event
-organizer in the system. Once the event organizer successfully logs into
-the system, they will be directed to the 'Event Organizer Home Page'
-state. This state serves as the central hub for accessing all other
-states available to the event organizer.
-
-<img src="./media/image18.png" style="width:6.5in;height:2.57847in"
-alt="A diagram of a event organization AI-generated content may be incorrect." />
-
-<span id="_Ref199053872" class="anchor"></span>
-
-Figure 2.3. Event Organizer State Transition Diagram
-
-**Figure 2.3. 3** shows the states available for the students in the
-system. Once the student successfully logs into the system, they will
-first be directed to the 'Student Home Page' state. This state serves as
-the central hub for accessing all other states available to the
-students.
-
-<figure>
-<img src="./media/image19.png" style="width:6.5in;height:2.56319in"
-alt="A diagram of a computer AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053898" class="anchor"></span>Figure
-2.3. Student State Transition Diagram</p></figcaption>
-</figure>
-
-## Performance Requirements
-
-**Table 2.4. 1** describes the performance requirements and their
-descriptions for the Campus Event Check-in System.
-
-| *Requirement ID* | *Description* | *Priority* | *Author* |
-|----|----|----|:---|
-| REQ_P001 | The system shall respond to end user requests within 1 to 5 seconds, ensuring a responsive user experience. | High | Sulaiman |
-| REQ_P002 | The system shall be able to support up to 1000 end user connections simultaneously, accommodating the diverse user base. | High | Sulaiman |
-| REQ_P003 | The system shall support integration via standard APIs with external services (e.g., payment gateway, student database), ensuring secure and seamless data exchange. | High | Sulaiman |
-| REQ_P004 | The system shall be designed to support different display sizes of various devices, promoting accessibility across different platforms for students and lecturers. | Medium | Sulaiman |
-| REQ_P005 | The system shall query data from the database within 2 seconds, ensuring quick access to information for the students. | Medium | Sulaiman |
-
-<span id="_Ref199053041" class="anchor"></span>Table 2.4. Performance
-Requirements Table
-
-## Security Requirements
-
-**Table 2.5. 1** describes the security requirements and their
-descriptions for the Campus Event Check-in System.
-
-| *Requirement ID* | *Description* | *Priority* | *Author* |
-|----|----|----|----|
-| REQ_SR001 | The system's data, including personal and payment information of students, shall be protected from unauthorized access, ensuring the highest level of security. | High | Sulaiman |
-| REQ_SR002 | The system shall implement encryption, backup, and recovery mechanisms for data, ensuring data integrity and security for the students and event organizers. | High | Sulaiman |
-
-<span id="_Ref199053057" class="anchor"></span>Table 2.5. Security
-Requirements Table
-
-## Usability Requirements
-
-**Table 2.6. 1** describes the usability requirements and their
-descriptions for the Campus Event Check-in System.
-
-| *Requirement ID* | *Description* | *Priority* | *Author* |
-|----|----|----|----|
-| REQ_UR001 | The system shall provide a clean and intuitive user interface that guides users (students and event organizers) through event registration, payment, and check-in workflows without requiring prior training. | High | Sulaiman |
-| REQ_UR002 | All user-facing text and interface labels shall be written in simple, concise, and consistent language, with optional multilingual support in future versions. | Medium | Sulaiman |
-| REQ_UR003 | The system shall provide feedback messages (e.g., success, error, loading indicators) in response to user actions such as login, payment, or check-in. | High | Sulaiman |
-| REQ_UR004 | The system shall complete key operations (e.g., event registration, QR code generation) within 2 seconds under normal network conditions. | High | Sulaiman |
-| REQ_UR005 | The system shall provide a mobile-friendly interface with responsive layouts for smartphones and tablets. | High | Sulaiman |
-| REQ_UR006 | The system shall use color contrast ratios that meet WCAG 2.1 AA standards to ensure readability for users with visual impairments. | High | Sulaiman |
-| REQ_UR007 | The system shall allow students to view and manage their registered events in a centralized dashboard with clear status indicators (e.g., “Paid”, “Pending”, “Checked-In”). | Medium | Sulaiman |
-| REQ_UR008 | The system shall guide first-time users with contextual tooltips or brief onboarding hints for critical actions like event registration or check-in. | Low | Sulaiman |
-
-<span id="_Ref199053068" class="anchor"></span>Table 2.6. Usability
-Requirements Table
 
 ## Logical Database Requirements
 
