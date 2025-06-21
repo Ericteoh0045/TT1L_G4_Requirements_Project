@@ -201,7 +201,7 @@ required understanding of the system.
 
 | **Role** | **Description** | **Expected Knowledge** |
 |:---|----|----|
-| **Student** | University students who will use the system to view events, register, make payments, and check in. | Basic understanding of web browsing, online form usage, and scanning QR codes. |
+| **Student** | University students who will use the system to view events, register, make payments, and check in. | Basic understanding of web browsing, online form usage. |
 | **Event Organizer** | Authorized university staff or student committees managing events, registrations, and check-ins. | Familiarity with web forms, participant tracking, and scanning devices for check-in. |
 
 <span id="_Ref199082259" class="anchor"></span>Table 1.5.1 Intended Users
