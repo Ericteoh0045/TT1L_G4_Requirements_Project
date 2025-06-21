@@ -5957,6 +5957,289 @@ only.</td>
 </tbody>
 </table>
 
+
+### 3.10 9 Requirements Traceability Matrix
+
+| **Traceability Score** | **Description** |
+|----|----|
+| **1** | Linked to only **1 artifact** (e.g., just a goal, or just a use case) |
+| **2** | Linked to **2 artifacts** (e.g., goal + feature) |
+| **3** | Linked to **3 artifacts**, but links may be **basic or unverified** |
+| **4** | Linked to **3 artifacts** with **high confidence, correctness, and completeness** (e.g., validated relationships, clear traceability) |
+
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 21%" />
+<col style="width: 19%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Req ID</strong></th>
+<th style="text-align: left;"><strong>Requirement
+Description</strong></th>
+<th style="text-align: left;"><strong>Linked Goal(s)</strong></th>
+<th style="text-align: left;"><strong>Feature(s)</strong></th>
+<th style="text-align: left;"><strong>Use Case(s)</strong></th>
+<th style="text-align: center;"><strong>Traceability Score
+(1-4)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">REQ_F00</td>
+<td style="text-align: left;">The system shall allow students to view a
+list of upcoming campus events available for registration.</td>
+<td style="text-align: left;">G1: Improve event discoverability</td>
+<td style="text-align: left;">REQ_F00: View Upcoming Events</td>
+<td style="text-align: left;">UC-01: View Upcoming Events</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F01</td>
+<td style="text-align: left;">The system shall provide detailed
+information about a selected event, including time, location, and
+description.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G2: Provide transparent event information</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F01: View Event Detail</td>
+<td style="text-align: left;">UC-02: View Event Detail</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F02</td>
+<td style="text-align: left;">The system shall enable students to
+register for selected campus events through an easy-to-use registration
+process.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G3: Simplify event sign-up process</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F02: Register for Event</td>
+<td style="text-align: left;">UC-03: Register for Event</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F03</td>
+<td style="text-align: left;">The system shall allow students to
+securely make payments for event tickets via integrated payment
+gateways.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G4: Enable secure payment processing</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F03: Make Payment</td>
+<td style="text-align: left;">UC-04: Make Payment</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F04</td>
+<td style="text-align: left;">The system shall generate and provide a
+unique e-ticket or QR code to students after successful registration and
+payment.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G5: Facilitate digital check-in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F04: Receive e-Ticket/QR Code</td>
+<td style="text-align: left;">UC-05: Receive e-Ticket/QR Code</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F05</td>
+<td style="text-align: left;">The system shall allow students to view
+their registration history for past events they have attended.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G6: Enhance user accountability</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F05: View Registration History</td>
+<td style="text-align: left;">UC-06: View Registration History</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F06</td>
+<td style="text-align: left;">The system shall display the QR code for
+students to use during event check-in for attendance verification.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G7: Enable seamless event entry</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F06: Show QR Attendance</td>
+<td style="text-align: left;">UC-07: Show QR Attendance</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F07</td>
+<td style="text-align: left;">The system shall allow event organizers to
+create new events, including entering event details like date, time, and
+venue.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G8: Empower event organizers with management tools</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F07: Create New Event</td>
+<td style="text-align: left;">UC-08: Create New Event</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F08</td>
+<td style="text-align: left;">The system shall allow event organizers to
+view a list of events they have created and manage them as needed.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G9: Monitor events created by organizers</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F08: View Events</td>
+<td style="text-align: left;">UC-09: View Events</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F10</td>
+<td style="text-align: left;">The system shall provide event organizers
+with real-time updates on registered attendees and their attendance
+status.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G10: Provide real-time attendance tracking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F10: View Registrations with
+Attendance Status</td>
+<td style="text-align: left;">UC-10: View Registrations with Attendance
+Status</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F11</td>
+<td style="text-align: left;">The system shall allow event organizers to
+check in attendees by scanning their unique QR codes upon arrival.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G11: Automate attendance verification</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F11: Check-in Upon Arrival</td>
+<td style="text-align: left;">UC-11: Check-in Upon Arrival</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: left;">REQ_F12</td>
+<td style="text-align: left;">The system shall provide secure login
+functionality for both students and event organizers to access the
+system.</td>
+<td style="text-align: left;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th>G12: Ensure secure system access</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+<td style="text-align: left;">REQ_F12: Login</td>
+<td style="text-align: left;">UC-12: Login</td>
+<td style="text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+
+
 # Verification
 
 To ensure the quality, correctness, and alignment of the system with
