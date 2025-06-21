@@ -11,4 +11,5 @@
 | CH-07 | N/A | Wrong section placement: Sections 1.3.1–1.3.5 under 1.3 Move to new section "3.6 Interface Requirements"  | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
 | CH-08 | REQ_SI003 | Priority updated to "High".  | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
 | CH-09 | REQ_UI003, REQ_UI004 | Update UI docs to specify mobile-only; remove desktop references. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
-| CH-09 | N/A | Revise Intro to clearly state mobile-only support. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-10 | N/A | Revise Intro to clearly state mobile-only support. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
+| CH-11 | N/A | Remove desktop OS/tools; list only mobile platforms. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |

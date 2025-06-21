@@ -5366,13 +5366,11 @@ application and other software products are described in **Table
 ***Table 3.6.5.1 Software Interface Requirements***
 
 <table>
-<caption><p><span id="_Ref199049305" class="anchor"></span>Table 1.3.4.
-Software Interface Requirements</p></caption>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 18%" />
-<col style="width: 21%" />
-<col style="width: 25%" />
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 19%" />
+<col style="width: 30%" />
 <col style="width: 18%" />
 </colgroup>
 <thead>
@@ -5386,77 +5384,58 @@ Software Interface Requirements</p></caption>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Database</strong></td>
+<td style="text-align: center;"><strong>Database</strong></td>
 <td>MySQL</td>
-<td>5.2.1</td>
-<td>Used to store, manage, and retrieve
+<td style="text-align: center;">5.2.1</td>
+<td style="text-align: center;">Used to store, manage, and retrieve
 event, user, and registration data for the system.</td>
-<td>MySQL official page</td>
+<td style="text-align: center;">MySQL official page</td>
 </tr>
 <tr>
-<td rowspan="5" style="text-align: left;"><strong>Operating
+<td rowspan="2" style="text-align: center;"><strong>Operating
 System</strong></td>
-<td>Microsoft Windows</td>
-<td>Windows XP or later</td>
-<td>Runs browser-based application for admin and student users.</td>
-<td>Chrome Browser system requirement</td>
+<td style="text-align: center;">Android</td>
+<td style="text-align: center;">Android 7.0 Nougat or later</td>
+<td style="text-align: center;">Accesses system via mobile
+browsers.</td>
+<td style="text-align: center;">Android system requirements</td>
 </tr>
 <tr>
-<td>macOS</td>
-<td>High Sierra 10.13 or later</td>
-<td>Supports browser access on Apple devices.</td>
-<td>macOS official site</td>
+<td style="text-align: center;">iOS</td>
+<td style="text-align: center;">iOS 14.0 or later</td>
+<td style="text-align: center;">Accesses system via Safari or Chrome on
+iPhones/iPads.</td>
+<td style="text-align: center;">iOS system requirements</td>
 </tr>
 <tr>
-<td>Linux</td>
-<td>Ubuntu 18.04+, Debian 10+, openSUSE 15.2+, Fedora 32+</td>
-<td>Runs the system via browser on Linux environments.</td>
-<td>Linux distributions’ sites</td>
+<td rowspan="4"
+style="text-align: center;"><strong>Browser</strong></td>
+<td style="text-align: center;">Google Chrome</td>
+<td style="text-align: center;">113.0.5672.64</td>
+<td style="text-align: center;">Primary browser interface is used to
+access the system.</td>
+<td style="text-align: center;">Chrome official page</td>
 </tr>
 <tr>
-<td>Android</td>
-<td>Android 7.0 Nougat or later</td>
-<td>Accesses system via mobile browsers.</td>
-<td>Android system requirements</td>
+<td style="text-align: center;">Microsoft Edge</td>
+<td style="text-align: center;">112.0.1722.48</td>
+<td style="text-align: center;">Alternative browser to access the
+system.</td>
+<td style="text-align: center;">Microsoft Edge official page</td>
 </tr>
 <tr>
-<td>iOS</td>
-<td>iOS 14.0 or later</td>
-<td>Accesses system via Safari or Chrome on iPhones/iPads.</td>
-<td>iOS system requirements</td>
+<td style="text-align: center;">Safari</td>
+<td style="text-align: center;">16.4.1</td>
+<td style="text-align: center;">For iOS/macOS users to access the
+system.</td>
+<td style="text-align: center;">Safari official page</td>
 </tr>
 <tr>
-<td rowspan="4" style="text-align: left;"><strong>Browser</strong></td>
-<td>Google Chrome</td>
-<td>113.0.5672.64</td>
-<td>Primary browser interface used to access the system.</td>
-<td>Chrome official page</td>
-</tr>
-<tr>
-<td>Microsoft Edge</td>
-<td>112.0.1722.48</td>
-<td>Alternative browser to access the system.</td>
-<td>Microsoft Edge official page</td>
-</tr>
-<tr>
-<td>Safari</td>
-<td>16.4.1</td>
-<td>For iOS/macOS users to access the system.</td>
-<td>Safari official page</td>
-</tr>
-<tr>
-<td>Opera</td>
-<td>105.0.4970.63</td>
-<td>Optional browser supported for accessing the platform.</td>
-<td>Opera official page</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Screen Reader</strong></td>
-<td>Speechify</td>
-<td>9.35.0</td>
-<td>Assists visually impaired users by reading on-screen content
-aloud.</td>
-<td>Speechify official page</td>
+<td style="text-align: center;">Opera</td>
+<td style="text-align: center;">105.0.4970.63</td>
+<td style="text-align: center;">Optional browser supported for accessing
+the platform.</td>
+<td style="text-align: center;">Opera official page</td>
 </tr>
 </tbody>
 </table>
