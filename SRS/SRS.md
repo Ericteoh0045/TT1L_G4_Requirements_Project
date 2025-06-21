@@ -2589,7 +2589,7 @@ the system, they will be directed to the 'Event Organizer Home Page'
 state. This state serves as the central hub for accessing all other
 states available to the event organizer.
 
-<img src="./media/image18.png" style="width:6.5in;height:2.57847in"
+<img src="./media/image1999.png" style="width:6.5in;height:2.57847in"
 alt="A diagram of a event organization AI-generated content may be incorrect." />
 
 <span id="_Ref199053872" class="anchor"></span>

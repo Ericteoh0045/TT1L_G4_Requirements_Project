@@ -31,3 +31,4 @@
 | CH-27 | REQ_UR009 | Add usability constraints | PANG TIAN YOU | 22/6/2025 | VS-02 |
 | CH-28 | N/A | Remove QR scanning from student role | PANG TIAN YOU | 22/6/2025 | VS-01 |
 | CH-29 | N/A | Remove and merge functionality | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-30 | N/A | Add transition from “Update Attendance Status” to “Check-in Upon Arrival” | PANG TIAN YOU | 22/6/2025 | VS-02 |
