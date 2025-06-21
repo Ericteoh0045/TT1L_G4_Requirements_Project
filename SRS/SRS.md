@@ -286,6 +286,18 @@ document.
 <span id="_Ref199082328" class="anchor"></span>Table 1.7.1 Glossary of
 Terms for the Campus Event Check-in System
 
+# 2 References 
+
+- <https://buildfire.com/top-mobile-development-practices/>
+
+- Requirements Engineering: Fundamentals, Principles, and Techniques
+  Author: Klaus Pohl
+
+- Requirements Engineering: Processes and Techniques Authors: Gerald
+  Kotonya, Ian Sommerville
+
+- <https://www.toptal.com/designers/mobile-ui/mobile-ux-design-principles>
+
 # 3 Requirements
 
 Requirements are the functionalities, behaviors, qualities, and
