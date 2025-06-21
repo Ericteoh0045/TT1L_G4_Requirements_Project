@@ -9,3 +9,4 @@
 | CH-05 | N/A | Update ID in table to "REQ_IO0904" | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
 | CH-06 | N/A | Move the External Interface From Section 2 to Section 3 | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
 | CH-07 | N/A | Wrong section placement: Sections 1.3.1–1.3.5 under 1.3 Move to new section "3.6 Interface Requirements"  | ERIC TEOH WEI XIANG | 21/6/2025 | VS-01 |
+| CH-08 | REQ_SI003 | Priority updated to "High".  | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |

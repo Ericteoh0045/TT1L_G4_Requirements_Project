@@ -5311,7 +5311,7 @@ services **Table 3.6.2.1**.
 |:---|----|:---|:---|
 | **REQ_SI001** | The system shall integrate with the university student database to authenticate student identities and retrieve relevant information during registration and check-in. | High | Azhar |
 | **REQ_SI002** | The system shall connect to a third-party payment gateway to process event payments securely, providing real-time confirmation of transaction status. | High | Ainee |
-| **REQ_SI003** | The system shall interface with device cameras or scanners to scan student IDs or QR codes for efficient check-in and attendance tracking. | Medium | Sulaiman |
+| **REQ_SI003** | The system shall interface with device cameras or scanners to scan student IDs or QR codes for efficient check-in and attendance tracking. | High | Eric |
 | **REQ_SI004** | The system shall be developed as a mobile application and must be fully compatible with the latest stable versions of **Android** and **iOS** to ensure broad accessibility and usability for mobile users. | High | Yousef |
 | **REQ_SI005** | The system may optionally integrate with an email/SMS service to send notifications such as registration confirmations or event reminders to students. | Low | Yousef |
 
