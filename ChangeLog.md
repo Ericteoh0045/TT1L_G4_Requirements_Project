@@ -23,3 +23,4 @@
 | CH-19 | N/A | Add ChangeLog | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-20 | REQ_C1001, REQ_C1005 | Combine into one requirement | PANG TIAN YOU | 22/6/2025 | VS-01 |
 | CH-21 | REQ_C1003, REQ_C1004 | Revise and clarify description | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-22 | REQ_C1006 | Remove entirely | PANG TIAN YOU | 22/6/2025 | VS-01 |
