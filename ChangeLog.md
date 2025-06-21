@@ -14,3 +14,4 @@
 | CH-10 | N/A | Revise Intro to clearly state mobile-only support. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
 | CH-11 | N/A | Remove desktop OS/tools; list only mobile platforms. | ERIC TEOH WEI XIANG | 22/6/2025 | VS-01 |
 | CH-12 | N/A | Add Validation Session | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-13 | N/A | Add Defect Summary include Content Defect, Documentation Defect, Agreement Defect | ERIC TEOH WEI XIANG | 22/6/2025 | - |

@@ -5754,6 +5754,100 @@ Requirements From Observation Table
 </tbody>
 </table>
 
+### 3.10.5 Defect Summary
+
+| **Severity** | **Description** |
+|----|----|
+| 1 | Minor issue; does not impact understanding or implementation (e.g., grammar) |
+| 2 | Low impact; small ambiguity that can be inferred easily |
+| 3 | Medium impact; causes moderate ambiguity or requires clarification to avoid misimplementation |
+| 4 | High impact; significantly affects requirement clarity or testability |
+| 5 | Critical defect; renders requirement unusable or leads to major system issues if unresolved |
+
+- **Content Defect**
+
+| **REQ ID** | **Validation and Defect Description** | **Detected By** | **Comment / Suggested Fix** | **Session ID** | **Severity (1-5)** |
+|----|----|----|----|----|----|
+| N/A | Missing System Context Diagram | Eric Teoh Wei Xiang | Add a context diagram with system boundaries and external entities | VS-01 | 4 |
+| N/A | phpMyAdmin listed as database (it's a tool) | Eric Teoh Wei Xiang | Replace with actual DB (e.g., MySQL) | VS-01 | 3 |
+
+
+- **Documentation Defect**
+
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 24%" />
+<col style="width: 13%" />
+<col style="width: 24%" />
+<col style="width: 12%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Page No.</strong></th>
+<th style="text-align: center;"><strong>Validation and Defect
+Description</strong></th>
+<th style="text-align: center;"><strong>Detected By</strong></th>
+<th style="text-align: center;"><strong>Comment/Suggested
+Fix</strong></th>
+<th style="text-align: center;"><strong>Session ID</strong></th>
+<th style="text-align: center;"><strong>Severity (1-5)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Mislabeling: "System Context Diagram" is
+a System Overview Diagram</td>
+<td style="text-align: center;">Eric Teoh Wei Xiang</td>
+<td style="text-align: center;">Rename to "System Overview Diagram"</td>
+<td style="text-align: center;">VS-01</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Spelling errors in use case names</td>
+<td style="text-align: center;">Eric Teoh Wei Xiang</td>
+<td style="text-align: center;">Correct all spelling errors in use case
+labels</td>
+<td style="text-align: center;">VS-01</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">57</td>
+<td style="text-align: center;">Requirement ID mismatch: "REQ_IO0901" vs
+table title "REQ_IO0904"</td>
+<td style="text-align: center;">Eric Teoh Wei Xiang</td>
+<td style="text-align: center;">Update ID in table to "REQ_IO0904"</td>
+<td style="text-align: center;">VS-01</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;">Wrong section placement: Sections
+1.3.1–1.3.5 under 1.3</td>
+<td style="text-align: center;">Eric Teoh Wei Xiang</td>
+<td style="text-align: center;">Move to new section "3.6 Interface
+Requirements" and update the Table of Contents accordingly.</td>
+<td style="text-align: center;">VS-01</td>
+<td style="text-align: center;">3</td>
+</tr>
+
+- **Agreement Defect**
+
+| **Req ID** | **Validation and Defect Description** | **Mismatch** | **Detected By** | **Session ID** | **Severity (1-5)** |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| REQ_SI003 | Priority set as "Medium" for camera/scanner, but it's essential for check-in | Priority vs. Business Need | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | "Purpose" section mentions "on-site transactions" vs. Task 1 scope of "online payment" only | Payment Handling | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | 'Scope' section says "process on-site payments" which contradicts Task 1 (online-only) | Payment Handling | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | Conflict over "Set Event Details" use case – disagreement on whether to keep or remove it | Granularity Definition | Eric Teoh Wei Xiang | VS-01 | 3 |
+| REQ_UI003, REQ_UI004 | UI mentions desktop/mobile support, conflicting with REQ_SI004 (mobile-only) | Documentation claims desktop support | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | Intro states support for both desktop and mobile, but system is mobile-only | Contradiction between system scope and intro | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | Interface table lists desktop OS/tools like Windows, macOS, Speechify, etc. | Desktop-related elements contradict mobile-only | Eric Teoh Wei Xiang | VS-01 | 4 |
+| N/A | The system is described as web-based, but it operates primarily as a mobile application | System description conflicts with mobile-only | Pang Tian You | VS-01 | 3 |
+
+
 # Verification
 
 To ensure the quality, correctness, and alignment of the system with
