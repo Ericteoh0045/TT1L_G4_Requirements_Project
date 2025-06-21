@@ -2619,7 +2619,7 @@ descriptions for the Campus Event Check-in System.
 | REQ_P001 | The system shall respond to end user requests within 1 to 5 seconds, ensuring a responsive user experience. | High | Sulaiman |
 | REQ_P002 | The system shall be able to support up to 1000 end user connections simultaneously, accommodating the diverse user base. | High | Sulaiman |
 | REQ_P003 | The system shall support integration via standard APIs with external services (e.g., payment gateway, student database), ensuring secure and seamless data exchange. | High | Sulaiman |
-| REQ_P004 | The system shall be designed to support different display sizes of various devices, promoting accessibility across different platforms for students and lecturers. | Medium | Sulaiman |
+| REQ_P004 | The system shall be designed to support different display sizes of various devices, promoting accessibility across different platforms for students and event organizers.| Medium | Sulaiman |
 | REQ_P005 | The system shall query data from the database within 2 seconds, ensuring quick access to information for the students. | Medium | Sulaiman |
 
 <span id="_Ref199053041" class="anchor"></span>Table 3.3.1 Performance
