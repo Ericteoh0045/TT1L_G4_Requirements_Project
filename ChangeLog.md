@@ -30,3 +30,4 @@
 | CH-26 | REQ_SR003, REQ_SR004, REQ_SR005 | Add user auth, session mgmt, encryption requirements | PANG TIAN YOU | 22/6/2025 | VS-02 |
 | CH-27 | REQ_UR009 | Add usability constraints | PANG TIAN YOU | 22/6/2025 | VS-02 |
 | CH-28 | N/A | Remove QR scanning from student role | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-29 | N/A | Remove and merge functionality | PANG TIAN YOU | 22/6/2025 | VS-02 |
