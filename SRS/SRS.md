@@ -5847,6 +5847,18 @@ Requirements" and update the Table of Contents accordingly.</td>
 | N/A | Interface table lists desktop OS/tools like Windows, macOS, Speechify, etc. | Desktop-related elements contradict mobile-only | Eric Teoh Wei Xiang | VS-01 | 4 |
 | N/A | The system is described as web-based, but it operates primarily as a mobile application | System description conflicts with mobile-only | Pang Tian You | VS-01 | 3 |
 
+###  Conflict Analysis
+
+| **Conflict ID** | **Conflict Description** | **Conflict Analysis** | **Stakeholders Involved** | **Session ID** |
+|:--:|:--:|:--:|:--:|:--:|
+| CF-01 | REQ_SI003 marks camera/scanner as "Medium" priority, though it's essential for check-in. | Misunderstanding of criticality; may delay vital functionality if not corrected. | Product Owner, Requirements Analyst, Development Team, QA Team | VS-01 |
+| CF-02 | "Purpose" section allows on-site payments, contradicting "Online only" in Task 1 scope. | Strategic misalignment; could cause architectural rework and unmet expectations. | Product Owner, Business Stakeholders, Development Team, QA Team | VS-01 |
+| CF-03 | SRS 'Scope' says "on-site payment" vs. Task 1's "online only" scope. | Direct contradiction of core requirement; must be resolved to avoid major redesign. | Product Owner, Business Stakeholders, Development Team, QA Team, Project Manager | VS-01 |
+| CF-04 | Disagreement on removing "Set Event Details" use case due to over-granularity. | Differing views on use case detail level; may cause confusion in design/flow. | Inspector Eric, Inspector Tian You, Product Owner | VS-01 |
+| CF-05 | UI mentions both desktop and mobile support, conflicting with agreed mobile-only scope (REQ_SI004). | Conflicting UI documentation creates ambiguity; may lead to scope creep or incorrect development focus. | Product Owner, UI Designer, Development Team, QA Team | VS-01 |
+| CF-06 | Introduction states system supports both desktop and mobile, contradicting mobile-only agreement. | Misleading intro affects stakeholder understanding and documentation consistency; risks misaligned expectations. | Product Owner, Documentation Team, Project Manager | VS-01 |
+| CF-07 | Interface table lists desktop OS/tools (Windows, macOS, Speechify) conflicting with mobile-only scope. | Inclusion of desktop platforms in interface table confuses development priorities and resource allocation. | Product Owner, Development Team, QA Team, Documentation Team | VS-01 |
+| CF-08 | System described as web-based while implementation is mobile app, contradicting agreed system description. | Discrepancy risks integration issues and miscommunication with stakeholders about supported platforms and deployment. | Product Owner, Development Team, QA Team, Stakeholders | VS-01 |
 
 # Verification
 
