@@ -5331,8 +5331,8 @@ end users across various devices **Table 3.6.3.1.**
 | **Interface ID** | **Description** | **Priority** | **Author** |
 | REQ_UI001 | The GUI for the Campus Event Check-in System will use three background colors: White (RGB Hex: \#FFFFFF) as the primary color, Navy Blue (RGB Hex: \#001F3F) as the secondary color, and Emerald Green (RGB Hex: \#2ECC71) for emphasis elements such as confirmation banners or successful check-in indicators. | High | Yousef |
 | REQ_UI002 | The system will use two main font colors: Black (RGB Hex: \#000000) on light backgrounds and White (RGB Hex: \#FFFFFF) on dark backgrounds to ensure readability and accessibility for all user types. | High | Yousef |
-| REQ_UI003 | The font family used will be "Poppins" for all headings and titles, and "Roboto" for body text across both desktop and mobile versions of the application, to ensure modern and clean visual presentation. | Medium | Yousef |
-| REQ_UI004 | The minimum base font size will be set to 16pt to ensure clarity on both mobile and desktop devices. Font resizing through accessibility settings will also be supported. | High | Yousef |
+| REQ_UI003 | The font family used will be 'Poppins' for all headings and titles, and 'Roboto' for body text across the mobile application, to ensure modern and clean visual presentation. | Medium | Eric |
+| REQ_UI004 | The minimum base font size will be set to 16pt to ensure clarity on mobile devices. Font resizing through accessibility settings will also be supported. | High | Eric|
 
 <span id="_Ref199049165" class="anchor"></span>Table 1.3.2. User
 Interface Requirements
