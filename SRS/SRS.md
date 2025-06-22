@@ -453,8 +453,7 @@ by the event organizer</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052206" class="anchor"></span>Table 3.1.2.2
-REQ_F0102 Table</p></caption>
+<caption><p>Table 3.1.2.2 REQ_F0102 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -472,13 +471,13 @@ REQ_F0102 Table</p></caption>
 <tbody>
 <tr>
 <td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the “Register” button, the system
-shall display the registration page that requires user to fill up all
+<td colspan="3">When student clicks on the “Register” button, the system
+shall display the registration page that requires student to fill up all
 the fields</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
