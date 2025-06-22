@@ -5609,7 +5609,7 @@ However, for the full interview it can be accessed from this
 | We want students to log in using their university accounts | The system must integrate with the university’s authentication system to allow secure login for all users. | REQ_F011 |
 | Students should be able to see all upcoming events and register easily | The system should provide students with access to browse available events and register with ease. | REQ_F00, REQ_F01 |
 | After registering, students should get a QR code for attendance | Upon successful registration and payment, students should receive a QR code for event attendance check-in. | REQ_F04 |
-| We need a way to create new events and enter all the event details | Organizers must be able to create new events by setting titles, descriptions, dates, locations, and capacity. | REQ_F07 |
+| We need a way to create new events and enter all the event details | Organizers must be able to create new events by setting titles, descriptions, dates, locations, and capacity. | REQ_F07, REQ_F08 |
 | It should be easy to see who registered and who actually showed up | Organizers should have access to view the list of registered students and their attendance status. | REQ_F09 |
 | We'd like to scan the student's QR code when they arrive | The system should enable organizers to scan QR codes for quick and accurate student check-in on event day. | REQ_F10 |
 | The system should be secure so only authorized users can access it | All system functions and data must be protected through secure access control and encrypted communication. | REQ_SR001 |

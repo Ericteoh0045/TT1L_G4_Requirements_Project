@@ -50,3 +50,4 @@
 | CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-47 | N/A | Delete one duplicate instance from Section 1.7 | SIOW YI LING | 22/6/2025 | VS-01 |
 | CH-48 | 89 | Correct the verification follow the IEE format| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-49 | 73 | Add the missing requirement ID (e.g., "REQ_F08") into the applicable cell in the Interviews table| SIOW YI LING | 22/6/2025 | VS-02 |
