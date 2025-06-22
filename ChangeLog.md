@@ -47,9 +47,10 @@
 | CH-43 | REQ_C008 |Remove the word “Admin” from the paragraph | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-44 | REQ_C011-REQ_C013 |Add constraints (e.g., logging, offline support, third-party API use) | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-45 | N/A |Update ERD and data dictionary | SIOW YI LING | 22/6/2025 | VS-02 |
-| CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-46 | N/A | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-47 | N/A | Delete one duplicate instance from Section 1.7 | SIOW YI LING | 22/6/2025 | VS-01 |
-| CH-48 | 89 | Correct the verification follow the IEE format| SIOW YI LING | 22/6/2025 | VS-02 |
-| CH-49 | 73 | Add the missing requirement ID (e.g., "REQ_F08") into the applicable cell in the Interviews table| SIOW YI LING | 22/6/2025 | VS-02 |
-| CH-50 | 73-75 | Replace the incorrect ID with REQ_F12 in all affected tables| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-48 | N/A | Correct the verification follow the IEE format| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-49 | N/A | Add the missing requirement ID (e.g., "REQ_F08") into the applicable cell in the Interviews table| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-50 | N/A | Replace the incorrect ID with REQ_F12 in all affected tables| SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-51 | N/A | Finalize the table of content, content and documentation defect, add change log| SIOW YI LING | 22/6/2025 | - |
+| CH-52 | N/A | Correct the requirement ID in change log| SIOW YI LING | 22/6/2025 | - |
