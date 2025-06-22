@@ -44,3 +44,4 @@
 | CH-40 | REQ_F0201 |Add input fields/actions and fix flow | LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-41 | REQ_F0101 |Add student selection step | LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-42 | REQ_IO0602-REQ_IO0604 |Add underscores | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-43 | REQ_C008 |Remove the word “Admin” from the paragraph | SIOW YI LING | 22/6/2025 | VS-02 |

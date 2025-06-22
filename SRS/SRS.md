@@ -5424,7 +5424,7 @@ for the Campus Event Check-in System.
 | REQ_C005 | The system must be developed using technologies compatible with mobile platforms (e.g., React Native, Flutter). | High | Sulaiman |
 | REQ_C006 | All user inputs must be validated both client-side (in-app) and server-side, with real-time feedback where applicable. | High | Sulaiman |
 | REQ_C007 | The system must support future scalability, such as adding new event features, roles, or analytics modules without disrupting the core architecture. | Medium | Sulaiman |
-| REQ_C008 | Role-based access must be enforced, ensuring each user type (Student, Organizer, Admin) has access only to relevant features. | High | Sulaiman |
+| REQ_C008 | Role-based access must be enforced, ensuring each user type (Student, Organizer) has access only to relevant features. | High | Siow Yi Ling |
 | REQ_C009 | The database must enforce referential integrity using primary and foreign keys to maintain consistent relationships between data. | High | Sulaiman |
 | REQ_C010 | All date and time values must be stored in UTC and displayed to users in their local timezones. | High | Sulaiman |
 
