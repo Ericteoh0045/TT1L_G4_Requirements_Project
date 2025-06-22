@@ -7,14 +7,14 @@ Title: Campus Event Check-in System
 
 Prepared By<span dir="rtl">:</span>
 
-|   **ID**   |              **Name**               | **Contribution** |
+| **Name** |              **Student ID** | **Contribution** |
 |:----------:|:-----------------------------------:|:----------------:|
-| 1211305566 |    ALKATHERI, SULAIMAN ALI MAHDI    |       25%        |
-| 1221101391 |             LIM AI NEE              |       25%        |
-| 1221100800 | MUHAMMAD AZHAR BIN AHMAD ROSEHAIZAT |       25%        |
-| 1211103488 |    YOUSEF ELSAYED EZZAT ELSAYED     |       25%        |
+| ERIC TEOH WEI XIANG |   1221102007    |       25%        |
+|    PANG TIAN YOU    |   1231303394    |       25%        |
+|    SIOW YI LING     |   1211107982    |       25%        |
+|   LIM KAI SHEN      |   1211110602    |       25%        |
 
-Group: 1 TT1L
+Group 4 TT1L
 
 Supervision By:
 
@@ -23,75 +23,81 @@ Dr. Zarina Binti Che Embi
 
 **Table of Contents**
 
-- [List of Figures](#list-of-figures)
-- [List of Tables](#list-of-tables)
+- [1 Introduction](#introduction)  
+  - [1.1 Purpose](#purpose)  
+  - [1.2 Scope](#scope)  
+  - [1.3 Product Perspective](#product-perspective)  
+  - [1.4 Product Functions](#product-functions)  
+  - [1.5 User Characteristics](#user-characteristics)  
+  - [1.6 Limitations](#limitations)  
+  - [1.7 Definitions](#definitions)  
 
-- [1. Introduction](#introduction)
-  - [1.1 Purpose](#purpose)
-  - [1.2 Scope](#scope)
-  - [1.3 Product Perspective](#product-perspective)
-    - [1.3.1 System Interface](#system-interface)
-    - [1.3.2 User Interface](#user-interface)
-    - [1.3.3 Hardware Interface](#hardware-interface)
-    - [1.3.4 Software Interface](#software-interface)
-    - [1.3.5 Communication Interface](#communication-interface)
-  - [1.4 Product Functions](#product-functions)
-  - [1.5 User Characteristics](#user-characteristics)
-  - [1.6 Limitations](#limitations)
-  - [1.7 Assumptions and Dependencies](#assumptions-and-dependencies)
-  - [1.8 Definitions](#definitions)
+- [2 References](#references)  
 
-- [2. Requirements](#requirements)
-  - [2.1 External Interfaces](#external-interfaces)
-    - [2.1.1 Login User Interface](#login-user-interface)
-    - [2.1.2 View Upcoming Events Interface](#view-upcoming-events-interface)
-    - [2.1.3 Event Details](#event-details)
-    - [2.1.4 Register for Event](#register-for-event)
-    - [2.1.5 Make Payment](#make-payment)
-    - [2.1.6 Receive e-ticket/QR code](#receive-e-ticketqr-code)
-    - [2.1.7 View Registration History](#view-registration-history)
-    - [2.1.8 Show QR Attendance](#show-qr-attendance)
-    - [2.1.9 Set Event Details](#set-event-details)
-    - [2.1.10 View Events (Organizer)](#view-events-organizer)
-    - [2.1.11 View Registrations and Attendance Status](#view-registrations-and-attendance-status)
-  - [2.2 Functions](#functions)
-    - [2.2.1 F00 View Upcoming Events](#f00-view-upcoming-events)
-    - [2.2.2 F01 View Event Details](#f01-view-event-details)
-    - [2.2.3 F02 Register for Event](#f02-register-for-event)
-    - [2.2.4 F03 Make Payment](#f03-make-payment)
-    - [2.2.5 F04 Receive e-Ticket/QR Code](#f04-receive-e-ticketqr-code)
-    - [2.2.6 F05 View Registration History](#f05-view-registration-history)
-    - [2.2.7 F06 Show QR Attendance](#f06-show-qr-attendance)
-    - [2.2.8 F07 Create a New Event & F08 Set Event Details](#f07-create-a-new-event--f08-set-event-details)
-    - [2.2.9 F09 View Events](#f09-view-events)
-    - [2.2.10 F10 View Registrations & Attendance Status](#f10-view-registrations--attendance-status)
-    - [2.2.11 F11 Check-in Upon Arrival](#f11-check-in-upon-arrival)
-    - [2.2.12 F12 Login](#f12-login)
-  - [2.3 State Transition Diagrams](#state-transition-diagrams)
-  - [2.4 Performance Requirements](#performance-requirements)
-  - [2.5 Security Requirements](#security-requirements)
-  - [2.6 Usability Requirements](#usability-requirements)
-  - [2.7 Logical Database Requirements](#logical-database-requirements)
-    - [2.7.1 Event Table](#event-table)
-    - [2.7.2 Registration Table](#registration-table)
-    - [2.7.3 Payment Table](#payment-table)
-  - [2.8 Design Constraints](#design-constraints)
-  - [2.9 Software System Attributes](#software-system-attributes)
-  - [2.10 Supporting Information](#supporting-information)
-    - [2.10.1 Interview](#interview)
-    - [2.10.2 Questionnaires](#questionnaires)
-    - [2.10.3 Observation](#observation)
+- [3 Requirements](#requirements)  
+  - [3.1 Functions](#functions)  
+    - [3.1.1 F00 View Upcoming Events](#f00-view-upcoming-events)  
+    - [3.1.2 F01 View Event Details](#f01-view-event-details)  
+    - [3.1.3 F02 Register for Event](#f02-register-for-event)  
+    - [3.1.4 F03 Make Payment](#f03-make-payment)  
+    - [3.1.5 F04 Receive e-Ticket/QR Code](#f04-receive-e-ticketqr-code)  
+    - [3.1.6 F05 View Registration History](#f05-view-registration-history)  
+    - [3.1.7 F06 Show QR Attendance](#f06-show-qr-attendance)  
+    - [3.1.8 F07 Create New Event](#f07-create-new-event)  
+    - [3.1.9 F08 View Events](#f08-view-events)  
+    - [3.1.10 F10 View Registrations & Attendance Status](#f10-view-registrations-attendance-status)  
+    - [3.1.11 F11 Check-in Upon Arrival](#f11-check-in-upon-arrival)  
+    - [3.1.12 F12 Login](#f12-login)  
+  - [3.2 State Transition Diagrams](#state-transition-diagrams)  
+  - [3.3 Performance Requirements](#performance-requirements)  
+  - [3.4 Security Requirements](#security-requirements)  
+  - [3.5 Usability Requirements](#usability-requirements)  
+  - [3.6 Interface Requirements](#interface-requirements)  
+    - [3.6.1 External Interfaces](#external-interfaces)  
+    - [3.6.2 System Interface](#system-interface)  
+    - [3.6.3 User Interface](#user-interface)  
+    - [3.6.4 Hardware Interface](#hardware-interface)  
+    - [3.6.5 Software Interface](#software-interface)  
+    - [3.6.6 Communication Interface](#communication-interface)  
+  - [3.7 Logical Database Requirements](#logical-database-requirements)  
+    - [3.7.1 Registration Table](#registration-table)  
+    - [3.7.2 Event Table](#event-table)  
+    - [3.7.3 Payment Table](#payment-table)  
+    - [3.7.4 Student Table](#student-table)  
+    - [3.7.5 Event Organizer Table](#event-organizer-table)  
+  - [3.8 Design Constraints](#design-constraints)  
+  - [3.9 Software System Attributes](#software-system-attributes)  
+  - [3.10 Supporting Information](#supporting-information)  
+    - [3.10.1 Interview](#interview)  
+    - [3.10.2 Questionnaires](#questionnaires)  
+    - [3.10.3 Observation](#observation)  
+    - [3.10.4 Validation Session](#validation-session)  
+    - [3.10.5 Defect Summary](#defect-summary)  
+    - [3.10.6 Conflict Analysis](#conflict-analysis)  
+    - [3.10.7 Conflict Analysis and Resolution](#conflict-analysis-and-resolution)  
+    - [3.10.8 Change Log](#change-log)  
+    - [3.10.9 Requirements Traceability Matrix](#requirements-traceability-matrix)  
+    - [3.10.10 Role in Requirements Validation, Negotiation & Management](#role-in-requirements-validation-negotiation-management)  
+    - [3.10.11 Version Control & Configuration Summary](#version-control-configuration-summary)  
 
-- [3. Verification](#verification)
-  - [3.1 Inspection](#inspection)
-  - [3.2 Walkthroughs](#walkthroughs)
-  - [3.3 Prototyping](#prototyping)
+- [4 Verification](#verification)  
+  - [4.1 Verification](#verification-1)  
+    - [4.1.1 Availability Requirements Verification](#availability-requirements-verification)  
+    - [4.1.2 Reliability Requirements Verification](#reliability-requirements-verification)  
+    - [4.1.3 Security Requirements Verification](#security-requirements-verification)  
+    - [4.1.4 Auditability Requirements Verification](#auditability-requirements-verification)  
+    - [4.1.5 Performance Requirements Verification](#performance-requirements-verification)  
+    - [4.1.6 Maintainability Requirements Verification](#maintainability-requirements-verification)  
+    - [4.1.7 Portability Requirements Verification](#portability-requirements-verification)  
+    - [4.1.8 Usability Requirements Verification](#usability-requirements-verification)  
+    - [4.1.9 Responsiveness Requirements Verification](#responsiveness-requirements-verification)  
+    - [4.1.10 Scalability Requirements Verification](#scalability-requirements-verification)  
+    - [4.1.11 Accuracy Requirements Verification](#accuracy-requirements-verification)  
+  - [4.2 Verification Criteria](#verification-criteria)  
 
-- [4. Appendices](#appendices)
-- [5. References](#references)
-
-
-
+- [5. Appendices](#appendices)  
+  - [5.1 Assumption and Dependencies](#assumption-and-dependencies)  
+  - [5.2 Acronyms and Abbreviations](#acronyms-and-abbreviations)
 
 
 # 1 Introduction
