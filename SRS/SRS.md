@@ -5311,104 +5311,224 @@ involved.
 
 ## 3.7 Logical Database Requirements
 
-The system is designed to store and manage a variety of data securely.
-All information is stored in an **encrypted online database**, which can
-only be accessed through **authorized requests from the web server** or
-by the **system administrator**, ensuring strong data protection and
-integrity.
+The Entity-Relationship Diagram (ERD) represents the structure and
+relationships of key entities within the Campus Event Check-in System.
+The main entities include **Student**, **Event Organizer**, **Event**,
+**Registration**, and **Payment**. This model supports the core
+functions of student event registration, attendance tracking using
+QR-based tickets, secure payment processing, and organizer-led event
+management.
 
-**Figure 2.7. 1** presents the system's **Entity Relationship Diagram
-(ERD)**, which includes three main tables: **Event**, **Registration**,
-and **Payment**—representing the core components of the system’s data
-model.
-
-The **Event** table includes a Created_By column, which records the
-identity of the organizer who created the event, enabling traceability
-and accountability. The **Registration** table links students to their
-respective events, while also storing their ticket and attendance
-status.
-
-The **Payment** table is carefully designed to follow **security best
-practices**. Instead of storing sensitive card details, it stores only
-non-sensitive data such as a Payment_Token, Transaction_ID, Paid_At
-timestamp, and Payment_Status. This design ensures compliance with
-industry standards like **PCI-DSS**, reducing security risks and
-supporting secure integration with third-party payment gateways.
-
-Although the system also involves **Student** and **Event_Organizer**
-data, these tables are **not included in the ERD**. This is because
-their data is retrieved directly from the **university’s central
-database**. This decision aligns with **database design best
-practices**, which emphasize maintaining a **single source of truth** to
-avoid data duplication, inconsistency, and synchronization issues.
-
-The database structure adheres to **normalization principles**,
-eliminating redundancy and promoting data consistency across the system.
-Additionally, the ERD is designed with **scalability in mind**, allowing
-for the seamless integration of future features such as event
-categories, participant feedback, or attendance analytics, without
-disrupting the existing schema.
-
-Overall, the ERD reflects a well-normalized, secure, and maintainable
-structure aligned with both academic standards and real-world best
-practices in database design.
+Students can browse and register for campus events, which are created
+and managed by event organizers. Each registration record connects a
+student to a specific event and includes details like their attendance
+status and ticket link. Payments are tied to individual registrations
+and store transaction-related data such as payment tokens and
+timestamps. By clearly mapping how each entity interacts, the ERD
+provides a reliable and scalable foundation for building a secure and
+user-friendly event management system.
 
 <figure>
-<img src="./media/image20.png" style="width:5.224in;height:3.73215in"
+<img src="./media/image21.png" style="width:5.97504in;height:4.93005in"
 alt="A diagram of a function AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053917" class="anchor"></span>Figure
-2.7. System ERD</p></figcaption>
+<figcaption><p>Figure 3.7 System ERD</p></figcaption>
 </figure>
 
-### Event Table
+### 3.7.1 Registration Table
 
-**Table 2.7. 1** shows the data dictionary of the Event table.
+| **Field Name** | **Description** | **Data Type** | **Constraints** | **Extra Notes** |
+|:--:|:--:|:--:|:--:|:--:|
+| Registration_ID | Unique ID for the registration record | int | Primary Key | Auto-incremented |
+| Event_ID | ID of the event registered for | int | Foreign Key → Event.Event_ID | Not Null |
+| Student_ID | ID of the student registering | int | Foreign Key → Student.Student_ID | Not Null |
+| Ticket_Link | URL or file path to ticket (QR) | string | Not Null | Max 255 characters |
+| Attendance_Status | Status of attendance | string | Not Null | e.g., 'Checked-In', 'Not Checked-In' |
 
-| ***Field Name*** | ***Data Type*** | ***Description*** |
-|----|----|----|
-| Event_ID | int (PK) | Unique identifier for the event |
-| Name | varchar(255) | Title of the event |
-| Description | text | Detailed description of the event |
-| Location | varchar(255) | Physical or online location of the event |
-| Date | date | Scheduled date of the event |
-| Time | time | Scheduled time of the event |
-| Capacity | int | Maximum number of attendees allowed |
-| Ticket_Link | varchar(255) | URL to download/view the ticket |
-| Created_By | int | ID of the student or university’s staff (from university DB) |
+Table 3.7.2.1 Registration Table Data Dictionary
 
-<span id="_Ref199053092" class="anchor"></span>Table 2.7. Event Table
-Data Dictionary
+### 3.7.2 Event Table
 
-### Registration Table
+<table>
+<caption><p>Table 3.7.1.1 Event Table Data Dictionary</p></caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 25%" />
+<col style="width: 14%" />
+<col style="width: 19%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Field Name</strong></th>
+<th style="text-align: center;"><strong>Description</strong></th>
+<th style="text-align: center;"><strong>Data Type</strong></th>
+<th style="text-align: center;"><strong>Constraints</strong></th>
+<th style="text-align: center;"><strong>Extra Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Event_ID</td>
+<td style="text-align: center;">Unique identifier for the event</td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;">Primary Key</td>
+<td style="text-align: center;">Auto-incremented</td>
+</tr>
+<tr>
+<td style="text-align: center;">Created_By</td>
+<td style="text-align: center;">ID of the organizer who created the
+event</td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;"><p>ForeignKey→ Event_Organizer.</p>
+<p>Organizer_ID</p></td>
+<td style="text-align: center;">References organizer account</td>
+</tr>
+<tr>
+<td style="text-align: center;">Image_Path</td>
+<td style="text-align: center;">File path or URL for event image</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">For displaying thumbnail</td>
+</tr>
+<tr>
+<td style="text-align: center;">Title</td>
+<td style="text-align: center;">Title of the event</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Max 50 characters</td>
+</tr>
+<tr>
+<td style="text-align: center;">Description</td>
+<td style="text-align: center;">Description of the event</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Nullable</td>
+<td style="text-align: center;">Max 255 characters</td>
+</tr>
+<tr>
+<td style="text-align: center;">Date</td>
+<td style="text-align: center;">Scheduled event date</td>
+<td style="text-align: center;">date</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Format: YYYY-MM-DD</td>
+</tr>
+<tr>
+<td style="text-align: center;">Time</td>
+<td style="text-align: center;">Scheduled event time</td>
+<td style="text-align: center;">time</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Format: HH:MM</td>
+</tr>
+<tr>
+<td style="text-align: center;">Location</td>
+<td style="text-align: center;">Venue or link to event</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Max 255 characters</td>
+</tr>
+<tr>
+<td style="text-align: center;">Capacity</td>
+<td style="text-align: center;">Max number of attendees</td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Positive integer only</td>
+</tr>
+<tr>
+<td style="text-align: center;">Price</td>
+<td style="text-align: center;">Ticket price</td>
+<td style="text-align: center;">float</td>
+<td style="text-align: center;">Default 0.00</td>
+<td style="text-align: center;">2 decimal places allowed</td>
+</tr>
+</tbody>
+</table>
 
-**Table 2.7. 2** shows the data dictionary of the Registration table.
+### 3.7.3 Payment Table
 
-| ***Field Name*** | ***Data Type*** | ***Description*** |
-|----|----|----|
-| Registration_ID | int (PK) | Unique identifier for the registration |
-| Student_ID | int (FK) | ID of the student registering (from university DB) |
-| Event_ID | int (FK) | ID of the event being registered for |
-| Ticket_Path | varchar(255) | Path or URL to the generated ticket |
-| Attendance_Status | varchar(50) | Status of attendance (e.g., Not Checked-In, Present) |
+<table>
+<caption><p>Table 3.7.3.1 Payment Table Data Dictionary</p></caption>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 25%" />
+<col style="width: 13%" />
+<col style="width: 19%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Field Name</strong></th>
+<th style="text-align: center;"><strong>Description</strong></th>
+<th style="text-align: center;"><strong>Data Type</strong></th>
+<th style="text-align: center;"><strong>Constraints</strong></th>
+<th style="text-align: center;"><strong>Extra Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Payment_ID</td>
+<td style="text-align: center;">Unique ID for the payment</td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;">Primary Key</td>
+<td style="text-align: center;">Auto-incremented</td>
+</tr>
+<tr>
+<td style="text-align: center;">Registration_ID</td>
+<td style="text-align: center;">Linked registration entry</td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;"><p>Foreign Key → Registration.</p>
+<p>Registration_ID</p></td>
+<td style="text-align: center;">Not Null</td>
+</tr>
+<tr>
+<td style="text-align: center;">Payment_Token</td>
+<td style="text-align: center;">Token from payment gateway</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Used for security</td>
+</tr>
+<tr>
+<td style="text-align: center;">Transaction_ID</td>
+<td style="text-align: center;">Unique transaction ID</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">Max 100 characters</td>
+</tr>
+<tr>
+<td style="text-align: center;">Paid_At</td>
+<td style="text-align: center;">Date &amp; time payment was
+completed</td>
+<td style="text-align: center;">datetime</td>
+<td style="text-align: center;">Nullable</td>
+<td style="text-align: center;">Format: YYYY-MM-DD HH:MM</td>
+</tr>
+<tr>
+<td style="text-align: center;">Payment_Status</td>
+<td style="text-align: center;">Status of the payment</td>
+<td style="text-align: center;">string</td>
+<td style="text-align: center;">Not Null</td>
+<td style="text-align: center;">e.g., 'Success', 'Failed'</td>
+</tr>
+</tbody>
+</table>
 
-<span id="_Ref199053103" class="anchor"></span>Table 2.7. Registration
-Table Data Dictionary
+### 3.7.4 Student Table
 
-### Payment Table
+| **Field Name** | **Description** | **Data Type** | **Constraints** | **Extra Notes** |
+|:--:|:--:|:--:|:--:|:--:|
+| Student_ID | Student identifier | int | Primary Key | From university DB |
+| Name | Full name of student | string | Not Null | Max 100 characters |
+| Email | Student’s email address | string | Unique, Not Null | Format: user@domain |
 
-**Table 2.7. 3** shows the data dictionary of the Payment table.
+Table 3.7.4.1 Student Table Data Dictionary
 
-| ***Field Name*** | ***Data Type*** | ***Description*** |
-|----|----|----|
-| Payment_ID | int (PK) | Unique identifier for the payment |
-| Registration_ID | int (FK) | ID of the associated registration |
-| Payment_Token | varchar(255) | Token or intent ID from the payment gateway |
-| Transaction_ID | varchar(100) | Unique transaction ID from the gateway |
-| Paid_At | datetime | Date and time when the payment was completed |
-| Payment_Status | varchar(50) | Status of the payment (e.g., Success, Failed) |
+### 3.7.5 Event Organizer Table
 
-<span id="_Ref199053118" class="anchor"></span>Table 2.7. Payment Table
-Data Dictionary
+| **Field Name** | **Description** | **Data Type** | **Constraints** | **Extra Notes** |
+|:--:|:--:|:--:|:--:|:--:|
+| Organizer_ID | Unique ID for organizer | int | Primary Key | Auto-incremented or from university DB |
+| Name | Full name of organizer | string | Not Null | Max 100 characters |
+| Department | Organizer’s department | string | Nullable | Max 100 characters |
+
+Table 3.7.5.1 Event Organizer Table Data Dictionary
 
 ## 3.8 Design Constraints 
 
