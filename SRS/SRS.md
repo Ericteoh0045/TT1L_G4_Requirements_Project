@@ -14,7 +14,7 @@ Prepared By<span dir="rtl">:</span>
 |    SIOW YI LING     |   1211107982    |       25%        |
 |   LIM KAI SHEN      |   1211110602    |       25%        |
 
-Group 4 TT1L
+Group 4 TT1L 
 
 Supervision By:
 
@@ -6097,6 +6097,7 @@ only.</td>
 | CH-51 | N/A | Finalize the table of content, content and documentation defect, add change log| SIOW YI LING | 22/6/2025 | - |
 | CH-52 | N/A | Correct the requirement ID in change log| SIOW YI LING | 22/6/2025 | - |
 | CH-53 | N/A | Correct small nubering mistake| ERIC TEOH WEI XIANG | 22/6/2025 | - |
+
 <span id="_Ref199053238" class="anchor"></span>Table 3.10.8.1 Change Log Table
 
 ### 3.10 9 Requirements Traceability Matrix
@@ -6107,6 +6108,8 @@ only.</td>
 | **2** | Linked to **2 artifacts** (e.g., goal + feature) |
 | **3** | Linked to **3 artifacts**, but links may be **basic or unverified** |
 | **4** | Linked to **3 artifacts** with **high confidence, correctness, and completeness** (e.g., validated relationships, clear traceability) |
+
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.9.1 Traceability Score Table
 
 <table>
 <colgroup>
@@ -6380,7 +6383,7 @@ system.</td>
 </tbody>
 </table>
 
-<span id="_Ref199053238" class="anchor"></span>Table 3.10.9.1 Requirements Traceability Matrix Table
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.9.2 Requirements Traceability Matrix Table
 
 ### 3.10.10 Role in Requirements Validation, Negotiation & Management
 
