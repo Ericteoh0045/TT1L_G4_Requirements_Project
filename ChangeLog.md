@@ -36,3 +36,4 @@
 | CH-32 | N/A | Change "web-based" to "mobile" | PANG TIAN YOU | 22/6/2025 | VS-01 |
 | CH-33 | REQ_IO0202–REQ_IO0207 | Change to "display label" | LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-34 | REQ_IO0402–REQ_IO0404 | Correct to REQ_IO0401| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-35 | REQ_IO0701–REQ_IO0703 | Clarify or set to None| LIM KAI SHEN | 22/6/2025 | VS-02 |

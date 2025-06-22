@@ -4272,14 +4272,13 @@ attendance</td>
 
 To support on-site verification, the system allows event organizers to
 scan and display student attendance using QR codes. The following tables
-**Table 3.6.1.8.1 – Table 3.6.1.8.5** detail the initial and the
+**Table 3.6.1.8.1 – Table 3.6.1.8.3** detail the initial and the
 updated versions for the interface elements involved in scanning,
 validating, and presenting QR-based attendance records during event
 check-in.
 
 <table>
-<caption><p><span id="_Ref199051751" class="anchor"></span>Table 3.6.1.8.1
-REQ_IO0701 Version 1 Table</p></caption>
+<caption><p>Table 3.6.1.8.1 REQ_IO0701 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -4292,150 +4291,6 @@ REQ_IO0701 Version 1 Table</p></caption>
 <th>REQ_IO0701</th>
 <th><strong>Version</strong></th>
 <th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">QR Code (Output)</td>
-</tr>
-<tr>
-<td><strong>Item Description</strong></td>
-<td colspan="3">A unique QR code generated for the registered event</td>
-</tr>
-<tr>
-<td><strong>Item Purpose</strong></td>
-<td colspan="3">Allows the event staff to scan and verify
-attendance</td>
-</tr>
-<tr>
-<td><strong>Input Format</strong></td>
-<td>None</td>
-<td><strong>Valid Input</strong></td>
-<td>Not Applicable</td>
-</tr>
-<tr>
-<td><strong>Related I/O</strong></td>
-<td colspan="3">Triggered after successful registration</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063091" class="anchor"></span>Table 2.1.8.
-REQ_IO0701 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th>REQ_IO0701</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">QR Code (Output)</td>
-</tr>
-<tr>
-<td><strong>Item Description</strong></td>
-<td colspan="3">A unique QR code generated for the registered event</td>
-</tr>
-<tr>
-<td><strong>Item Purpose</strong></td>
-<td colspan="3">Allows the event staff to scan and verify
-attendance</td>
-</tr>
-<tr>
-<td><strong>Input Format</strong></td>
-<td>None</td>
-<td><strong>Valid Input</strong></td>
-<td>Not Applicable</td>
-</tr>
-<tr>
-<td><strong>Related I/O</strong></td>
-<td colspan="3">Triggered after REQ_IO0604</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063092" class="anchor"></span>Table  3.6.1.8.2
-REQ_IO0702 Version 1 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th>REQ_IO0702</th>
-<th><strong>Version</strong></th>
-<th><strong>1.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">Event Name Label (Output)</td>
-</tr>
-<tr>
-<td><strong>Item Description</strong></td>
-<td colspan="3">Displays the title of the event below the QR code</td>
-</tr>
-<tr>
-<td><strong>Item Purpose</strong></td>
-<td colspan="3">Helps student identify which event the QR code belongs
-to</td>
-</tr>
-<tr>
-<td><strong>Input Format</strong></td>
-<td>None</td>
-<td><strong>Valid Input</strong></td>
-<td>Not Applicable</td>
-</tr>
-<tr>
-<td><strong>Related I/O</strong></td>
-<td colspan="3">Triggered after successful registration</td>
-</tr>
-<tr>
-<td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<caption><p><span id="_Toc199063093" class="anchor"></span>Table 2.1.8.
-REQ_IO0702 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th>REQ_IO0702</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -4462,15 +4317,61 @@ REQ_IO0702 Version 2 Table</p></caption>
 <td colspan="3">None</td>
 </tr>
 <tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063094" class="anchor"></span>Table  3.6.1.8.2
-REQ_IO0703 Version 1 Table</p></caption>
+<caption><p>Table 3.6.1.8.2 REQ_IO0702 Version 1 Table</p></caption>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr>
+<th><strong>Requirement ID</strong></th>
+<th>REQ_IO0702</th>
+<th><strong>Version</strong></th>
+<th><strong>1.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Item</strong></td>
+<td colspan="3">Event Name Label (Output)</td>
+</tr>
+<tr>
+<td><strong>Item Description</strong></td>
+<td colspan="3">Displays the title of the event below the QR code</td>
+</tr>
+<tr>
+<td><strong>Item Purpose</strong></td>
+<td colspan="3">Help student identify which event the QR code belongs
+to</td>
+</tr>
+<tr>
+<td><strong>Input Format</strong></td>
+<td>None</td>
+<td><strong>Valid Input</strong></td>
+<td>Not Applicable</td>
+</tr>
+<tr>
+<td><strong>Related I/O</strong></td>
+<td colspan="3">None</td>
+</tr>
+<tr>
+<td><strong>Author</strong></td>
+<td colspan="3">Lim Kai Shen</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><p>Table 3.6.1.8.3 REQ_IO0703 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -4496,7 +4397,7 @@ REQ_IO0703 Version 1 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">Allows user to exit the QR screen</td>
+<td colspan="3">Allows users to exit the QR screen</td>
 </tr>
 <tr>
 <td><strong>Input Format</strong></td>
@@ -4506,61 +4407,16 @@ REQ_IO0703 Version 1 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">Linked to user dashboard</td>
+<td colspan="3">None</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Yousef</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
-<table>
-<caption><p><span id="_Ref199051762" class="anchor"></span>Table 2.1.8.
-REQ_IO0703 Version 2 Table</p></caption>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 18%" />
-<col style="width: 18%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr>
-<th><strong>Requirement ID</strong></th>
-<th>REQ_IO0703</th>
-<th><strong>Version</strong></th>
-<th><strong>2.0</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Item</strong></td>
-<td colspan="3">Back Button (Output)</td>
-</tr>
-<tr>
-<td><strong>Item Description</strong></td>
-<td colspan="3">A button labeled “Back” to return to the dashboard</td>
-</tr>
-<tr>
-<td><strong>Item Purpose</strong></td>
-<td colspan="3">Allows user to exit the QR screen</td>
-</tr>
-<tr>
-<td><strong>Input Format</strong></td>
-<td>Button</td>
-<td><strong>Valid Input</strong></td>
-<td>Not Applicable</td>
-</tr>
-<tr>
-<td><strong>Related I/O</strong></td>
-<td colspan="3">None</td>
-</tr>
-<tr>
-<td><strong>Author (Updated By)</strong></td>
-<td colspan="3">Sulaiman</td>
-</tr>
-</tbody>
-</table>
+
 
 #### 3.6.1.9 Set Event Details
 
