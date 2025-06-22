@@ -39,3 +39,4 @@
 | CH-35 | REQ_IO0701–REQ_IO0703 | Clarify or set to None| LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-36 | REQ_F0102 | Replace “user” with “student”| LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-37 | REQ_F0201–REQ_F0206 | Use consistent terminology| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-38 | REQ_F0206 | Add “Back” | LIM KAI SHEN | 22/6/2025 | VS-02 |
