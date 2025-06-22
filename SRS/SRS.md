@@ -6406,5 +6406,95 @@ as intended.
     times.
 
   ## 5.2 Acronyms and Abbreviations
-# 自已改内容，header 我换好了
+***Table 5.2.1: Acronyms and Abbreviations***
+
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Acronym /
+Abbreviation</strong></th>
+<th style="text-align: center;"><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">API</td>
+<td style="text-align: left;">Application Programming Interface</td>
+</tr>
+<tr>
+<td style="text-align: center;">DB</td>
+<td style="text-align: left;">Database</td>
+</tr>
+<tr>
+<td style="text-align: center;">ERD</td>
+<td style="text-align: left;">Entity Relationship Diagram</td>
+</tr>
+<tr>
+<td style="text-align: center;">QR</td>
+<td style="text-align: left;">Quick Response (Code)</td>
+</tr>
+<tr>
+<td style="text-align: center;">UTC</td>
+<td style="text-align: left;">Coordinated Universal Time</td>
+</tr>
+<tr>
+<td style="text-align: center;">UI</td>
+<td style="text-align: left;">User Interface</td>
+</tr>
+<tr>
+<td style="text-align: center;">UX</td>
+<td style="text-align: left;">User Experience</td>
+</tr>
+<tr>
+<td style="text-align: center;">CVV</td>
+<td style="text-align: left;">Card Verification Value</td>
+</tr>
+<tr>
+<td style="text-align: center;">QR Code</td>
+<td style="text-align: left;">Quick Response Code</td>
+</tr>
+<tr>
+<td style="text-align: center;">SMS</td>
+<td style="text-align: left;">Short Message Service</td>
+</tr>
+<tr>
+<td style="text-align: center;">ID</td>
+<td style="text-align: left;">Identification Number</td>
+</tr>
+<tr>
+<td style="text-align: center;">HTTPS</td>
+<td style="text-align: left;">Hypertext Transfer Protocol Secure</td>
+</tr>
+<tr>
+<td style="text-align: center;">iOS</td>
+<td style="text-align: left;">iPhone Operating System<table>
+</tr>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr>
+<td style="text-align: center;">RAM</td>
+<td style="text-align: left;">Random Access Memory</td>
+</tr>
+<tr>
+<td style="text-align: center;">MB</td>
+<td style="text-align: left;">Megabyte</td>
+</tr>
+<tr>
+<td style="text-align: center;">ARM</td>
+<td style="text-align: left;">Advanced RISC Machine (Processor
+Architecture)</td>
+</tr>
+</tbody>
+</table>
+
 

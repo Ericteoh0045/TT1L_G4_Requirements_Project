@@ -47,3 +47,4 @@
 | CH-43 | REQ_C008 |Remove the word “Admin” from the paragraph | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-44 | REQ_C011-REQ_C013 |Add constraints (e.g., logging, offline support, third-party API use) | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-45 | N/A |Update ERD and data dictionary | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
