@@ -54,3 +54,4 @@
 | CH-50 | N/A | Replace the incorrect ID with REQ_F12 in all affected tables| SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-51 | N/A | Finalize the table of content, content and documentation defect, add change log| SIOW YI LING | 22/6/2025 | - |
 | CH-52 | N/A | Correct the requirement ID in change log| SIOW YI LING | 22/6/2025 | - |
+| CH-53 | N/A | Correct small nubering mistake| ERIC TEOH WEI XIANG | 22/6/2025 | - |

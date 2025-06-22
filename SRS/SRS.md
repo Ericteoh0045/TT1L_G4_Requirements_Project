@@ -1176,7 +1176,7 @@ alt="A black screen with white text AI-generated content may be incorrect." />
 
 ### 3.1.5 F04 Receive e-Ticket/QR Code
 
-**Table 3.1.5.1*** describes the receive e-ticket/QR code function and
+**Table 3.1.5.1** describes the receive e-ticket/QR code function and
 its description. While **Table 3.1.5.2** shows the receive e-ticket/QR
 code use case specification table. And **Figure 3.1.5.1** depicts the
 sequence diagram for the receive e-ticket/QR code function.
@@ -1213,7 +1213,7 @@ specific to the user and event</td>
 </table>
 
 <table>
-<caption><p><span id="_Ref199052562" class="anchor"></span>Table 2.2.5.
+<caption><p><span id="_Ref199052562" class="anchor"></span>Table 3.1.5.2
 F04 Receive e-Ticket/QR Code Use Case Specification Table</p></caption>
 <colgroup>
 <col style="width: 23%" />
@@ -1273,7 +1273,7 @@ encoded with the student’s details</p></li>
 <img src="./media/image9.png" style="width:6.26806in;height:2.84583in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 <figcaption><p><span id="_Ref199053653" class="anchor"></span>Figure
-3.1.5.2 F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
+3.1.5.1 F04 Receive e-Ticket/QR Code Sequence Diagram F04 Receive
 e-Ticket/QR Code Sequence Diagram</p></figcaption>
 </figure>
 
@@ -5166,8 +5166,6 @@ end users across various devices **Table 3.6.3.1.**
 | REQ_UI003 | The font family used will be 'Poppins' for all headings and titles, and 'Roboto' for body text across the mobile application, to ensure modern and clean visual presentation. | Medium | Eric |
 | REQ_UI004 | The minimum base font size will be set to 16pt to ensure clarity on mobile devices. Font resizing through accessibility settings will also be supported. | High | Eric|
 
-<span id="_Ref199049165" class="anchor"></span>Table 1.3.2. User
-Interface Requirements
 
 ### 3.6.4 Hardware Interface
 
@@ -5185,8 +5183,7 @@ device with the following specifications **Table 3.6.4.1**.
 | REQ_H1005 | The device must include a touch-enabled screen with at least 720p resolution. | High | Azhar |
 | REQ_H1006 | The device must be equipped with a functional rear-facing camera for QR code scanning. | High | Azhar |
 
-<span id="_Ref199049255" class="anchor"></span>Table 1.3.3. Hardware
-Interface Requirements
+
 
 ### 3.6.5 Software Interface
 
@@ -5327,12 +5324,12 @@ alt="A diagram of a function AI-generated content may be incorrect." />
 | Ticket_Link | URL or file path to ticket (QR) | string | Not Null | Max 255 characters |
 | Attendance_Status | Status of attendance | string | Not Null | e.g., 'Checked-In', 'Not Checked-In' |
 
-Table 3.7.2.1 Registration Table Data Dictionary
+Table 3.7.1.1 Registration Table Data Dictionary
 
 ### 3.7.2 Event Table
 
 <table>
-<caption><p>Table 3.7.1.1 Event Table Data Dictionary</p></caption>
+<caption><p>Table 3.7.2.1 Event Table Data Dictionary</p></caption>
 <colgroup>
 <col style="width: 15%" />
 <col style="width: 25%" />
@@ -5713,6 +5710,8 @@ Requirements From Observation Table
 </tbody>
 </table>
 
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.4.1 Validation Session Table
+
 ### 3.10.5 Defect Summary
 
 | **Severity** | **Description** |
@@ -5722,6 +5721,8 @@ Requirements From Observation Table
 | 3 | Medium impact; causes moderate ambiguity or requires clarification to avoid misimplementation |
 | 4 | High impact; significantly affects requirement clarity or testability |
 | 5 | Critical defect; renders requirement unusable or leads to major system issues if unresolved |
+
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.5.1 Severity Defect Table
 
 - **Content Defect**
 
@@ -5752,6 +5753,8 @@ Requirements From Observation Table
 | N/A | “Student” role incorrectly includes QR code scanning | Pang Tian You | Remove QR scanning from student role | VS-01 | 3 |
 | N/A | Use case “Set Event Details” duplicates “Create New Event” | Pang Tian You | Remove and merge functionality | VS-02 | 3 |
 | N/A | Missing return state in state transition diagram | Pang Tian You | Add transition from “Update Attendance Status” to “Check-in Upon Arrival” | VS-02 | 2 |
+
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.5.2 Content Defect Table
 
 - **Documentation Defect**
 
@@ -5907,6 +5910,7 @@ error)</td>
 </tbody>
 </table>
 
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.5.3 Documentation Defect Table
 
 - **Agreement Defect**
 
@@ -5921,6 +5925,8 @@ error)</td>
 | N/A | Interface table lists desktop OS/tools like Windows, macOS, Speechify, etc. | Desktop-related elements contradict mobile-only | Eric Teoh Wei Xiang | VS-01 | 4 |
 | N/A | The system is described as web-based, but it operates primarily as a mobile application | System description conflicts with mobile-only | Pang Tian You | VS-01 | 3 |
 
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.5.4 Agreement Defect Table
+
 ### 3.10.6 Conflict Analysis
 
 | **Conflict ID** | **Conflict Description** | **Conflict Analysis** | **Stakeholders Involved** | **Session ID** |
@@ -5933,6 +5939,8 @@ error)</td>
 | CF-06 | Introduction states system supports both desktop and mobile, contradicting mobile-only agreement. | Misleading intro affects stakeholder understanding and documentation consistency; risks misaligned expectations. | Product Owner, Documentation Team, Project Manager | VS-01 |
 | CF-07 | Interface table lists desktop OS/tools (Windows, macOS, Speechify) conflicting with mobile-only scope. | Inclusion of desktop platforms in interface table confuses development priorities and resource allocation. | Product Owner, Development Team, QA Team, Documentation Team | VS-01 |
 | CF-08 | System described as web-based while implementation is mobile app, contradicting agreed system description. | Discrepancy risks integration issues and miscommunication with stakeholders about supported platforms and deployment. | Product Owner, Development Team, QA Team, Stakeholders | VS-01 |
+
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.6.1 Conflict Analysis Table
 
 ### 3.10.7 Conflict Analysis and Resolution
 
@@ -6031,6 +6039,8 @@ only.</td>
 </tbody>
 </table>
 
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.7.1 Conflict Analysis and Resolution Table
+
 ### 3.10 8 Change Log
 | **Change ID** | **Req ID(s)** | **Summary of Change** | **Proposed By** | **Date** | **Session ID** |
 |----|----|----|----|----|----|
@@ -6086,6 +6096,8 @@ only.</td>
 | CH-50 | N/A | Replace the incorrect ID with REQ_F12 in all affected tables| SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-51 | N/A | Finalize the table of content, content and documentation defect, add change log| SIOW YI LING | 22/6/2025 | - |
 | CH-52 | N/A | Correct the requirement ID in change log| SIOW YI LING | 22/6/2025 | - |
+| CH-53 | N/A | Correct small nubering mistake| ERIC TEOH WEI XIANG | 22/6/2025 | - |
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.8.1 Change Log Table
 
 ### 3.10 9 Requirements Traceability Matrix
 
@@ -6368,6 +6380,8 @@ system.</td>
 </tbody>
 </table>
 
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.9.1 Requirements Traceability Matrix Table
+
 ### 3.10.10 Role in Requirements Validation, Negotiation & Management
 
 | **Student Name** | **Primary Responsibility** | **No. of Session Participated** |
@@ -6376,6 +6390,8 @@ system.</td>
 | PANG TIAN YOU | Content Validation, Defect | 2 |
 | SIOW YI LING | GitHub version control, Traceability Matrix Updates | 2 |
 | LIM KAI SHEN | Changelog Maintenance, Conflict Analysis and Resolution | 2 |
+
+<span id="_Ref199053238" class="anchor"></span>Table 3.10.10.1 Role in Requirements Validation, Negotiation & Management Table
 
 ### 3.10.11 Version Control & Configuration Summary
 
@@ -6407,7 +6423,7 @@ verification across different quality dimensions.
 
 ### 4.1.1 Availability Requirements Verification
 
-***Table 4.1.1.1: Availability Requirements Verification***
+***Table 4.1.1.1 Availability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6416,7 +6432,7 @@ verification across different quality dimensions.
 
 ### 4.1.2 Reliability Requirements Verification
 
-***Table 4.1.2.1: Reliability Requirements Verification***
+***Table 4.1.2.1 Reliability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6425,7 +6441,7 @@ verification across different quality dimensions.
 
 ### 4.1.3 Security Requirements Verification
 
-***Table 4.1.3.1: Security Requirements Verification***
+***Table 4.1.3.1 Security Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6435,7 +6451,7 @@ verification across different quality dimensions.
 
 ### 4.1.4 Auditability Requirements Verification
 
-***Table 4.1.4.1: Auditability Requirements Verification***
+***Table 4.1.4.1 Auditability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6443,7 +6459,7 @@ verification across different quality dimensions.
 
 ### 4.1.5 Performance Requirements Verification
 
-***Table 4.1.5.1: Performance Requirements Verification***
+***Table 4.1.5.1 Performance Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6452,7 +6468,7 @@ verification across different quality dimensions.
 
 ### 4.1.6 Maintainability Requirements Verification
 
-***Table 4.1.6.1: Maintainability Requirements Verification***
+***Table 4.1.6.1 Maintainability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6461,7 +6477,7 @@ verification across different quality dimensions.
 
 ### 4.1.7 Portability Requirements Verification
 
-***Table 4.1.7.1: Portability Requirements Verification***
+***Table 4.1.7.1 Portability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6470,7 +6486,7 @@ verification across different quality dimensions.
 
 ### 4.1.8 Usability Requirements Verification
 
-***Table 4.1.8.1: Usability Requirements Verification***
+***Table 4.1.8.1 Usability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6479,7 +6495,7 @@ verification across different quality dimensions.
 
 ### 4.1.9 Responsiveness Requirements Verification
 
-***Table 4.1.9.1: Responsiveness Requirements Verification***
+***Table 4.1.9.1 Responsiveness Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6487,7 +6503,7 @@ verification across different quality dimensions.
 
 ### 4.1.10 Scalability Requirements Verification
 
-***Table 4.1.10.1: Scalability Requirements Verification***
+***Table 4.1.10.1 Scalability Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6496,7 +6512,7 @@ verification across different quality dimensions.
 
 ### 4.1.11 Accuracy Requirements Verification
 
-***Table 4.1.11.1: Accuracy Requirements Verification***
+***Table 4.1.11.1 Accuracy Requirements Verification***
 
 | **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
 |:--:|:--:|:--:|:--:|:--:|
@@ -6509,7 +6525,7 @@ performance will be verified. These criteria align with the functional,
 performance, and usability requirements to ensure the software meets the
 desired outcomes:
 
-***Table 4.2.1: Verification Criteria***
+***Table 4.2.1 Verification Criteria***
 
 | **Criteria ID** | **Requirement Description** | **Verification Method** |
 |:--:|----|----|
@@ -6563,7 +6579,7 @@ as intended.
     times.
 
   ## 5.2 Acronyms and Abbreviations
-***Table 5.2.1: Acronyms and Abbreviations***
+***Table 5.2.1 Acronyms and Abbreviations***
 
 <table>
 <colgroup>
