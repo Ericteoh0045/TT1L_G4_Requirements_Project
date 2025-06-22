@@ -48,3 +48,4 @@
 | CH-44 | REQ_C011-REQ_C013 |Add constraints (e.g., logging, offline support, third-party API use) | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-45 | N/A |Update ERD and data dictionary | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-47 | N/A | Delete one duplicate instance from Section 1.7 | SIOW YI LING | 22/6/2025 | VS-01 |

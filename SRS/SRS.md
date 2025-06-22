@@ -244,29 +244,6 @@ remains secure, scalable, and compliant.
 - Training resources and user documentation should be available to
   support users with limited technical expertise.
 
-## Assumptions and Dependencies
-
-> The development and deployment of the system are based on the
-> following assumptions and dependencies:
-
-- The university will provide access to its student information database
-  for identity verification.
-
-- A secure and reliable internet connection is available at event
-  locations.
-
-- Third-party services like payment gateway APIs will remain stable and
-  available.
-
-- Users (students and organizers) will have access to compatible
-  browsers and devices.
-
-- The university will assign responsible personnel for ongoing
-  maintenance and updates.
-
-- External systems used for integration (student database, payment
-  gateway) must maintain backward compatibility.
-
 ## 1.7 Definitions
 
 **Table 1.7.1** describes are terminology, phrases, and words utilized
