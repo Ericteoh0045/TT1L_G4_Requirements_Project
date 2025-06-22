@@ -49,3 +49,4 @@
 | CH-45 | N/A |Update ERD and data dictionary | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
 | CH-47 | N/A | Delete one duplicate instance from Section 1.7 | SIOW YI LING | 22/6/2025 | VS-01 |
+| CH-48 | 89 | Correct the verification follow the IEE format| SIOW YI LING | 22/6/2025 | VS-02 |

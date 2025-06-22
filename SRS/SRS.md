@@ -6238,112 +6238,138 @@ Key Files:
 # 4 Verification
 
 ## 4.1 Verification
+
+The verification of software system attributes ensures that the Campus
+Event Check-in System not only functions correctly but also meet
+essential quality standards such as availability, security, usability,
+and scalability. Each attribute has been mapped to a specific
+verification method, responsible party, timing, and test environment to
+ensure systematic evaluation.
+
+To improve clarity and traceability, the attributes are classified into
+functional categories such as Availability, Security, Performance,
+Maintainability, and Usability. This structure enables focused
+verification across different quality dimensions.
+
+### 4.1.1 Availability Requirements Verification
+
+***Table 4.1.1.1: Availability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_001 | Uptime monitoring | Developer / QA team | During active event dates | Firebase dashboard |
+| REQ_SA_002 | Real-time sync test (Firebase updates) | QA team | Registration/check-in periods | Firebase test environment |
+
+### 4.1.2 Reliability Requirements Verification
+
+***Table 4.1.2.1: Reliability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_003 | Normal + stress load testing | QA team | Pre-launch, post-deployment | Android/iOS devices |
+| REQ_SA_004 | Fault injection (e.g., network drop, retry logic) | QA team | During offline/retry testing | Simulated low network |
+
+### 4.1.3 Security Requirements Verification
+
+***Table 4.1.3.1: Security Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_005 | HTTPS inspection | Developer / QA | During API integration | Wireshark / browser inspection |
+| REQ_SA_006 | OAuth login test | QA team | At login screen | Linked to university auth |
+| REQ_SA_007 | Role-based access testing | QA team | Admin/restricted actions | Admin panel |
+
+### 4.1.4 Auditability Requirements Verification
+
+***Table 4.1.4.1: Auditability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_008 | Log inspection (timestamp, ID, action) | Developer / Security team | After sensitive operations | Firebase Logs / Console Viewer |
+
+### 4.1.5 Performance Requirements Verification
+
+***Table 4.1.5.1: Performance Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_009 | Stopwatch-based task timing | QA team | Login, scan, list view | Mobile phones |
+| REQ_SA_010 | High concurrency test (QR check-in) | Developer / QA | Event peak times | Firebase + simulation tools |
+
+### 4.1.6 Maintainability Requirements Verification
+
+***Table 4.1.6.1: Maintainability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_011 | Code modularity review | Developer | During development | VS Code / GitHub |
+| REQ_SA_012 | Frontend code inspection | Tech lead / Developer | During sprint reviews | CI pipeline/codebase |
+
+### 4.1.7 Portability Requirements Verification
+
+***Table 4.1.7.1: Portability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_013 | Compatibility test | QA team | During UAT phase | Android 8+ / iOS 12+ |
+| REQ_SA_014 | Responsive layout test | QA team | Post-UI design | Mobile / tablet screens |
+
+### 4.1.8 Usability Requirements Verification
+
+***Table 4.1.8.1: Usability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_015 | Walkthrough with test users | UX / QA team | Pre-deployment | Figma / App prototype |
+| REQ_SA_016 | Action flow inspection (≤3 steps) | UX team | Post-implementation | App navigation screens |
+
+### 4.1.9 Responsiveness Requirements Verification
+
+***Table 4.1.9.1: Responsiveness Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_017 | Orientation/screen resize test | QA team | During UI testing | Real devices / browsers |
+
+### 4.1.10 Scalability Requirements Verification
+
+***Table 4.1.10.1: Scalability Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_018 | Load simulation (high concurrent users) | QA team | University-wide events | Firebase emulator / JMeter |
+| REQ_SA_019 | Report generation with bulk data | Developer / QA | Post-report implementation | Admin panel / Firebase backend |
+
+### 4.1.11 Accuracy Requirements Verification
+
+***Table 4.1.11.1: Accuracy Requirements Verification***
+
+| **Requirement ID** | **Method** | **Responsibility** | **Event-Based Timing** | **Venue/Environment** |
+|:--:|:--:|:--:|:--:|:--:|
+| REQ_SA_020 | Cross-check of I/O (refunds, check-ins, payments) | QA team | Post-registration / transaction | Firebase DB / App interface |
+
 ## 4.2 Verification Criteria
-# 自已改内容，header 我换好了
-To ensure the quality, correctness, and alignment of the system with
-user expectations, we will implement a multi-layered verification
-process throughout the development of the Campus Event Check-in System.
-These verification activities are critical in ensuring that the system
-functions as intended, is user-friendly, and fulfills its objectives for
-both students and event organizers.
 
-This section outlines the verification methods used to validate the
-software requirements and their associated criteria. These practices
-will help confirm that the developed system meets stakeholder needs
-while maintaining robustness, reliability, and usability.
+The following criteria define how the system's functionalities and
+performance will be verified. These criteria align with the functional,
+performance, and usability requirements to ensure the software meets the
+desired outcomes:
 
-## Inspection
+***Table 4.2.1: Verification Criteria***
 
-Inspection is a structured verification technique that involves
-reviewing the software requirements and design documents to identify
-defects, missing elements, or inconsistencies. This activity will
-involve the project team and relevant university stakeholders to ensure
-that the requirements are sound and implementable.
-
-Inspections will focus on the following criteria:
-
-1.  **Compliance** – Ensure all requirements conform to institutional
-    policies, technical standards, and software engineering best
-    practices.
-
-2.  **Completeness** – Verify that all functionalities (e.g., login,
-    event registration, QR check-in, history viewing) are fully and
-    clearly documented.
-
-3.  **Consistency** – Confirm that the requirements do not conflict with
-    each other or repeat information unnecessarily.
-
-4.  **Clarity** – Ensure that each requirement is written in a precise,
-    understandable, and unambiguous manner.
-
-5.  **Feasibility** – Determine whether the proposed features can
-    realistically be implemented within the project scope and
-    constraints.
-
-## Walkthroughs
-
-Walkthroughs will complement inspections by offering a more
-collaborative and exploratory approach to verification. These involve
-the author of the requirements (typically the analyst or developer)
-presenting the document step-by-step to stakeholders such as students,
-club committee members, and system developers.
-
-Walkthrough participants will review the logic and practicality of the
-requirements based on their domain experience and will provide feedback
-on potential improvements or missing details.
-
-Key walkthrough criteria include:
-
-1.  **Compliance** – Confirm alignment with standards and expectations
-    from university systems.
-
-2.  **Completeness** – Ensure no required features or stakeholder
-    concerns are omitted.
-
-3.  **Consistency** – Identify and eliminate any contradictions or
-    ambiguous statements.
-
-4.  **Clarity** – Validate that each feature is explained in a
-    user-friendly and developer-ready format.
-
-5.  **Feasibility** – Assess whether each function (e.g., QR scanning or
-    integration with university accounts) can be technically delivered.
-
-6.  **Accuracy** – Confirm that described behaviors align with what
-    users need and how they will interact with the system.
-
-7.  **Adequacy** – Evaluate whether the documented requirements address
-    the real-world problems identified through interviews and
-    observation.
-
-## Prototyping
-
-A visual prototype of the mobile application will be developed to
-validate how well the proposed system satisfies the user requirements in
-a practical, hands-on form. The prototype will simulate key features
-such as:
-
-- Viewing events
-
-- Registering and paying
-
-- Receiving a QR code
-
-- Checking in via camera
-
-Stakeholders will interact with the prototype and assess whether the
-system is intuitive, visually clear, and meets functional expectations.
-
-Prototyping criteria:
-
-1.  **User Interface (UI)** – Validate that the interface is intuitive,
-    mobile-friendly, and aligned with expected interaction flows.
-
-2.  **Correctness** – Verify that simulated actions match the intended
-    functionality (e.g., QR check-in actually triggers status updates).
-
-3.  **Quality** – Ensure the prototype reflects design consistency,
-    responsiveness, and accessibility where possible.
+| **Criteria ID** | **Requirement Description** | **Verification Method** |
+|:--:|----|----|
+| REQ_VC_001 | The system shall allow students and admins to log in within 3 seconds under normal load. | Conduct performance testing with up to 1,000 concurrent login attempts. |
+| REQ_VC_002 | Users shall be able to view and register for events successfully, and a confirmation notification should be sent within 1 second. | Execute functional tests for event registration and confirm notification delivery. |
+| REQ_VC_003 | Payments (online and on-site) shall be processed securely with a maximum delay of 5 seconds. | Perform end-to-end payment processing tests and verify transaction success logs. |
+| REQ_VC_004 | The system shall generate event-specific QR codes within 1 second of request. | Test QR code generation for multiple events under normal load conditions. |
+| REQ_VC_005 | Admins shall be able to view attendance in real time with updates occurring every 2 seconds. | Simulate a check-in process and verify attendance updates on the admin dashboard. |
+| REQ_VC_006 | The system shall maintain 99.9% uptime, excluding scheduled maintenance. | Monitor system logs over a 30-day period. |
+| REQ_VC_007 | All functionalities, including event registration and check-in, shall be accessible on mobile devices with no display or usability issues. | Conduct usability testing across various mobile devices and screen resolutions. |
+| REQ_VC_008 | The platform shall comply with WCAG 2.1 AA standards for accessibility, including screen reader support and keyboard navigation. | Perform accessibility testing with tools like Axe or WAVE. |
+| REQ_VC_009 | All database transactions shall have a latency of less than 100ms. | Conduct database performance testing under load conditions. |
+| REQ_VC_010 | All user data shall be encrypted during transmission with an encryption delay of no more than 50ms. | Perform penetration testing and verify encryption performance logs. |
+| REQ_VC_011 | Backups shall occur hourly, with a maximum data loss window of 30 minutes. | Verify scheduled backup operations and conduct recovery tests. |
 
 # **5. Appendices**
 
