@@ -5727,9 +5727,31 @@ Requirements From Observation Table
 
 | **REQ ID** | **Validation and Defect Description** | **Detected By** | **Comment / Suggested Fix** | **Session ID** | **Severity (1-5)** |
 |----|----|----|----|----|----|
+| REQ_C008 | “Admin” is not part of the report or system | Siow Yi Ling | Remove the word “Admin” from the paragraph | VS-02 | 4 |
+| REQ_C011, C012, C013 | Missing important design constraints | Siow Yi Ling | Add constraints (e.g., logging, offline support, third-party API use) | VS-02 | 3 |
+| N/A | ERD diagram omits Event Organizer and Student actors | Siow Yi Ling | Update ERD and data dictionary | VS-02 | 3 |
 | N/A | Missing System Context Diagram | Eric Teoh Wei Xiang | Add a context diagram with system boundaries and external entities | VS-01 | 4 |
 | N/A | phpMyAdmin listed as database (it's a tool) | Eric Teoh Wei Xiang | Replace with actual DB (e.g., MySQL) | VS-01 | 3 |
-
+| REQ_IO0202–IO0207 | Used term "text field" for display elements | Lim Kai Shen | Change to "display label" | VS-02 | 2 |
+| REQ_IO0402–IO0404 | Incorrect Related I/O references | Lim Kai Shen | Correct to REQ_IO0401 | VS-02 | 3 |
+| REQ_IO0701–IO0703 | Incorrect or missing Related I/O | Lim Kai Shen | Clarify or set to None | VS-02 | 3 |
+| REQ_F0102 | "User" used instead of "Student" | Lim Kai Shen | Replace “user” with “student” | VS-02 | 2 |
+| REQ_F0201–F0206 | “User” should be “Student” throughout | Lim Kai Shen | Use consistent terminology | VS-02 | 2 |
+| REQ_F0206 | Missing word “Back” in button description | Lim Kai Shen | Add “Back” | VS-02 | 2 |
+| REQ_F0501 | Diagram missing two buttons | Lim Kai Shen | Update diagram | VS-02 | 3 |
+| REQ_F0201 | Missing input for phone/email; incorrect alternate flow | Lim Kai Shen | Add input fields/actions and fix flow | VS-02 | 3 |
+| REQ_F0101 | Missing action where student selects an event | Lim Kai Shen | Add student selection step | VS-02 | 3 |
+| REQ_C1001, C1005 | Overlapping secure communication requirements | Pang Tian You | Combine into one requirement | VS-01 | 2 |
+| REQ_C1003, C1004 | Unclear Camera and Email API purposes | Pang Tian You | Revise and clarify description | VS-01 | 3 |
+| REQ_C1006 | Redundant TCP/IP requirement | Pang Tian You | Remove entirely | VS-01 | 2 |
+| REQ_F04, F10 | QR code/e-ticket unclear; attendance status lacks detail | Pang Tian You | Revise descriptions with more detail | VS-01 | 3 |
+| REQ_F11 | Logic issue: student IDs usually not scannable | Pang Tian You | Focus on scanning assigned QR codes | VS-01 | 4 |
+| N/A | “Lecture” used instead of “Event Organizer” | Pang Tian You | Replace all instances of “lecture” | VS-01 | 1 |
+| REQ_SR003–SR005 | Missing key security requirements | Pang Tian You | Add user auth, session mgmt, encryption requirements | VS-02 | 4 |
+| REQ_UR009 | Missing usability requirement (e.g., error prevention) | Pang Tian You | Add usability constraints | VS-02 | 3 |
+| N/A | “Student” role incorrectly includes QR code scanning | Pang Tian You | Remove QR scanning from student role | VS-01 | 3 |
+| N/A | Use case “Set Event Details” duplicates “Create New Event” | Pang Tian You | Remove and merge functionality | VS-02 | 3 |
+| N/A | Missing return state in state transition diagram | Pang Tian You | Add transition from “Update Attendance Status” to “Check-in Upon Arrival” | VS-02 | 2 |
 
 - **Documentation Defect**
 
@@ -5792,6 +5814,99 @@ Requirements" and update the Table of Contents accordingly.</td>
 <td style="text-align: center;">VS-01</td>
 <td style="text-align: center;">3</td>
 </tr>
+<tr>
+<td style="text-align: center;">96</td>
+<td style="text-align: center;">Missing Section 5.2: Acronyms &amp;
+Abbreviations</td>
+<td style="text-align: center;">Siow Yi Ling</td>
+<td style="text-align: center;">Add the “Acronyms &amp; Abbreviations”
+section</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">N/A</td>
+<td style="text-align: center;">Section 1.7: “Assumptions and
+Dependencies” shown twice</td>
+<td style="text-align: center;">Siow Yi Ling</td>
+<td style="text-align: center;">Delete one duplicate instance from
+Section 1.7</td>
+<td style="text-align: center;">VS-01</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">89</td>
+<td style="text-align: center;">Section Verifications not following IEE
+format</td>
+<td style="text-align: center;">Siow Yi Ling</td>
+<td style="text-align: center;">Correct the content follow the IEE
+format</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;"><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>Requirement ID missing in Interviews table (e.g., missing
+REQ_F08)</p></td>
+<td style="text-align: center;">Siow Yi Ling</td>
+<td style="text-align: center;">Add the missing requirement ID (e.g.,
+"REQ_F08") into the applicable cell in the Interviews table</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">73-75</td>
+<td style="text-align: center;">Wrong Requirement ID shown in
+Interviews, Questionnaires &amp; Observation tables (should be
+REQ_F12)</td>
+<td style="text-align: center;">Siow Yi Ling</td>
+<td style="text-align: center;">Replace the incorrect ID with REQ_F12 in
+all affected tables</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">53</td>
+<td style="text-align: center;">Related I/O missing underscore
+(REQIO602)</td>
+<td style="text-align: center;">Lim Kai Shen</td>
+<td style="text-align: center;">Change to REQ_IO602</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">53-54</td>
+<td style="text-align: center;">Related I/O missing underscores (e.g.,
+REQIO603 instead of REQ_IO603)</td>
+<td style="text-align: center;">Lim Kai Shen</td>
+<td style="text-align: center;">Add underscores</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">Missing Reference (Formatting
+error)</td>
+<td style="text-align: center;">Pang Tian You</td>
+<td style="text-align: center;">Add a new section call “Reference”</td>
+<td style="text-align: center;">VS-02</td>
+<td style="text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+
 
 - **Agreement Defect**
 
@@ -5938,6 +6053,38 @@ only.</td>
 | CH-17 | N/A | Add Role in Requirements Validation, Negotiation & Management | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-18 | N/A | Add Version Control & Configuration Summary | ERIC TEOH WEI XIANG | 22/6/2025 | - |
 | CH-19 | N/A | Add ChangeLog | ERIC TEOH WEI XIANG | 22/6/2025 | - |
+| CH-20 | REQ_C1001, REQ_C1005 | Combine into one requirement | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-21 | REQ_C1003, REQ_C1004 | Revise and clarify description | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-22 | REQ_C1006 | Remove entirely | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-23 | REQ_F04, REQ_F10 | Revise descriptions with more detail | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-24 | REQ_F11 | Focus on scanning assigned QR codes detail | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-25 | N/A | Replace all instances of “lecture” | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-26 | REQ_SR003, REQ_SR004, REQ_SR005 | Add user auth, session mgmt, encryption requirements | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-27 | REQ_UR009 | Add usability constraints | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-28 | N/A | Remove QR scanning from student role | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-29 | N/A | Remove and merge functionality | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-30 | N/A | Add transition from “Update Attendance Status” to “Check-in Upon Arrival” | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-31 | N/A | Add a new section call “Reference” | PANG TIAN YOU | 22/6/2025 | VS-02 |
+| CH-32 | N/A | Change "web-based" to "mobile" | PANG TIAN YOU | 22/6/2025 | VS-01 |
+| CH-33 | REQ_IO0202–REQ_IO0207 | Change to "display label" | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-34 | REQ_IO0402–REQ_IO0404 | Correct to REQ_IO0401| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-35 | REQ_IO0701–REQ_IO0703 | Clarify or set to None| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-36 | REQ_F0102 | Replace “user” with “student”| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-37 | REQ_F0201–REQ_F0206 | Use consistent terminology| LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-38 | REQ_F0206 | Add “Back” | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-39 | REQ_F0501 | Update diagram | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-40 | REQ_F0201 |Add input fields/actions and fix flow | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-41 | REQ_F0101 |Add student selection step | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-42 | REQ_IO0602-REQ_IO0604 |Add underscores | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-43 | REQ_C008 |Remove the word “Admin” from the paragraph | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-44 | REQ_C011-REQ_C013 |Add constraints (e.g., logging, offline support, third-party API use) | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-45 | N/A |Update ERD and data dictionary | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-46 | 96 | Add the “Acronyms & Abbreviations” section | SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-47 | N/A | Delete one duplicate instance from Section 1.7 | SIOW YI LING | 22/6/2025 | VS-01 |
+| CH-48 | 89 | Correct the verification follow the IEE format| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-49 | 73 | Add the missing requirement ID (e.g., "REQ_F08") into the applicable cell in the Interviews table| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-50 | 73-75 | Replace the incorrect ID with REQ_F12 in all affected tables| SIOW YI LING | 22/6/2025 | VS-02 |
+| CH-51 | N/A | Finalize the table of content, content and documentation defect, add change log| SIOW YI LING | 22/6/2025 | - |
 
 ### 3.10 9 Requirements Traceability Matrix
 
