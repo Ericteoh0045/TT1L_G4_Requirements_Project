@@ -4121,8 +4121,7 @@ registered for</td>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063079" class="anchor"></span>Table 3.6.1.7.2
-REQ_IO0602 Table</p></caption>
+<caption><p>Table 3.6.1.7.2 REQ_IO0602 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -4158,18 +4157,17 @@ REQ_IO0602 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQIO603, REQIO604</td>
+<td colspan="3">REQ_IO603, REQ_IO604</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063080" class="anchor"></span>Table 3.6.1.7.3
-REQ_IO0603 Table</p></caption>
+<caption><p>Table 3.6.1.7.3 REQ_IO0603 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -4205,18 +4203,17 @@ REQ_IO0603 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQIO602, REQIO 605</td>
+<td colspan="3">REQ_IO602, REQ_IO605</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051696" class="anchor"></span>Table 3.6.1.7.4
-REQ_IO0604 Table</p></caption>
+<caption><p>Table 3.6.1.7.4 REQ_IO0604 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -4253,11 +4250,11 @@ attendance</td>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQIO501 (goes to View e-Receipt/QR code)</td>
+<td colspan="3">REQ_IO501 (goes to View e-Receipt/QR code)</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
