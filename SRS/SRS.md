@@ -5427,6 +5427,10 @@ for the Campus Event Check-in System.
 | REQ_C008 | Role-based access must be enforced, ensuring each user type (Student, Organizer) has access only to relevant features. | High | Siow Yi Ling |
 | REQ_C009 | The database must enforce referential integrity using primary and foreign keys to maintain consistent relationships between data. | High | Sulaiman |
 | REQ_C010 | All date and time values must be stored in UTC and displayed to users in their local timezones. | High | Sulaiman |
+| REQ_C011 | The system must log critical actions (e.g. login, registration, payments) for auditing and security tracking purposes. | High | Siow Yi Ling |
+| REQ_C012 | The system must display user-friendly messages or fallback options when internet connectivity is unavailable. | Medium | Siow Yi Ling |
+| REQ_C013 | External services (e.g. payment gateway) must be abstracted using interfaces to allow switching providers with minimal impact. | Medium | Siow Yi Ling |
+
 
 <span id="_Ref199053155" class="anchor"></span>Table 3.8.1 Design
 Constraints Table
