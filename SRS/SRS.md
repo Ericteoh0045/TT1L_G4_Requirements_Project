@@ -3779,8 +3779,7 @@ REQ_IO0401 Table</p></caption>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063049" class="anchor"></span>Table 3.6.1.5.2
-REQ_IO0402 Table</p></caption>
+<caption><p>Table 3.6.1.5.2 REQ_IO0402 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3816,18 +3815,17 @@ REQ_IO0402 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQ_IO10401</td>
+<td colspan="3">REQ_IO0401</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063050" class="anchor"></span>Table 3.6.1.5.3
-REQ_IO0403 Table</p></caption>
+<caption><p>Table 3.6.1.5.3 REQ_IO0403 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3863,18 +3861,17 @@ REQ_IO0403 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQ_IO10401</td>
+<td colspan="3">REQ_IO0401</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Ref199051584" class="anchor"></span>Table 3.6.1.5.4
-REQ_IO0404 Table</p></caption>
+<caption><p>Table 3.6.1.5.4 REQ_IO0404 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3911,11 +3908,11 @@ Card</td>
 </tr>
 <tr>
 <td><strong>Related I/O</strong></td>
-<td colspan="3">REQ_IO10401</td>
+<td colspan="3">REQ_IO0401</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Azhar</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
