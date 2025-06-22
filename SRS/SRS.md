@@ -3071,11 +3071,11 @@ REQ_IO0202 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field with event title</td>
+<td colspan="3">A display label with event title</td>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">Let user knows the event official name</td>
+<td colspan="3">Let user know the event official name</td>
 </tr>
 <tr>
 <td><strong>Input Format</strong></td>
@@ -3089,14 +3089,13 @@ REQ_IO0202 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063003" class="anchor"></span>Table 3.6.1.3.3
-REQ_IO0203 Table</p></caption>
+<caption><p>Table 3.6.1.3.3 REQ_IO0203 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3118,12 +3117,12 @@ REQ_IO0203 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field with starting date and time and ending date
-and time</td>
+<td colspan="3">A display label with starting date and time and ending
+date and time</td>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">To let user know when is the event happening and make a
+<td colspan="3">To let user know when is the event happens and make a
 schedule</td>
 </tr>
 <tr>
@@ -3138,14 +3137,13 @@ schedule</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063004" class="anchor"></span>Table 3.6.1.3.4 
-REQ_IO0204 Table</p></caption>
+<caption><p>Table 3.6.1.3.4 REQ_IO0204 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3167,12 +3165,12 @@ REQ_IO0204 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field that shows where the event held and its
+<td colspan="3">A display label that shows where the event held and its
 address</td>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">To let user know where to go for the event</td>
+<td colspan="3">To let users know where to go for the event</td>
 </tr>
 <tr>
 <td><strong>Input Format</strong></td>
@@ -3186,14 +3184,13 @@ address</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063005" class="anchor"></span>Table 3.6.1.3.5
-REQ_IO0205 Table</p></caption>
+<caption><p>Table 3.6.1.3.5 REQ_IO0205 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3215,12 +3212,12 @@ REQ_IO0205 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field that shows the price of ticket to enter the
-event</td>
+<td colspan="3">A display label that shows the price of ticket to enter
+the event</td>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">To let user knows the cost required to attend the
+<td colspan="3">To let user know the cost required to attend the
 event </td>
 </tr>
 <tr>
@@ -3235,14 +3232,13 @@ event </td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063006" class="anchor"></span>Table 3.6.1.3.6
-REQ_IO0206Table</p></caption>
+<caption><p>Table 3.6.1.3.6 REQ_IO0206Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3264,7 +3260,7 @@ REQ_IO0206Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field that shows how many slots for
+<td colspan="3">A display label that shows how many slots for
 participants</td>
 </tr>
 <tr>
@@ -3283,14 +3279,13 @@ participants</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063007" class="anchor"></span>Table 3.6.1.3.7
-REQ_IO0207 Table</p></caption>
+<caption><p>Table 3.6.1.3.7 REQ_IO0207 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -3312,13 +3307,13 @@ REQ_IO0207 Table</p></caption>
 </tr>
 <tr>
 <td><strong>Item Description</strong></td>
-<td colspan="3">A text field that contains other detail about the
+<td colspan="3">A display label that contains other detail about the
 event</td>
 </tr>
 <tr>
 <td><strong>Item Purpose</strong></td>
-<td colspan="3">To let user knows the any additional information about
-the event such as stuff to bring, attire and others</td>
+<td colspan="3">To let user know any additional information about the
+event such as stuff to bring, attire and others</td>
 </tr>
 <tr>
 <td><strong>Input Format</strong></td>
@@ -3332,7 +3327,7 @@ the event such as stuff to bring, attire and others</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
