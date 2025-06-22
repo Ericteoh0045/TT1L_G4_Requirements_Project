@@ -1517,10 +1517,10 @@ format.</p></li>
 </table>
 
 <figure>
-<img src="./media/image10.png" style="width:6.26806in;height:2.51042in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053676" class="anchor"></span>Figure
-3.1.6.1 F05 View Registration History Sequence Diagram</p></figcaption>
+<img src="./media/image10.png" style="width:5.1875in;height:5.875in"
+alt="A screenshot of a diagram AI-generated content may be incorrect." />
+<figcaption><p>Figure 3.1.6.1 F05 View Registration History Sequence
+Diagram</p></figcaption>
 </figure>
 
 ### 3.1.7 F06 Show QR Attendance 
