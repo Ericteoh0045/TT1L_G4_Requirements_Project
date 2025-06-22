@@ -559,8 +559,7 @@ use case specification table. And **Figure 3.1.3.1** depicts the
 sequence diagram for the register for event function.
 
 <table>
-<caption><p><span id="_Ref199052308" class="anchor"></span>Table 3.1.3.1
-REQ_F0201 Version 1 Table</p></caption>
+<caption><p>Table 3.1.3.1 REQ_F0201 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -578,19 +577,18 @@ REQ_F0201 Version 1 Table</p></caption>
 <tbody>
 <tr>
 <td><strong>Item</strong></td>
-<td colspan="3">The system shall retrieve from the user account to get
-their name and display on this field and it is editable</td>
+<td colspan="3">The system shall retrieve from the student account to
+get their name and display on this field and it is editable</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063209" class="anchor"></span>Table 3.1.3.2
-REQ_F0202 Table</p></caption>
+<caption><p>Table 3.1.3.2 REQ_F0202 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -608,19 +606,19 @@ REQ_F0202 Table</p></caption>
 <tbody>
 <tr>
 <td><strong>Item</strong></td>
-<td colspan="3">The system shall retrieve from the user account to get
-their student ID and display on this field and it is editable</td>
+<td colspan="3">The system shall be retrieved from the student account
+to get their student ID and display on this field and it is
+editable</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063210" class="anchor"></span>Table 3.1.3.3
-REQ_F0203 Table</p></caption>
+<caption><p>Table 3.1.3.3 REQ_F0203 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -639,18 +637,17 @@ REQ_F0203 Table</p></caption>
 <tr>
 <td><strong>Item</strong></td>
 <td colspan="3">The system shall display this field with the text of
-“Mobile Number” and shall let user to enter their mobile number</td>
+“Mobile Number” and shall let student to enter their mobile number</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063211" class="anchor"></span>Table 3.1.3.4
-REQ_F0204 Table</p></caption>
+<caption><p>Table 3.1.3.4 REQ_F0204 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -669,18 +666,17 @@ REQ_F0204 Table</p></caption>
 <tr>
 <td><strong>Item</strong></td>
 <td colspan="3">The system shall display this field with the text of
-“Email” and shall let user to enter their email</td>
+“Email” and shall let student to enter their email</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063212" class="anchor"></span>Table 3.1.3.5
-REQ_F0205 Version 1 Table</p></caption>
+<caption><p>Table 3.1.3.5 REQ_F0205 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -698,19 +694,18 @@ REQ_F0205 Version 1 Table</p></caption>
 <tbody>
 <tr>
 <td><strong>Item</strong></td>
-<td colspan="3">The system shall direct user to the page to make payment
-and save the data into a temporary database</td>
+<td colspan="3">The system shall direct students to the page to make
+payment and save the data into a temporary database</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
 
 <table>
-<caption><p><span id="_Toc199063213" class="anchor"></span>Table 3.1.3.6
-REQ_F0206 Version 1 Table</p></caption>
+<caption><p>Table 3.1.3.6 REQ_F0206 Version 1 Table</p></caption>
 <colgroup>
 <col style="width: 24%" />
 <col style="width: 18%" />
@@ -728,12 +723,12 @@ REQ_F0206 Version 1 Table</p></caption>
 <tbody>
 <tr>
 <td><strong>Item</strong></td>
-<td colspan="3">When user clicks on the button, the system shall display
-the view event detail page</td>
+<td colspan="3">When student clicks on the “Back” button, the system
+shall display the view event detail page</td>
 </tr>
 <tr>
 <td><strong>Author</strong></td>
-<td colspan="3">Lim Ai Nee</td>
+<td colspan="3">Lim Kai Shen</td>
 </tr>
 </tbody>
 </table>
