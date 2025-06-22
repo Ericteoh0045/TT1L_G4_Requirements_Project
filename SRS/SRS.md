@@ -543,10 +543,10 @@ to redirect to the view upcoming events page</td>
 </table>
 
 <figure>
-<img src="./media/image5.png" style="width:6.27046in;height:3.22642in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053471" class="anchor"></span>Figure
-3.1.2.1 F01 View Event Details Sequence Diagram</p></figcaption>
+<img src="./media/image5.png" style="width:5.79166in;height:5.66666in"
+alt="A diagram of a function AI-generated content may be incorrect." />
+<figcaption><p>Figure 3.1.2.1 F01 View Event Details Sequence
+Diagram</p></figcaption>
 </figure>
 
 ### 3.1.3 F02 Register for Event

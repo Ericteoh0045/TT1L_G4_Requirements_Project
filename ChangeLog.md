@@ -42,3 +42,4 @@
 | CH-38 | REQ_F0206 | Add “Back” | LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-39 | REQ_F0501 | Update diagram | LIM KAI SHEN | 22/6/2025 | VS-02 |
 | CH-40 | REQ_F0201 |Add input fields/actions and fix flow | LIM KAI SHEN | 22/6/2025 | VS-02 |
+| CH-41 | REQ_F0101 |Add student selection step | LIM KAI SHEN | 22/6/2025 | VS-02 |
