@@ -5606,7 +5606,7 @@ However, for the full interview it can be accessed from this
 
 | ***Feature / Request / Opinion*** | ***Description*** | ***Requirement ID*** |
 |----|----|----|
-| We want students to log in using their university accounts | The system must integrate with the university’s authentication system to allow secure login for all users. | REQ_F011 |
+| We want students to log in using their university accounts | The system must integrate with the university’s authentication system to allow secure login for all users. | REQ_F12 |
 | Students should be able to see all upcoming events and register easily | The system should provide students with access to browse available events and register with ease. | REQ_F00, REQ_F01 |
 | After registering, students should get a QR code for attendance | Upon successful registration and payment, students should receive a QR code for event attendance check-in. | REQ_F04 |
 | We need a way to create new events and enter all the event details | Organizers must be able to create new events by setting titles, descriptions, dates, locations, and capacity. | REQ_F07, REQ_F08 |
@@ -5626,7 +5626,7 @@ Campus Event Check-in System.
 
 | **Feature** | **Description** | **Requirement ID** |
 |----|----|----|
-| Login with Student ID | The system should allow students to log in using their university-issued student ID and password. | REQ_F11 |
+| Login with Student ID | The system should allow students to log in using their university-issued student ID and password. | REQ_F12 |
 | View Upcoming Events | Students should be able to browse a list of upcoming campus events online. | REQ_F00 |
 | View Event Details | Students should be able to see detailed event info such as image, date, venue, and capacity. | REQ_F01 |
 | Register for Events | Students should be able to register for events quickly and easily through the system. | REQ_F02 |
@@ -5647,7 +5647,7 @@ Event Check-in System.
 
 | **Feature / Characteristic** | **Description** | **Requirement ID** |
 |----|----|----|
-| Login | Allows both students and event organizers to access the system using their university credentials. | REQ_F11 |
+| Login | Allows both students and event organizers to access the system using their university credentials. | REQ_F12 |
 | View Event Details | Displays full details of a selected event, including date, location, and description. | REQ_F01 |
 | Reliability | The system should consistently perform its functions under defined conditions without failure. | REQ_ST001 |
 | Availability | The system should be accessible at any time with minimal downtime or interruptions. | REQ_ST002 |
