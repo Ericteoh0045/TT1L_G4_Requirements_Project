@@ -946,10 +946,10 @@ back again to the event details page</td>
 </table>
 
 <figure>
-<img src="./media/image6.png" style="width:6.27083in;height:3.38542in"
-alt="A diagram of a system AI-generated content may be incorrect." />
-<figcaption><p><span id="_Ref199053493" class="anchor"></span>Figure
-3.1.3.1 F02 Register for Event Sequence Diagram</p></figcaption>
+<img src="./media/image6.png" style="width:5.72916in;height:6.5in"
+alt="A diagram of a student AI-generated content may be incorrect." />
+<figcaption><p>Figure 3.1.3.1 F02 Register for Event Sequence
+Diagram</p></figcaption>
 </figure>
 
 ### 3.1.4 F03 Make Payment
